@@ -1,0 +1,360 @@
+% !TEX root = fluid_machinery_lecture_notes.tex
+\chapter{Incompressible turbomachinery}
+
+We classify as \emph{turbomachines} all those devices in which energy is transferred either to, or from, a continuously flowing fluid by the \emph{dynamic} action of one ore moving blase rows. Essentially, a rotating blade row, a rotor or an impeller changes the \emph{stagnation enthalpy} of the fluid moving through it. These enthalpy changes are intimately linked with the pressure changes in the fluid.
+
+Up to 20\% relative density change, also gases are considered to be incompressible. Assuming isentropic process and ideal gas, this corresponds to $p_2/p_1 \approx 1.3$. Thus, pumps, fans, water and wind turbines are essentially the same machines.
+
+\section{Euler's turbine equation}
+
+Euler's turbine equation (sometimes called Euler's pump equation) plays a central role in turbomachinery as it connects the specific work $Y$ and the geometry and velocities in the impeller. In what follows, we give two derivations of the equation.
+
+\begin{figure}[ht]
+\begin{center}\label{gen_turbom}
+\includegraphics[scale=0.5]{figs/euler_turbine_equation_fig.png}
+\caption{Generalized turbomachine}
+\end{center}
+\end{figure}
+
+{\bf Derivation 1: Moment of momentum}
+
+Let us compute the moment of the force that is applied at the inlet and outlet of the generalized turbomachine shown in figure \ref{gen_turbom} :
+
+\begin{equation}
+\uvec{F}=\frac{\mathrm{d}}{\mathrm{d} t}\left( m \uvec{c}\right)
+\quad \rightarrow\quad
+\uvec{M}=\frac{\mathrm{d}}{\mathrm{d} t}\left( \uvec{r} \times m \uvec{c}\right)=\dot{m}\left( \uvec{r} \times \uvec{c}\right)
+\end{equation}
+
+where $m$ is the mass flow, and $\underline{c}$ is the velocity of the fluid on the radius $r$. We consider the following assumptions:
+\begin{itemize}
+  \item The inlet of the turbomachine is a circle with radius $r_1$, and the outlet with radius $r_2$.
+  \item $\underline{c}$ velocity is considered constant in the sense that its length and angle are constant.
+\end{itemize}
+Thus $$ \uvec{M} = \uvec{M}_{out}-\uvec{M}_{in}=\dot{m}\left( \uvec{r}_2 \times \uvec{c}_2\right) - \dot{m}\left( \uvec{r}_1 \times \uvec{c}_1\right) $$.
+With this the power need of driving the machine is
+%
+\begin{align}
+\dot m Y &= P = \omega \uvec{M} = \left(\uvec{M}_{out}-\uvec{M}_{in}\right)\, \uvec{\omega}
+=\dot m \left[ \uvec{\omega} \left( \uvec{r}_2 \times \uvec{c}_2\right) - \uvec{\omega} \left( \uvec{r}_1 \times \uvec{c}_1\right) \right]\\
+&=\dot m \left[ \uvec{c}_2 \left( \omega \times \uvec{r}_2 \right) - \uvec{c}_1 \left( \omega \times \uvec{r}_1 \right) \right]
+=\dot m \left[ \uvec{c}_2 \uvec{u}_2 - \uvec{c}_1 \uvec{u}_1 \right] \\
+&=\dot m \left[ |\uvec{c}_2| |\uvec{u}_2| - |\uvec{c}_1| |\uvec{u}_1| \right]
+=\dot m \left( c_{2u} u_2 - c_{1u} u_1\right)
+\end{align}
+%
+where $u_i = |\uvec{u}_i|$, and $c_i=|\uvec{c}_{2u}| cos(\alpha)$
+Comparing the beginning and the end of the equation, we see that the specific work is
+\begin{equation}
+\boxed{Y=c_{2u} u_2 - c_{1u} u_1}.
+\end{equation}
+
+{\bf Derivation 2: Rotating frame and reference and rothalpy}
+
+The Bernoulli equation in a rotating frame of reference reads
+%
+\beq
+\frac{p}{\rho}+\frac{w^2}{2}+U = \mathrm{const.},
+\eeq
+%
+where $U$ is the potential associated with the conservative force field, which is the potential of a rotating frame fo refernce: $U=-r^2\omega^2/2$. Let $w$ stand for the relative velocity, $c$ for the absolute velocity and $u=r \omega$ for the 'transport' velocity. We have $\uvec{c}=\uvec{u}+\uvec{w}$, thus $\uvec{w}^2=\uvec{u}^2+\uvec{c}^2-2\uvec{u}\,\uvec{c}=u^2+c^2-2u\,c_u$, which gives
+\begin{equation}
+\frac{p}{\rho}+\frac{\uvec{w}^2}{2}-\frac{r^2 \omega^2}{2}=\frac{p}{\rho}+\frac{\uvec{c}^2+\uvec{u}^2-2\uvec{c}\uvec{u}}{2}-\frac{\uvec{u}^2}{2}=\frac{p}{\rho}+\frac{c^2}{2}-\underbrace{\uvec{c}\,\uvec{u}}_{c_u u}=\mathrm{const}.
+\end{equation}
+
+Thus we see that the above quantity is conserved in a rotating frame of reference, which we refer to as \emph{rothalpy} (abbreviation of rotational enthalpy). Let us find now the change of energy inside the machine:
+%
+\begin{equation}
+Y=\Delta \left(\frac{p}{\rho}+\frac{c^2}{2}\right)=\Delta \left( c_u u\right),
+\end{equation}
+%
+which is exactly Euler's turbine equation. (For compressible fluids, rothalpy is $I=c_p T+\frac{c^2}{2}-u c_{u}$.)
+
+\section{Velocity triangles and performance curves}
+
+\subsection{Radial (centrifugal) machines}
+
+Let us consider a centrifugal pump and the velocity triangles at the impeller inlet and outlet, see Fig. \ref{fig:centrifual_pumps}. The theoretical flow rate is
+%
+\begin{equation}
+Q_{th}=c_{2m} A_2 \Psi =c_{2m} D_2 \pi b_2 \Psi,
+\end{equation}
+%
+where $D_2$ is the impeller outer diameter, $b_2$ is its flow-through width at the outlet and $c_{2m}$ is the radial component of the outlet absolute velocity. $\Psi<1$ is a constant that takes into account that the real flow through area is smaller due to the blockage of the blade width at the outlet.
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.52\textwidth]{figs/Centrifugal_Pump.png}
+%\includegraphics[width=0.45\textwidth]{figs/Double-Suction-Centrifugal-Pump.jpg}
+\caption{\label{fig:centrifual_pumps}Centrifugal pumps}
+\end{center}
+\end{figure}
+
+%\begin{minipage}{\textwidth}
+
+%\begin{floatingfigure}[r]{0.5\textwidth}
+%\begin{center}
+%\includegraphics[width=0.35\textwidth]{figs/Impeller3D_and_VelocityTriangles.png}
+%\caption{\label{fig:centrifual_pumps_velocity_triangle}Centrifugal impeller with outlet velocity components.}
+%\end{center}
+%\end{floatingfigure}
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=6cm]{figs/Impeller3D_and_VelocityTriangles_v2.png}
+\hspace{0.5cm}
+\includegraphics[width=7.5cm]{figs/Impeller2D_and_VelocityTriangles.png}
+\caption{\label{fig:centrifual_pumps_velocity_triangle}Centrifugal impeller with outlet velocity components.}
+\end{center}
+\end{figure}
+
+The velocity triangle describes the relationship between the absolute velocity $c$, the circumferential velocity $u$ and the relative velocity $w$. Obviously, we have $\vec{c}=\vec{u}+\vec{w}$. Moreover, we know that (a) the circumferential velocity is $u=D \pi n$ and that (b) the relative velocity is tangent to the blade, i.e. the angle between $u$ and $w$ is approximately the blade angle $\beta$.
+
+Basic trigonometrical identities show that $c_{2u}=u_2-c_{2m}/\tan \beta_2$. It is usual to assume that the flow has no swirling (circumferential) component at the inlet (due to Helmholtz's third theorem). In the reality, the outlet flow angle is not exactly $\beta_2$, thus the head is decreased, which is taken into account with the help of the \emph{slip factor} $\lambda$ (sometimes denoted by $\sigma$ in the literature).
+%\end{minipage}
+
+If there is no \emph{prerotation} (i.e. $c_{1u}=0$), we have
+%
+\begin{align}
+H_{th}&=\lambda \frac{c_{2u} u_2}{g}=\lambda\left(\frac{u_2^2}{g}-\frac{u_2}{g}\frac{w_{2u}}{g}\right)=\lambda\left(\frac{u_2^2}{g}-\frac{u_2}{g}\frac{c_{2m}}{\tan \beta_2}\right)\nonumber \\
+&=\lambda\left(\frac{u_2^2}{g}-\frac{u_2}{g\tan \beta_2 D_2 \pi b_2 \Psi}Q_{th}\right).
+\end{align}
+
+Thus, the theoretical performance curve $H_{th}(Q_{th})$ of a centrifugal machine is a straight line, which is (see Figure \ref{fig:blade_shapes})
+\begin{itemize}
+\item decreasing as $Q$ is increased, for \emph{backward curved} blades, i.e. $\beta_2<90^o$,
+\item horizontal, for \emph{radial blades} ($\beta_2=90^o$) and
+\item increasing (as $Q$ is increased) for \emph{forward curved} blades, i.e. $\beta_2>90^o$.
+\end{itemize}
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figs/RadialPump_BladeShapes.png}
+\caption{\label{fig:blade_shapes}Effect of blade shapes $\beta_2$ angle on the performance curve.}
+\end{center}
+\end{figure}
+
+\input{Problem_solving/PS_RadialVelocityTriangles.tex}
+
+\subsection{Axial machines}
+
+In the case of axial machines the flow leaves the impeller axially, see Fig. \ref{fig:axial_pumps}. The flow-through area is $\left(D_o^2-D_i^2\right)\pi/4$, where $D_o$ and $D_i$ stand for the outer and inner diameter of the lade, respectively. Notice that in this case, $u_1=u_2$ because it is assumed that the flow moves along a constant radius. Assuming (again) prerotation-free inlet ($c_{1u}=0$), we have $c_{2m}=c_1$ (due to continuity).
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{figs/axial_pump1.jpg}
+\hspace{1cm}
+\includegraphics[width=0.3\textwidth]{figs/axialfanplate.jpg}
+\caption{\label{fig:axial_pumps}Axial pump (left) and axial fan (right)}
+\end{center}
+\end{figure}
+
+However, an important difference between axial and centrifugal pumps (fans) is that in the case of axial machines, the the pressure rise changes along the radial coordinate of the blade:
+%
+\beq
+\Delta p_t(r)=\left.\rho u(r) \left(c_{2u}(r)-c_{1u}(r) \right)\right|_{c_{1u}=0}=\rho \left( 2 r \pi n \right) \left(2 r \pi n-\frac{c_{2m}}{\tan \beta_2} \right).
+\eeq
+%
+Thus, if we wanted to obtain \emph{constant} $\Delta p_t$ along the radial coordinate, the change of the circumferential velocity has to be compensated by varying $\beta_2$.
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{figs/AxialPump_axon.png}
+\hspace{1cm}
+\includegraphics[width=0.3\textwidth]{figs/AxialPump_side.png}
+\caption{\label{fig:axial_machines}Axial impeller with outlet velocity components.}
+\end{center}
+\end{figure}
+
+\begin{minipage}{\textwidth}
+
+\begin{floatingfigure}[r]{0.5\textwidth}
+\centering
+\includegraphics[width=0.45\textwidth]{figs/WorldWarWoodenPropeller.jpg}
+\caption{\label{fig:propeller}World War I wooden propeller}
+\end{floatingfigure}
+
+The twisted airfoil (aerofoil) shape of modern aircraft propellers was pioneered by the Wright brothers. While both the blade element theory and the momentum theory had their supporters, the Wright brothers were able to combine both theories. They found that a propeller is essentially the same as a wing and so were able to use data collected from their earlier wind tunnel experiments on wings. They also found that the relative angle of attack from the forward movement of the aircraft was different for all points along the length of the blade, thus it was necessary to introduce a twist along its length. Their original propeller blades are only about 5\% less efficient than the modern equivalent, some 100 years later. (Source: Wikipedia)
+
+\end{minipage}
+
+\input{Problem_solving/PS_AxialVelocityTriangles.tex}
+
+\clearpage
+
+\subsection{Real performance curves}
+
+Our analysis so far assumed that the flow inside the impeller is ideal (no losses) and that the streamlines are following the blade shape (thus, blade angles are also the streamline angles). However neither of these assumptions are true.
+
+There are significant friction losses inside the impeller, the narrower the flow passage is, the higher the friction losses will be. Moreover, the volute also introduces friction losses. These losses are proportional to the velocity squared, thus $H'_{friction} \propto Q^2$.
+
+On the other hand, if the angle of attack deviates from the ideal one, one experiences separation on the two sides of the blade. This is illustrated in Figure~\ref{fig:real_perf_curve} for a constant circumferential velocity $u$ as the flow rate and thus the inlet velocity $c$ is varied, the relative velocity $w$ also varies. At the design flow rate $Q_d$ the angle of attack ideal. For small flow rates, we have separation on the suction side of the blade, while for larger flow rates the separation is on the pressure side of the blade. Thus we have $H'_{separation} \propto (Q-Q_d)^2$.
+
+To obtain the real performance curve, one has to subtract the above two losses from the theoretical head: $H=H_{th}(Q)-K_1 Q^2-K_2 (Q-Q_d)^2$, which is illustrated in \ref{fig:real_perf_curve}. Note that at the design point and close to it, the friction losses are moderate and no separation occurs. For lower flow rates, the friction loss decreases while separation increases. For higher flow rates, both friction and separation losses increase.
+
+\begin{figure}[ht]
+\centering
+\includegraphics{figs/HeadLosses.png}
+\caption{\label{fig:real_perf_curve}Friction and separation losses in the impeller.}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\section{Losses and efficiencies}
+
+Let us analyse the losses that decrease the efficiency of a turbomachine (see Figure~\ref{fig:PumpLosses}).
+
+\begin{figure}[ht]
+\centering
+\includegraphics{figs/PumpLosses.png}
+\caption{\label{fig:PumpLosses}Losses of the pump.}
+\end{figure}
+
+\noindent Let the input mechanical power transmitted by the shaft be denoted by $P_{input}$. We have than
+
+\begin{description}
+\item[Mechanical losses $P'_m$] These represent the friction loss in the bearings and the mechanical sealing losses (if any). The remaining power is called \emph{internal power} $P_i=P_{input}-P'_m$.
+%
+\item[Disc friction losses $P'_{df}$] A significant shear force appears in the fluid entrapped between the housing and the impeller, which is taken into account by the \emph{disc friction coefficient}: $P'_{df}=\nu_{df} P_i$. The remaining power is the theoretical power of the impeller: $P_{th}=P_i-P'_{df}=(1-\nu_{df}) P_i$.
+%
+\item[Hydraulic and volumetric losses $P'_h$, $P'_v$] The theoretical head $H_{th}$ and flow rate $Q_{th}$ and is further decreased by the leakage flow rates ($Q_{l(eakage)}$) inside the pump (flow across the gaps between the impeller and the housing) and the internal frictional losses $h'$ (e.g. in the impeller and volute). We have
+\begin{align}
+P_{th}&=Q_{th} \rho g H_{th}=\left( Q+Q_{l}\right) \rho g \left( H+h'\right)=\underbrace{Q \rho g H}_{P_{u}}+\underbrace{Q_l \rho g H}_{P'_v}+\underbrace{Q_{th}\rho g h'}_{P'_h}\nonumber\\
+&=Q\rho g H \frac{Q+Q_{l}}{Q}\frac{H+h'}{H}=Q\rho g H \underbrace{\frac{Q_{th}}{Q}}_{\eta_v^{-1}} \underbrace{\frac{H_{th}}{H}}_{\eta_h^{-1}} \quad \rightarrow \quad P_u=P_{th}\eta_h \eta_v
+\end{align}
+\end{description}
+
+\input{Problem_solving/PS_TurbomachineryLosses.tex}
+
+%----------------------------------------------------------------------------
+\clearpage
+\section{Dimensionless numbers and affinity}
+
+Based on the previously obtained formulae for theoretical head, we define dimensionless numbers as
+\beq
+H=\eta_h H_{th}=2 \eta_h \frac{c_{2u}}{u_2}\frac{u_2^2}{2g}:=\psi \frac{u_2^2}{2g}
+\eeq
+%
+or, in the case of fans
+\beq
+\Delta p_t=\psi \frac{\rho }{2}u_2^2,
+\eeq
+%
+where $\psi$ is a dimensionless pressure rise. Similarly, we have
+%
+\beq
+Q=\eta_v Q_{th}=\eta_v D_2 \pi b_2 c_{2m}=\eta_v \frac{4 D_2 \pi b_2}{4 D_2^2} \frac{c_{2m}}{u_2} u_2 D_2^2:=\varphi \frac{D_2^2 \pi}{4}u_2
+\eeq
+
+These dimensionless quantities are called \emph{pressure number} $\psi$ and \emph{flow number} $\varphi$. What we found is that $H \propto n^2$ and $Q \propto n$ allowing the transformation of the performance curve given at $n_1$ to be computed to another revolution number $n_2$. This is called \emph{affinity law}:
+%
+\beq
+\frac{H_1}{H_2}=\left( \frac{n_1}{n_2}\right)^2, \quad \frac{Q_1}{Q_2}=\frac{n_1}{n_2} \quad \rightarrow \quad \frac{P_1}{P_2}=\left( \frac{n_1}{n_2}\right)^3
+\eeq
+
+As we have seen, both $\psi$ and $\varphi$ contains two parameters, $D_2$ and $u_2$, out of which one can be eliminated, resulting in new dimensionless numbers. Let us start with the elimination of $D_2$.
+%
+\begin{align}
+\varphi&=\frac{Q}{\frac{D_2^2 \pi}{4}u_2}=\frac{4 Q}{D_2^3 \pi^2 n}\\
+\psi&=\frac{H}{ \frac{u_2^2}{2g}}=\frac{2g H}{ D_2^2 \pi^2 n^2}
+\end{align}
+%
+from which we have
+%
+\beq
+\sigma=\frac{\varphi^{1/2}}{\psi^{3/4}}=\frac{2 \sqrt{Q}}{D_2^{3/2} \pi \sqrt{n}}\frac{ D_2^{3/2} \pi^{3/2} n^{3/2}}{\left(2g H\right)^{3/4}}=\frac{\sqrt{\pi}}{\sqrt[4]{2} g^{3/4}} \underbrace{n \frac{Q^{1/2}}{H^{3/4}}}_{n_q}
+\eeq
+%
+Note that $\sigma$ depends only on the revolution number but takes different values along the performance curve. Thus when actually computing it, one takes the data of the best-efficiency point. Moreover, we do not include the constant term$ \frac{\sqrt{\pi}}{\sqrt[4]{2} g^{3/4}}$. Finally, by definition, the \emph{specific speed} of a turbomachine is
+
+\beq
+n_q=n[rpm]\frac{\left(Q_{opt.}[m^3/s]\right)^{1/2}}{\left(H_{opt.}[m]\right)^{3/4}}
+\eeq
+
+Specific speed defines the shape of the impeller, low specific speed means low flow rate and high pressure rise (radial impeller) while high specific speed occurs when the flow rate is high and the pressure rise is low, see Fig. \ref{fig:nq}.
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figs/nq_eng.png}
+\caption{\label{fig:nq}Specific speed and shape of the impeller.}
+\end{center}
+\end{figure}
+
+Based on experience the available maximum efficiency can be estimated in the knowledge of $Q_{opt}$ and $n_q$ as follows
+
+\beq
+\eta_{max}=0.94-0.048 Q_{opt}^{-0.32}-0.29 \left(\log\left(\frac{n_q}{44}\right)\right)^2.
+\eeq
+
+Representing $\delta_{opt}(\sigma_{opt})$, turbomachines having good efficiency pass a narrow path. This diagram is called \emph{Cordier-diagram}. The centre of the path can be assumed with
+
+\beq
+\delta=\left(\frac{2.1}{1.41\log(\sigma)}\right)^{1.34}.
+\eeq
+
+Experience moreover shows that for a given $n_q$ estimation can be given for the ideal value of $\psi$ as follows
+
+\beq
+\psi=\left(\frac{300}{270+n_q}\right)^{9/4}.
+\eeq
+
+
+\input{Problem_solving/PS_DimensionlessNumbers.tex}
+
+\clearpage
+\section{Forces on the impeller}
+
+\subsection{Radial force}
+
+\fbox{TODO}
+
+\subsection{Axial force}
+
+The axial force results from two components:
+\begin{itemize}
+\item Momentum force
+\item Pressure distribution on the hub and shroud.
+\end{itemize}
+
+The momentum force is
+\beq
+F_m=\dot{m} v=\rho r_1^2 \pi c_1^2,
+\eeq
+
+\begin{figure}[!h]
+\begin{center}
+\centering
+\includegraphics{figs/AxialForces.png}
+\caption{\label{fig:ax_force}Pressure distribution on the hub.}
+\end{center}
+\end{figure}
+
+The pressure distribution is
+\beq
+p(r)=\frac{\rho}{2}r^2\omega_f^2+K \quad p(R_2)=p_2-\Delta p'_2 \quad \rightarrow \quad p(r)=p_2-\Delta p'_2-\frac{\rho}{2}\omega_f^2\left( r_2^2-r^2\right).
+\eeq
+
+The axial force becomes, e.g. on the hub (back of the impeller)
+\beq
+F_{hub}=\int_{r_s}^{r_2} 2 r \pi p(r) dr=\dots=\left( r_2^2-r_s^2\right)\pi \left( p_2-\Delta p'_2-\frac{\rho}{2}\omega_f^2\frac{r_2^2-r_s^2}{2}\right).
+\eeq
+%
+A similar result is obtained for the shroud (front of the impeller) with replacing $r_s$ by $r_1$. The overall axial force is
+%
+\beq
+F_{ax}=F_{hub}-F_{shroud}-F_m,
+\eeq
+%
+and its direction is towards the suction side (the axial force tries to 'pull down' the impeller from the shaft).
+
+\fbox{TODO: Extend explanations.}
+
+\input{Problem_solving/PS_Forces.tex}
+
+\section{Cavitation}
+
+\input{Problem_solving/PS_Cavitation.tex}
+
+\clearpage

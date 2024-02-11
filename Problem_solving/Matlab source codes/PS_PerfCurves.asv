@@ -1,0 +1,14 @@
+q=0:10:350;
+H=-0.00006667.*q.^2 - 0.00693694*q + 23.79729730;
+eta=-0.00001565.*q.^2 + 0.00719404*q;
+subplot(3,1,[1,2])
+plot(q,H,'k-','LineWidth',1),grid on
+ylabel('H [m]')
+subplot(3,1,3)
+plot(q,eta,'k-','LineWidth',1),grid on
+xlabel('Q [m^3/s]'),ylabel('\eta')
+
+set(gcf,'PaperPosition',[0 0 10 10],'PaperSize',[10 10])
+
+outfname=['PS_PerfCurves.png'];
+print('-dpng','-f1','-r300',outfname)

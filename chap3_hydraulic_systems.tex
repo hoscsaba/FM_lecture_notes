@@ -1,0 +1,83 @@
+\chapter{Hydraulic Systems} \label{sec:hydraulic_systems}
+
+\section{Frictional head loss in pipes}\label{sec:frictionallosses}
+
+In hydraulic machinery, instead of pressure $p\,[Pa]$, usually the term \emph{head} is used: $H\,[m]=\frac{p}{\rho g}$.
+In real moving fluids, energy is dissipated due to friction, as well as turbulence. Note that as the hydraulic power is $P=\rho gHQ$, but - because of the continuity equation - the flow rate is constant, the energy loss manifests itself in head (pressure) loss.
+Head loss is divided into two main categories, "major losses" associated with energy loss per length of pipe, and "minor losses" associated with bends, fittings, valves, etc. The most common equation used to calculate major head losses is the Darcy Weisbach equation:
+
+\beq
+h'_f=\lambda\frac{L}{D}\frac{v^2}{2g}=\lambda\frac{L}{D}\frac{8Q^2}{D^4\pi^2 g},
+\eeq
+
+where the friction coefficient $\lambda$ (sometimes denoted by $f$) depends on the Reynolds number ($\mathrm{Re}=vD/\nu$, $\nu\,[m^2/s]=\mu/\rho$ being the kinematic viscosity of the fluid) and the relative roughness $e/D$ ($e\,[m]$ being the roughness projections and D  the inner diameter of the pipe). Based on Nikuradse’s experiments, we have different regimes based on the Reynolds number.
+
+\begin{itemize}
+\item For laminar flow $\mathrm{Re} < 2300$, we have $\lambda=64$.
+\item For transitional flow $2300 < \mathrm{Re} < 4000$, the value of $\lambda$ is uncertain and falls into the range of $0.03\ldots0.08$ for commercial pipes.
+\item For turbulent flow in smooth pipes, we have $\frac{1}{\sqrt{\lambda}}=1.95\log(\mathrm{Re}\sqrt{\lambda})-0.55$.
+However, this equation need iteration for computing the actual value of $\lambda$. Instead, in the range of $4000 < \mathrm{Re} < 10^5$, the Blasius’s formula is usually used: $\lambda=0.316/\sqrt[4]{Re}$.
+\item For turbulent flow in \emph{rough} pipes, Karman-Prandtl equation  may be used: $\frac{1}{\sqrt{\lambda}}=-2\log\left(\frac{e}{3.7D}\right)$. For $Re>4000$, the  Colebrook-White  equation  covers  both the smooth  and  rough regime: $\frac{1}{\sqrt{\lambda}}=-2\log_{10}\left(\frac{2.51}{\mathrm{Re}\sqrt{\lambda}}+\frac{e}{3.7D}\right)$
+\end{itemize}
+
+Figure \ref{fig:moody} depicts the Moody diagram, i.e. friction coefficient vs. Reynolds number for different pipe roughness values.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{figs/moody.png}
+\caption{\label{fig:moody}Moody diagram: loss factor $\lambda$ is a straigth pipe.}
+\end{figure} 
+
+The loss due to bends, fittings, filters, valves, etc. the minor losses can be taken into account with the help of the loss factor $\zeta$ in the form of
+
+\beq
+h'=\zeta\frac{\rho}{2}v^2.
+\eeq
+
+In design, minor losses ($\zeta$) are usually estimated from tables using coefficients or a simpler and less accurate reduction of minor losses to equivalent length of pipe (giving the length of a straight pipe with the same head loss), see Table \ref{fig:minor_loss_coeffs} for some examples.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\textwidth]{figs/abaque-perte-charge.jpg}
+\caption{\label{fig:minor_loss_coeffs}Minor loss coefficients.}
+\end{figure} 
+
+Another way of characterizing the loss (typically, of valves) is the use of $K_v$ values. The $K_v$ value expresses the amount of flow in a valve (at a given valve position) with a pressure loss of 1 bar. The special situation with a fully open valve determines the $K_{vs}$ value. The amount of flow at a prescribed pressure loss can be calculated using the formula:
+
+\begin{equation}
+Q\,\left( m^3/h\right) = K_v \sqrt{\Delta p \left( bar \right)}.
+\end{equation}
+
+\section{Head-discharge curves and operating point} \label{sec:head_discharge_curves_and_operating_point}
+
+Let us consider a single pipe with several elbows, fittings, etc. that ends up in a reservoir, see Figure \ref{fig:SimplePumpingSystem}. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.45\textwidth]{figs/Hydraulic_system_sample.png}
+\includegraphics[width=0.45\textwidth]{figs/performance_curve_simple.png} 
+\caption{\label{fig:SimplePumpingSystem}Simple pumping system and its performance curves.}
+\end{figure} 
+
+The head $H_{s(ystem)}$ needed to convey $Q$ flow rate covers the pressure difference and the geodetic height difference between the starting and ending point and the losses of the flow: the friction of the pipe, the loss of the elbows, valves, etc., and the discharge loss.
+
+\begin{align}
+H_{s(ystem)}&=
+\left( \frac{p}{\rho g}+\frac{v^2}{2g}+z\right)_{\text{@ pump outlet}}-
+\left( \frac{p}{\rho g}+\frac{v^2}{2g}+z\right)_{\text{@ pump inlet}}\nonumber\\
+&=\left(\frac{p_2}{\rho g}+\frac{v_2^2}{2g}+z+h'_{\text{after the pump}}\right)-
+\left(\frac{p_1}{\rho g}+z_1+h'_{\text{before the pump}}\right)\nonumber\\
+&=\frac{p_2-p_1}{\rho g}+\left(z_2-z_1\right)
++\left(\underbrace{\sum\zeta+\sum\lambda\frac{L}{D}}_{\text{frictional loss of the pipeline}}+1\right)\frac{v^2}{2g}\nonumber\\
+&=\underbrace{\frac{p_2-p_1}{\rho g}+\left(z_2-z_1\right)}_{H_{static}}
++\underbrace{\left(\sum\zeta+\sum\lambda\frac{L}{D}+1\right)\frac{1}{2gA^2}}_{B}Q^2\nonumber\\
+&=H_{stat}+BQ^2
+\end{align}
+
+We see that the total head of the system consists of two parts: $H_{stat}$, that does \emph{not} depend on the actual flow rate and $BQ^2$, which varies with the flow rate. Figure \ref{fig:SimplePumpingSystem} depicts the pump head curve, the system head curve and the intersection, that is, the actual flow rate and head that the pump conveys through the system. 
+
+
+
+\input{Problem_solving/PS_HydraulicSystems.tex}
+
+\clearpage

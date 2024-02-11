@@ -1,0 +1,392 @@
+\chapter{Control}
+
+\section{Adjusting a desired operating point}
+
+\subsection{Terminology}
+
+
+Consider the problem of setting a desired $Q_d$ flow rate at the pipeline system with head-discharge problem of $H_s$. If we simply connect a pump to the system, the provided flow rate will not be the desired one but the the flow rate corresponding to the intersection of the pump and pipeline curve. By controlling either the pump or the system (via valves), we can achieve the desired flow rate. However, it is typical that either the $Q_p$ flow rate of the pump or the $H_p$ head of the pump is not the same as that of the pipeline system
+
+When making decisions on pump or fan control, we use two following important quantities.
+
+\begin{description}
+\item[Control efficiency.] This quantity is the ratio of the useful power and the input power, that is
+\begin{equation}
+\eta=\frac{P_{useful}}{P_{input}}=\frac{Q_d \rho g H_s(Q_d)}{Q_p \rho g H_p(Q_p)}
+\end{equation}
+%
+\item[Specific energy consumption.] This quantity is the ratio of the input power and the flow rate, that is
+\begin{equation}
+\text{SEC}=\frac{P_{input}}{Q_d}=\frac{P_{input}}{V/t}=\frac{\text{energy consumed}}{\text{volume of fluid}},
+\end{equation}
+that is, the energy consumption of conveying 1 $m^3$ of fluid in the system.
+\end{description}
+
+We shall analyse three ways of control:
+
+\begin{enumerate}
+\item Control via a valve connected in series.
+\item Control via a valve connected in parallel, i.e. by-pass valve.
+\item Control via a changing the pump revolution number.
+\end{enumerate}
+
+\clearpage
+
+\subsection{Valve in series}
+
+
+%\begin{figure}
+\begin{wrapfigure}{r}{0.6\textwidth}
+\includegraphics[width=0.6\textwidth]{figs/series_connection.pdf}
+\caption{Control via a valve connected in series.}
+\end{wrapfigure}
+%\end{figure}
+
+In the case of series valve control, we add a throttle valve at the pressure side of the pump. (And never at the suction side, due to the danger of cavitation!) As the three element are now connected in series, the flow rate is common, while the pressure will change. 
+
+The efficiency is $\eta=\frac{Q_d \rho g H_s}{P_{pump}}$, where $P_{pump}=H_p\rho g Q_d /\eta_{pump}(Q_d)$, hence we have $\eta=\eta_{pump}(Q_d)H_s/H_p$. That is, the ratio of the system head and the pump head, multiplied by the efficiency of the pump at the operating point. The specific energy consumption is SEC$=\rho g H_p(Q_d)/\eta_{pump}(Q_d)$. 
+
+This type of control introduces new head loss at the pressure side, resulting in a higher overall pipeline loss, which than reduces the head of the pump. The power lost on the throttle valve is $P'_v=Q_d \rho g H'_v$.
+
+\subsection{Bypass valve (parallel)}
+
+
+%\begin{figure}
+\begin{wrapfigure}{r}{0.6\textwidth}
+\includegraphics[width=0.6\textwidth]{figs/parallel_connection.pdf}
+\caption{Control via a valve connected in series.}
+\end{wrapfigure}
+%\end{figure}
+
+In the case of a bypass valve, we add a throttle valve parallel with the pump to allow backflow of unnecessary fluid into the suction-side reservoir.  As the three element are now connected in parallel, the flow rate adds up, while the pressure difference is the same. 
+
+The efficiency is $\eta=\frac{Q_d \rho g H_s}{P_{pump}}$, where $P_{pump}=H_s\rho g Q_p/\eta_{pump}(Q_p)$, hence we have $\eta=\eta_{pump}(Q_p)Q_s/Q_p$. That is, the ratio of the desired flow rate and the pump flow rate, multiplied by the efficiency of the pump at the pump operating point. The specific energy consumption is SEC$=\rho g H_p(Q_p)Q_p/Q_d /\eta_{pump}(Q_p)$.
+
+This type of control does not introduce new head loss, but allows a portion of the (too large) pump flow rate back to the reservoir. The power lost on the throttle valve is $P'_v=Q_v \rho g H_s$.
+
+\section{Pump revolution number control}
+
+A common way of setting pump flow rate is to vary the revolution number. Intuitively, decreasing the pump revolution number will result in lower flow rate, while increasing it will result in higher flow rate.
+
+Combining the affinity laws $Q_2/Q_1=n_2/n_1$ and $H_2/H_1=n_2^2/n_1^2$ give $H_2=\left( H_1/Q_1^2\right)Q_2^2:=a\,Q_2^2$. This simply means that while changing the revolution number, the operating point moves along an \emph{central parabola} $a Q^2$ that starts from the origin and passes through the original point $\left( Q_1,H_1\right)$. \emph{The affinity law can be used only between point lying on the same central parabola.}
+
+See the first problem in the next section for a worked example.
+
+\input{Problem_solving/PS_Control.tex}
+
+
+% SERIAL AND PARALLEL CONNECTIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Pumps and pipes connected in series or parallel}
+
+In Sec.\,\ref{sec:head_discharge_curves_and_operating_point}, the determination of the operation point of a single pump working to a single hydraulic system is discussed in details, see also Fig.\,\ref{fig:SimplePumpingSystem}. In many cases, however, the flow rate $Q_s$ or the head $H_s$ required by the system cannot be satisfied by a single pump efficiently. Or it is much more feasible economically (e.g., investment costs) to use several smaller pumps instead of a single much larger one. The pumps can be connected in a serial or in a parallel way. Each has its own specific application/purpose: increase the flow rate (parallel) or increase the produced head (serial) when the required pressure difference of the system is high (e.g., large height differences). The difficulty in both cases is the determination of the equivalent characteristic curve of the coupled pumps to be able to find the operation point with the system. This is the main topic of the forthcoming sections. Figure\,\ref{fig:pump_stations_examples} shows two pump stations with pumps connected in a parallel (left-hand side) and in a serial (right-hand side) way. In more complex pump stations, the mixture of serial and parallel connections of pumps can also be found depending on the technological needs.
+
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[height=4.5cm]{Control/Figures/Pump_Station_Parallel_Connection.jpg}
+		\includegraphics[height=4.5cm]{Control/Figures/Pump_Station_Serial_Connection.jpg}
+	\caption{Pump stations with pumps connected in parallel (left) and in series (right).}
+	\label{fig:pump_stations_examples}
+\end{figure}
+
+From the system point of view, it is also possible that a pump (or a pump station) have to provide flow rates (and head) to different systems or a single but a complex system. In general, a system might also be composed by several subsystems built-up by a mixture of serial and parallel connections (similarly to pump stations), where each subsystem has its own characteristic curves. Again the difficulty is the derivation of an equivalent characteristic curve of the whole systems.
+
+From sizing point of view, the system of a technology or an industrial project is usually/mainly given, and the specific needs of the application drive its design. On the other hand, a pump station has to be designed according to the needs of the given hydraulic systems. Naturally, it might also be possible that modifications on the system have to be carried out for efficiency reasons, and the complete design is an iterative process.
+
+%------------------------------------------------
+\subsection{Theory of serial connection}
+In order to intorduce the basics of serial connections, consider two pump connected in series, and working to a single system. The block diagram of such a configuration is presented in Fig.\,\ref{fig:block_diagram_serial_connection}. Due to the principle of conservation of mass, the volue flow rate (assuming inclompressible flow) of the three hydraulic elements (the two pumps and the system) must be equal, and denoted simply by $Q$. In contrast, the head ``production'' of the pumps are additive; that is, the overall head of the two pumis is
+%
+\begin{equation}
+H_{p3} = H_{p1} + H_{p2}.
+\end{equation}
+%
+Keep in mind that the head can always be reagarded as presusre difference since $H_p \approx \rho g \Delta p_p$, where $\rho$ is the density and $g$ gravitational acceleration. In this sense, the pressure elevated by the first pump is further increased by the second pump. The overall pressure difference produced by the pumps (sum of the heads) is completely consumed by the system. This is the basis of operating point introduced in Sec.\,\ref{sec:head_discharge_curves_and_operating_point}. Mathematically, the solution of the algebraic equation
+%
+\begin{equation} \label{principle_of_serial_connection}
+H_{p3}(Q) = H_{p1}(Q) + H_{p2}(Q) = H_s(Q)
+\end{equation}
+%
+yields the flow rate $Q^o$ and head $H^o$ of the operating point.
+
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[height=1.25cm]{Control/Figures/Block_Diagram_Serial_Connection.pdf}
+	\caption{Block diagram of two pumps connected in series, and working to a single system.}
+	\label{fig:block_diagram_serial_connection}
+\end{figure}
+
+To be specific, the characteritic curves of the pumps and the system is summatized as follows
+%
+\begin{align}
+H_{p1}(Q) &= A_{p1} - B_{p1} Q^2 = 80 -  80000 Q^2, \label{pump1_characteristic_curve_serial} \\
+H_{p2}(Q) &= A_{p2} - B_{p2} Q^2 = 40 -  60000 Q^2, \label{pump2_characteristic_curve_serial} \\
+H_s(Q)    &= A_s    + B_s    Q^2 = 60 + 400000 Q^2, \label{system_characteristic_curve_serial}
+\end{align}
+%
+where the units of the head $H$ and the volume flow rate $Q$ are $\mathrm{m}$ and $\mathrm{m^3/s}$, respectively. The general form of such charateristic curves via the constants $A_i$ and $B_i$ are discussed already in Sec.\,\ref{sec:real_performance_curves_turbomachines} and Sec\,\ref{sec:head_discharge_curves_and_operating_point}; thus, it is not repeated here. The left-hand side of Fig.\,\ref{fig:example_serial_connection} represents the functions defined by Eqs.\,\eqref{pump1_characteristic_curve_serial}-\eqref{system_characteristic_curve_serial} by the black (pumps) and the red (system) curves.
+
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[width=8cm]{Control/Figures/TheorySerialConnection.png}
+		\includegraphics[width=8cm]{Control/Figures/TheorySerialConnection_SamePumps.png}
+	\caption{A typical characteristic curve of a spring-loaded pressure relief valve. Left: the volume flow rate $Q_{prv}$ as a function of the pressure difference $\Delta p$. The theoretical (black) curves are also depicted. Right: the pressure difference $\Delta p$ as a function of the flow rate $Q_{prv}$.}
+	\label{fig:example_serial_connection}
+\end{figure}
+
+Tha main task is to unite the two characteristic curves of the pumps in order to determine the operation point. According to Eq.\,\eqref{principle_of_serial_connection}, it is simply the summary of the heads. As the characteristic curves are already expressed for the heads in Eqs.\,\eqref{pump1_characteristic_curve_serial}-\eqref{system_characteristic_curve_serial}, the overall characteristic curve of the two pumps can be obtained analitically very easily:
+%
+\begin{equation}
+\begin{split}
+H_{p3}(Q) &= H_{p1}(Q) + H_{p2}(Q), \\
+          &= 80 - 80000 Q^2 + 40 - 60000 Q^2, \\
+		  &= 120 - 140000 Q^2,
+\end{split}
+\end{equation}
+%
+shown by the blue curve in Fig.\,\ref{fig:example_serial_connection}. The operating point of the whole hydraulic sstem is at the intersection of the blue and the red curves marked by the big black cross. Numerically, the volume flow rate of the operation point $Q^o$ can be calculated by equating the two characteristic curves:
+%
+\begin{equation}
+\begin{split}
+         H_{p3}(Q^o) &= H_{s}(Q^o), \\
+120 - 140000 (Q^o)^2 &= 60 + 400000 (Q^o)^2, \\
+		          60 &= 540000 (Q^o)^2, \\
+			     Q^o &= \sqrt{\frac{60}{540000}} = 0.01054\,\mathrm{\frac{m^3}{s}}.
+\end{split}
+\end{equation}
+%
+The head of the system cab be claculated by substituting the flow rate of the operating point $Q^o$ into Eq.\,\eqref{system_characteristic_curve_serial}:
+%
+\begin{equation} \label{principle_of_serial_connection}
+H_s^o = A_s + B_s Q^2 = 60 + 400000 (Q^o)^2 = 104.4\,\mathrm{m}.
+\end{equation}
+%
+since the same volume flow rate $Q^o$ flows through both pumps, their individual operation point is at the crossing of the red vertical line at $Q^o$ with the charcteristic curves, see the small black crosses in the left-hand side of Fig.\,\ref{fig:example_serial_connection}. Again, the heads of the operating points of the pumps can be obtaines by subtitution:
+%
+\begin{align}
+H_{p1}^o &= A_{p1} - B_{p1} Q^2 = 80 - 80000 (Q^o)^2 = 77.1\,\mathrm{m}, \\
+H_{p2}^o &= A_{p2} - B_{p2} Q^2 = 40 - 60000 (Q^o)^2 = 33.3\,\mathrm{m}.
+\end{align}
+%
+With the above-described calculations, all the properties (heads and flow rates) of all the elements of the whole hydraulic system could be obtained, see also the lables in the left-hand side of Fig.\,\ref{fig:example_serial_connection} pointig to the projetions to the horizontal and vertical by the red thin lines.
+
+In some cases, it may happen that the characteristic curves are not given in an analitical form; for instance, only a graphical curve is given in an old catalouge or only some measured points are available. In this case, there is an alternative, graphical solution to approximate the operating point. The first step is the division of the volume flow rate range into a discrete set of values represented by the vertical dashed lines in Fig.\,\ref{fig:example_serial_connection} left. Second, evaluate the pump and the system charaterictic curves at these flow rate values (see the black and red dots). It is possible that this process is already done by a measurement. Next, the equivalent charateristic curve of the two pumps can be obtained by summing the values of the heads of the black dots at a given dashed line, and mark the corresponding point on the same dashed line. The result is the series of blue dots in Fig.\,\ref{fig:example_serial_connection} left. Drawing (by hand) the approximated charateristic curves through the calculated dots, the intersection of the blue and the red curves will define the estimated operating point as usual. Finally, the projection via the thin red lines, the values of the operating heads and flow rates of the individual pumps and the system can be determined as well.
+
+
+
+
+
+
+
+%------------------------------------------------
+\subsection{Theory of parallel connection}
+
+%------------------------------------------------
+\subsection{Operation point of complex connections}
+
+%------------------------------------------------
+\input{Problem_solving/PS_Control_Series_Parallel.tex}
+
+% WATER HAMMER, HYDRAULIC TRANSIENTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Water hammer, hydraulic transients}
+
+Up to this point, turbomachinery is discussed from a stationary operation point of view. Such a discussion have its own right, since most of its lifetime, an installation operates in steady-state fashion. One of the main reasons is the efficiency: a device is usually designed to operate efficiently over a specific parameter range around the designed operation point. Thus, a significant deviation from this optimal point can considerably increase the operating costs or needs expensive additional equipment to overcome this issue. The previous sections of this chapter are devoted to this problem. Moreover, transient operations are usually causing greater wear of the elements of a device, which might result in a lower lifetime and additional maintenance and investment costs.
+
+We shall see in this section that transient phenomenon in a hydraulic system also plays a significant role, although its timespan is usually many orders of magnitude smaller than steady-state operations. The starting and stopping of hydraulic machinery are two natural examples. The phenomenon discussed in this section is the generated pressure surge or wave by the sudden closure of a valve. This pressure wave, having even tenths of bars peak value, can cause major problems; for instance, the rupture or the collapse of a pipe. Transients can also be generated in a domestic environment by the sudden close (e.g., within a fraction of a second if it is allowed by design) of the faucet in the bathroom or the kitchen. The vibration of the pipeline system for a few seconds and even a small blow at the tap might be observable. Such an effect needs to be avoided at all costs in industrial environments. Since the peak amplitude of the pressure is usually much higher due to the much larger mass of liquid involved during the process.
+
+%------------------------------------------------
+\subsection{Introduction to the transient phenomenon in pipes} \label{sec:introduction_to_transient_phenomenon}
+Consider a pipeline in steady-state operation, i.e. with constant flow rate (constant flow velocity). In order to regulate the flow rate, a valve is placed at the end of this pipe, see the left-hand side of Fig.\,\ref{fig:water_hammer}. Let us assume a limit case where the valve is suddenly (infinitely fast) closed. Naturally, the huge mass of moving liquid in the pipe cannot stop immediately; it still moves towards the end of the pipe. However, the fluid packages at the valve are already stopped. The result is an initiated compression (pressure) wave propagating along the pipe with sonic velocity (sound speed) $a$, see the diagrams in Fig.\,\ref{fig:water_hammer} below the schematic drawings of the pipe-reservoir systems. The pressure wave is often referred to as \emph{shock wave} or positive surge, and its magnitude (amplitude) is denoted by $\Delta p$. This pressure amplitude $\Delta p$ (flux of momentum) built up in the system covers the energy required to stop the liquid particles. That is, before the shock front, the liquid is still moving, while after the shock front, the liquid is already stopped. By analogy, the propagation of the pressure wave with a finite speed of $a$ is a similar phenomenon as the propagation of a voice in the air via pressure waves (compression or depression of air). Any information in a system can be transferred only with a finite speed. Another kind of analogy is when the first wagon of a moving train hits the bumper and stops. The rest of the wagons, connected by springs, are still moving, and they stop one by one, one after another. Here, the information (stop of the train) is again propagating with a finite speed along the wagons. Also, the generated ``pressure wave'' is a compression wave in a sense that the springs connecting the wagons are compressed.
+
+Now consider a similar pipeline system, but the valve served to regulate the flow rate is placed at the beginning of the pipe rather than at its end. The situation is similar to the case described above. The main domain of liquid is still moving, while the fluid particles at the valve are already stopped (at the moment of the closure). The difference is that a \emph{depression wave} $\Delta p$ (the absolute value of the pressure is below the system pressure) is build up that tries to disrupt the fluid particles. The speed of the shock front propagation $a$ is approximately the same as in case of the compression wave discussed above. According to the train analogy, the last wagon of a moving train is stopped, while the rest of the wagons are again stopped only one by one, one after another. However, here the springs connecting the wagons are stretched. That is, the initiated wave is a depression wave.
+
+\begin{figure}[h!]
+\centering
+%\begin{wrapfigure}{r}{0.6\textwidth}
+\includegraphics[width=0.8\textwidth]{figs/water_hammer_CV.pdf}
+\caption{\label{fig:water_hammer}Water hammer; sudden closure at the (left) end of the pipe and (right) beginning of the pipe.}
+%\end{wrapfigure}
+\end{figure}
+
+In real situations, the infinitely fast closure of a vale cannot be realised. Instead, a valve is closed by a certain amount of finite time, causing a certain amount of velocity difference ($\Delta v$) in the fluid flow. That is, the liquid is not perfectly stopped; only its velocity is changed. In order to achieve the generated velocity difference, a pressure wave (compression or depression) that provides the energy necessary to decrease the liquid velocity must be built up in the system. The speed of the propagation of the shock front is still $a$. That is, even though the valve is not totally closed, pressure waves with large amplitude can still be presented in the system.
+
+In order to ``feel'' how much energy is contained in a fluid flow in a pipeline, consider a typical configuration of an $L=1\,\mathrm{km}$ long pipe with a diameter of $D=200\,\mathrm{mm}$. Assume that the liquid is water with density $\rho=1000\,\mathrm{kg/m^3}$. The mass of the liquid in the pipe is
+%
+\begin{equation}
+m = \rho L \frac{D^2 \pi}{4} \approx 31.4\,\mathrm{t}.
+\end{equation}
+%
+In order to change the velocity of this mass of water by $\Delta v=1\,\mathrm{m/s}$ within $t=1\,\mathrm{s}$, the required amount of power is
+%
+\begin{equation}
+P = \frac{E_{kin}}{t} = \frac{1}{t} \frac{1}{2} m \Delta v^2 \approx 15.7\,\mathrm{kW},
+\end{equation}
+%
+where $E_{kin}$ is the kinetic energy difference of the liquid.
+
+With the above-described introduction, a quick overview of the phenomenon could be provided. In the rest of the section, we shall proceed with specific calculations and try to answer the following questions. How can the speed of sound $a$ in a pipe or of a pure liquid be calculated? What is the magnitude $\Delta p$ of the generated pressure wave? Furthermore, how it is related to the speed of sound $a$ and the velocity difference $\Delta v$? Finally, how can we avoid/soften the generation of such a pressure wave?
+
+%------------------------------------------------
+\subsection{The sound speed in liquids and in pipes}
+The propagation of sound (or signal) in any medium is inherently related to the compressibility. In case of an absolutely rigid material (naturally, this assumption is always hypothetical), the sound speed is infinite. That is, any disturbance at a point appears immediately at another point of the material. This is the case for incompressible liquids. Although in many cases, the assumption of incompressibility is a reasonable simplification, in reality, every material is compressible; therefore, a finite speed of sound exists. From thermodynamics, it is well-known that the speed of sound can be calculated from the constitutive law (equation of state) of a substance. For water, the simplest equation of state can be written as
+%
+\begin{equation} \label{WaterEquationOfState}
+p = p_0 + E_f \frac{\rho - \rho_0}{\rho_0},
+\end{equation}
+%
+where $p$ is the pressure, $E_f$ is the bulk (elasticity) modulus of the fluid, and $\rho$ is the density. The subscript $0$ indicates a reference point where both the pressure $p_0$ and the density $\rho_0$ are known. Equation\,\eqref{WaterEquationOfState} expresses a linear relationship between the pressure $p$ and density $\rho$. Observe that the density is increasing with increasing pressure. The second power of the speed of sound can be obtained from the following partial derivative:
+%
+\begin{equation}
+a^2 = \frac{\partial p}{\partial \rho} \approx \frac{\Delta p}{\Delta \rho}
+\end{equation}
+%
+expressing how much pressure difference is necessary to change the density by a single unit. Performing the partial derivative on Eq.\,\ref{WaterEquationOfState}, the speed of sound reads as
+%
+\begin{equation}
+a = \sqrt{ \frac{E_f}{\rho_0} } \approx \sqrt{ \frac{E_f}{\rho} }.
+\end{equation}
+%
+If the density does not change much during the compression/depression, $\rho_0$ can be replaced by a simple mean value of the density denoted by $\rho$. For water, the value of the bulk modulus is approximately $E_f=2.1\,\mathrm{GPa}$, the density is approximately $\rho=1000\,\mathrm{kg/m^3}$; thus, the speed of sound for pure water is about $a=1449\,\mathrm{m/s}$.
+ 
+The above-derived value for sound propagation is valid only for rigid pipes when the elasticity modulus of the pipe is much higher than that of water. If this is not the case, the speed of sound is significantly altered. Due to the elevated (decreased) pressure, the diameter of the pipe is increased (decreased) via elastic deformation. The change in the volume of the pipe acts as if the fluid became more compressible. Note that due to the change of the cross-section, more fluid can be pushed into the pipe. In order to take into account the elasticity of the pipe, a reduced elastic modulus $E_r$ is written as
+%
+\begin{equation}
+\frac{1}{E_r} = \frac{1}{E_f} + \frac{D}{\delta E_p},
+\end{equation}
+%
+where $D$, $\delta$ and $E_p$ are the diameter, thickness and the elastic modulus of the pipe, respectively. Typical values for $E_p$ are ranging between $600\,\mathrm{MPs}$ and $900\,\mathrm{MPa}$. The reduced speed of sound is now defined as
+%
+\begin{equation}
+a = \sqrt{ \frac{E_r}{\rho} }.
+\end{equation}
+%
+Consider a pipe with a diamater of $D=110\,\mathrm{mm}$ and a thickness of $\delta=18.3\,\mathrm{mm}$ with $E_p=800\,\mathrm{MPa}$, the speed of sound is reduced to $a=354\,\mathrm{m/s}$.
+
+%------------------------------------------------
+\subsection{Allievi principle: the pressure amplitde for fast closure} \label{sec:pressure_amplitude_fast_closure}
+
+In order to develop sizing equations to avoid water hammer problems, the relationship between the amplitude of the generated pressure wave $\Delta p$ and the velocity change $\Delta v$ need to be found. For this, the macroscopic balances of mass and momentum around the shock front are formulated; and with reasonable simplifications, the required expression shall be established. Consider a frame of reference (co-ordinate system) moving along the pipe together with the shock front with speed $a$. For a better visibility, the related picture in the bottom of Fig.\,\ref{fig:water_hammer} is magnified in Fig.\,\ref{fig:allievi_principle}; thus, additional notations can be added without overcrowding the figure. The vertical dashed line denotes the shock front itself. On the left-hand side of the shock, the pressure and density are $p$ and $\rho$, respectively. The cross-section of the pipe is $A_1$, where the vector $dA_1$ denote the surface element vector. The velocity at this pipe section is $v+a$. The addition of $a$ is necessary as our co-ordinate system is moving with a speed of $a$. Therefore, the two velocities must be added together. On the right-hand side of the shock, the pressure and the density are elevated by $\Delta p$ and $\Delta \rho$, respectively. Moreover, the velocity of the fluid flow is reduced by $\Delta v$. The resulted outflow velocity from the investigated pipe section is $v-\Delta v + a$. Observe that due to the moving reference frame, the addition $a$ is again necessary. The cross-section in the right-hand side is $A_2$ and the corresponding surface element vector is $dA_2$. Due to the increased pressure after the shock front (righ-hand side), the cross section $A_2$ is larger than that of in the left-hand side $A_1$. The difference is $\Delta A = A_2 - A_1$ located at the shock front as a ring shaped surface. Its surface element vector is marked by $d\Delta A$.
+
+\begin{figure}[h!]
+\centering
+%\begin{wrapfigure}{r}{0.6\textwidth}
+\includegraphics[width=0.6\textwidth]{figs/WaterHammer_AllieviPrinciple.pdf}
+\caption{\label{fig:allievi_principle}Shock front in a moving frame reference with speed $a$. The pressure wave is generated by a sudden closure of a valve at the end of the pipe.}
+%\end{wrapfigure}
+\end{figure}
+
+From elementary fluid dynamics, it is well-know that the macroscopic momentum balance for the fluid package bounded by the red dashed line in Fig.\,\ref{fig:allievi_principle} in an integral form reads as
+%
+\begin{equation} \label{macroscopic_momentum_balance}
+\frac{\partial}{\partial t} \int_V \left(\rho \underline{v} \right) dV + \int_A \rho \underline{v} \left( \underline{v} \cdot d\underline{A} \right) + \int_A p d\underline{A} = \int_V \rho \underline{g} dV.
+\end{equation}
+%
+This integral equation express that the momentum of the bounded fluid package can be changed by forces acting on the bounding surfaces (e.g., pressure, inertia) and on the volume (e.g., gravity). In this equation, $\underline{v}$ denote the velocity vector at a given point on the surface or in the volume in general. In the moving frame co-ordinate system, the fluid flow is stationary; thus, the first integral is identically zero. Moreover, let us neglect the effect of gravity; consequently, the last integral in the right-hand side of Eq.\,\eqref{macroscopic_momentum_balance} is zero as well. The simplified equation is
+%
+\begin{equation} \label{macroscopic_momentum_balance_simplified}
+\int_A \rho \underline{v} \left( \underline{v} \cdot d\underline{A} \right) + \int_A p d\underline{A} = 0.
+\end{equation}
+%
+Observe that in the surface integrals, the surface elements $d\underline{A}$ are vectors, and they are pointing in the outward direction (by convention). In general, performing the integrations in Eq.\,\eqref{macroscopic_momentum_balance_simplified} is a cumbersome task. However, assuming that the velocity vectors are constants (using the mean velocity at every point of the cross-sections) and that they are always perpendicular to the cross-sections, the integrations can be done by elementary calculations. That is, they become simple multiplications of the magnitude of the integrands and the area of the surfaces. It must be stressed that the proper sign of the vectors has to be taken into account. Demonstrate this with an example:
+%
+\begin{equation}
+\int_{A_1} \rho \underline{v} \left( \underline{v} \cdot d\underline{A}_1 \right) = - \rho \left( v+a \right)^2 A_1.
+\end{equation}
+%
+The magnitude of general velocity vector $\underline{v}$ is $v+a$ at cross-section $A_1$. Let the positive direction denoted by $x$, see Fig.\,\ref{fig:allievi_principle}. As the surface element vector $d\underline{A}_1$ is pointing to the negative direction, the value of the integral is negative. Keep in mind that the second power of the velocity vector is always positive regardless of its actual direction. Performing all the integrations in Eq.\,\ref{macroscopic_momentum_balance_simplified} in a similar way for the surfaces $A_1$, $A_2$ and $\Delta A$, the following algebraic equation can be formulated
+%
+\begin{equation}
+- \rho (v+a)^2 A_1 + (\rho+\Delta \rho) (v-\Delta v+a)^2 A_2 - p A_1 - (p+\Delta p) \Delta A + (p+\Delta p) A_2 = 0.
+\end{equation}
+%
+Through the surface $\Delta A$, there is no fluid flow. That is why there is only a pressure-related term associated with this surface. Taking into account that $\Delta A = A_2-A_1$ the above equation simplifies to
+%
+\begin{equation} \label{simplified_algebraic_equation_of_momentum}
+- \rho (v+a)^2 A_1 + (\rho+\Delta \rho) (v-\Delta v+a)^2 A_2 + \Delta p A_1 = 0.
+\end{equation}
+%
+With the help of the continuity equation (conservation of mass)
+%
+\begin{align}
+\dot{m}_{in} &= \dot{m}_{out}, \\
+\rho (v+a) A_1 &= (\rho+\Delta \rho) (v-\Delta v+a) A_2,
+\end{align}
+%
+Eq.\,\eqref{simplified_algebraic_equation_of_momentum} is transformed into
+%
+\begin{equation}
+- \rho (v+a)^2 A_1 + \rho (v+a) A_1 (v-\Delta v+a) + \Delta p A_1 = 0.
+\end{equation}
+%
+This equation can be further simplified to
+%
+\begin{equation}
+- \rho (v+a) A_1 \Delta v + \Delta p A_1 = 0.
+\end{equation}
+%
+Eliminating $A_1$ and assuming that the sound speed $a$ (orders of hundreds of $m/s$) is much larger than the flow velocity (orders of $m/s$), the well-known formula for the Allievi principle can be formulated:
+%
+\begin{equation} \label{allievi_principle}
+\Delta p \approx \rho a \Delta v.
+\end{equation}
+
+The simple equation of Eq.\,\ref{allievi_principle} expresses that a sudden change in the velocity $\Delta v$ (not necessarily a complete stop of the fluid) initiate a pressure wave with an amplitude of $\Delta p$. Let us assume that the sound speed is $a=350\,\mathrm{m/s}$, the density is $\rho=1000\,\mathrm{kg/m^3}$ and the velocity change is $\Delta v=1\,\mathrm{m/s}$. The generated pressure amplitude is approximate $\Delta p=3.5\,\mathrm{bar}$. 
+
+%------------------------------------------------
+\subsection{Pressure amplitude for slow closure} \label{sec:pressure_amplitude_slow_closure}
+Intuitively, one can ``feel'' that during a prolonged closure of a valve, the amplitude of the compression/depression waves can be softened. However, Eq.\,\eqref{allievi_principle} is independent from time. Therefore, the validity limit of Eq.\,\eqref{allievi_principle} has to be determined. As it is already discussed in details in Sec.\,\ref{sec:introduction_to_transient_phenomenon}, the initiated pressure wave travels along the pipe. At the other end of the pipe, the pressure wave is reflected and travels back to the valve. During the reflection, the compression wave becomes a depression wave or vice verse. It can be fairly assumed that during the time needed to the pressure wave travelling back and forth, the transient is decayed enough, and a new stationary operation is settled down. This means that Eq.\,\eqref{allievi_principle}, which defines the pressure amplitude of transients, is valid only if the closure of the valve is faster than the characteristic time $T_p$ of the pipe (time needed for the pressure wave travelling back and forth). The value of $T_p$ can be easily calculated from the length of the pipe $L$ and the speed of sound $a$:
+%
+\begin{equation}
+T_p = \frac{2 L}{a}.
+\end{equation}
+%
+If the time of the closure $T_c$ of the valve is smaller than $T_p$, transient phenomenon takes place, the Allievi principle is valid, and the pressure amplitude can be calculated from Eq.\,\eqref{allievi_principle}. Otherwise, the liquid mass in the pipe slows down via quasi-steady states and Newton's second law has to be used:
+%
+\begin{align}
+F &= m \frac{dv}{dt}, \\
+\Delta p A &= \rho L A \frac{dv}{dt}.
+\end{align}
+%
+Simplifying with the cross-section $A$ of the pipe, the pressure difference yields
+%
+\begin{equation} \label{newtons_law_of_water_hammer}
+\Delta p = \rho L \frac{dv}{dt} \approx \rho L \frac{\Delta v}{\Delta t}.
+\end{equation}
+%
+As an example, let us assume a pipe length of $L=1000\,\mathrm{m}$, and that the speed of sound is $a=1449\,\mathrm{m/s}$ (rigid pipe wall). Thus, the characteristic time of the pipe $T_p=2L/a=1.38\,\mathrm{s}$. Furthermore, assume that the velocity difference is $\Delta v=1\,\mathrm{m/s}$, the density is $\rho=1000\,\mathrm{kg/m^3}$ and the closure time is $T_c=2\,\mathrm{s}>T_p$. Applying Eq.\,\eqref{newtons_law_of_water_hammer}, the generated pressure amplitude is $\Delta p=5\,\mathrm{bar}$.
+
+%------------------------------------------------
+\subsection{Dangerous consequences of the pressure waves}
+The pressure amplitude computed either by Eq.\,\eqref{allievi_principle} or Eq.\,\eqref{newtons_law_of_water_hammer} must be superimposed to the actual system pressure either in the positive direction (compression wave/shock wave, left-hand side of Fig.\,\ref{fig:water_hammer}) or in the negative direction (depression wave, right-hand side of Fig.\,\ref{fig:water_hammer}). It must be stressed that both transient and quasi-steady cases are dangerous, see the pressure amplitude calculations of typical examples in Sec.\,\ref{sec:pressure_amplitude_fast_closure} and Sec.\,\ref{sec:pressure_amplitude_slow_closure}. Moreover, both the compression and depression waves can also be dangerous. Assume that the system pressure is $5\,\mathrm{bar}$ and the pressure amplitude is $12\,\mathrm{bar}$. If the pressure wave is a compression wave (valve closure at the end of the pipe, see Fig.\,\ref{fig:water_hammer}), the pipe system has to withstand an elevated peak pressure level of $5+12=17\,\mathrm{bar}$, which can easily result in a pipe burst. On the other hand, when the wave is a depression wave (valve closure at the beginning of the pipe), the theoretical minimum pressure would be $5-12=-7\,\mathrm{bar}$. This is not possible as the liquid/water will evaporate (cavitate), and some sections of the pipe will be filled up with vapour preventing the pressure to drop down below the absolute vacuum. Later on, when the large mass of liquid stops and starts to move back towards the valve (e.g., because the pipe has a slightly positive incline), a large mass of liquid will hit the valve and its surroundings. Also, the pipe can collapse due to the vacuum as shown in the left-hand side of Fig.\,\ref{fig:WaterHammerExamples} (especially with large diameters). Examples for serious damages are shown in Fig.\,\ref{fig:WaterHammerExamples} for depression wave (left-hand side) and compression wave (right-hand side).
+
+\begin{figure}[ht]
+\centering
+\includegraphics[height=5.5cm]{figs/Water-hammer-blown-expansion-joints.jpg}
+\includegraphics[height=5.5cm]{figs/water_hammer2.jpg}
+\caption{\label{fig:WaterHammerExamples} (Left) collapsed expansion joints due to depression wave. (Right) pipe burst due to chock wave (compression wave).}
+\end{figure}
+
+%------------------------------------------------
+\subsection{Summary and prevention of water hammer}
+
+Before the discussion of techniques to avoid water hammer phenomenon, let us summarize the findings of the previous sections via some bullet points:
+
+\begin{itemize}
+\item Closure of valves results in pressure waves $\Delta p$ due to the change of the velocity of the fluid flow. In this sense, any ``action'' causing a velocity difference can also cause pressure waves (e.g., starte and shut down of pumps). Sometimes the phenomenon is related to a complicated interaction of devices; for example, the sudden closure of a check valve (prevent backflow of the liquid) during the shut down of a pump. 
+\item The speed $a$ of the propagating pressure wave depends on the equation of state of the liquid and the material properties of the pipe.
+\item If the closure time $T_c$ is smaller than the characteristic time of the pipe $T_p$, the pressure amplitude is obtained from the Allievi principle Eq.\,\eqref{allievi_principle}; otherwise, it can be calculated from Newton's second law Eq.\,\eqref{newtons_law_of_water_hammer}.
+\item Both the compression and depression waves are dangerous for the system. However, due to the possible cavitation effect and the collapse of the pipe (especially for large diameters), the depression wave is usually more dangerous.
+\end{itemize}
+
+As water hammer is an undesirable phenomenon, many techniques have been developed to avoid its harmful consequences. Let us summarize them again via some bullet points:
+
+\begin{itemize}
+\item Keep the fluid velocity low. The smaller the possible velocity difference, the smaller the generated pressure amplitude. 
+\item Close the valve, shut down or start the pump slowly or in a controlled manner.
+\item Use air vessels that are large tanks half-filled with air. The highly compressible gas inside can significantly soften the pressure waves. That is, it acts as a ``shock absorber''. The disadvantage is the high investment costs.
+\item Air valves are often used to remediate the consequences of low pressure in a depression wave by releasing air into the pipe. Thus, the pressure inside the pipe cannot be lower than the ambient pressure of the environment. Moreover, the air also cushions the effect when the large mass of liquid starts to move backwards and tries to hit the valve or the pump, see the discussion of the previous section.
+\end{itemize}
+
+%------------------------------------------------
+\input{Problem_solving/PS_WaterHammer.tex}
+
+\clearpage

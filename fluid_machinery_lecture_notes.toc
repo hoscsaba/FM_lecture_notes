@@ -1,0 +1,105 @@
+\contentsline {chapter}{\numberline {1}Some basic relationships of fluid mechanics and thermodynamics}{5}% 
+\contentsline {section}{\numberline {1.1}Continuity equation}{5}% 
+\contentsline {section}{\numberline {1.2}Bernoulli's equation}{6}% 
+\contentsline {section}{\numberline {1.3}Energy equation for compressible flow}{6}% 
+\contentsline {section}{\numberline {1.4}Thermodynamics}{7}% 
+\contentsline {subsection}{\numberline {1.4.1}Specific heat capacities}{7}% 
+\contentsline {subsection}{\numberline {1.4.2}Some basic thermodynamic relationships}{7}% 
+\contentsline {subsection}{\numberline {1.4.3}Input shaft work and useful work}{9}% 
+\contentsline {subsection}{\numberline {1.4.4}Specific work for hydraulic machines}{10}% 
+\contentsline {subsection}{\numberline {1.4.5}Efficiency}{10}% 
+\contentsline {section}{\numberline {1.5}Problems}{11}% 
+\contentsline {chapter}{\numberline {2}Incompressible turbomachinery}{17}% 
+\contentsline {section}{\numberline {2.1}Euler's turbine equation}{17}% 
+\contentsline {section}{\numberline {2.2}Velocity triangles and performance curves}{18}% 
+\contentsline {subsection}{\numberline {2.2.1}Radial (centrifugal) machines}{19}% 
+\contentsline {subsection}{\numberline {2.2.2}Problems}{20}% 
+\contentsline {subsection}{\numberline {2.2.3}Axial machines}{21}% 
+\contentsline {subsection}{\numberline {2.2.4}Problems}{22}% 
+\contentsline {subsection}{\numberline {2.2.5}Real performance curves}{24}% 
+\contentsline {section}{\numberline {2.3}Losses and efficiencies}{25}% 
+\contentsline {subsection}{\numberline {2.3.1}Problems}{26}% 
+\contentsline {section}{\numberline {2.4}Dimensionless numbers and affinity}{28}% 
+\contentsline {subsection}{\numberline {2.4.1}Problems}{29}% 
+\contentsline {section}{\numberline {2.5}Forces on the impeller}{34}% 
+\contentsline {subsection}{\numberline {2.5.1}Axial force}{34}% 
+\contentsline {section}{\numberline {2.6}Problems}{35}% 
+\contentsline {section}{\numberline {2.7}Cavitation}{35}% 
+\contentsline {subsection}{\numberline {2.7.1}Net Positive Suction Head (NPSH)}{37}% 
+\contentsline {subsection}{\numberline {2.7.2}Problems}{37}% 
+\contentsline {chapter}{\numberline {3}Hydraulic Systems}{40}% 
+\contentsline {section}{\numberline {3.1}Frictional head loss in pipes}{40}% 
+\contentsline {section}{\numberline {3.2}Head-discharge curves and operating point}{41}% 
+\contentsline {section}{\numberline {3.3}Problems}{43}% 
+\contentsline {chapter}{\numberline {4}Fans}{48}% 
+\contentsline {section}{\numberline {4.1}Problems}{48}% 
+\contentsline {chapter}{\numberline {5}Control}{52}% 
+\contentsline {section}{\numberline {5.1}Adjusting a desired operating point}{52}% 
+\contentsline {subsection}{\numberline {5.1.1}Terminology}{52}% 
+\contentsline {subsection}{\numberline {5.1.2}Valve in series}{53}% 
+\contentsline {subsection}{\numberline {5.1.3}Bypass valve (parallel)}{53}% 
+\contentsline {section}{\numberline {5.2}Pump revolution number control}{53}% 
+\contentsline {subsection}{\numberline {5.2.1}Problems}{54}% 
+\contentsline {section}{\numberline {5.3}Pumps and pipes connected in series or parallel}{57}% 
+\contentsline {subsection}{\numberline {5.3.1}Theory of serial connection}{58}% 
+\contentsline {subsection}{\numberline {5.3.2}Theory of parallel connection}{60}% 
+\contentsline {subsection}{\numberline {5.3.3}Operation point of complex connections}{60}% 
+\contentsline {subsection}{\numberline {5.3.4}Problems}{60}% 
+\contentsline {section}{\numberline {5.4}Water hammer, hydraulic transients}{62}% 
+\contentsline {subsection}{\numberline {5.4.1}Introduction to the transient phenomenon in pipes}{62}% 
+\contentsline {subsection}{\numberline {5.4.2}The sound speed in liquids and in pipes}{64}% 
+\contentsline {subsection}{\numberline {5.4.3}Allievi principle: the pressure amplitde for fast closure}{65}% 
+\contentsline {subsection}{\numberline {5.4.4}Pressure amplitude for slow closure}{66}% 
+\contentsline {subsection}{\numberline {5.4.5}Dangerous consequences of the pressure waves}{67}% 
+\contentsline {subsection}{\numberline {5.4.6}Summary and prevention of water hammer}{68}% 
+\contentsline {subsection}{\numberline {5.4.7}Problems}{68}% 
+\contentsline {chapter}{\numberline {6}Positive displacement pumps}{70}% 
+\contentsline {section}{\numberline {6.1}Introduction}{70}% 
+\contentsline {subsection}{\numberline {6.1.1}Pumps - general introduction}{70}% 
+\contentsline {subsubsection}{Turbopumps}{71}% 
+\contentsline {subsubsection}{Positive displacement pumps}{73}% 
+\contentsline {subsection}{\numberline {6.1.2}Basic characteristics of positive displacement machines}{76}% 
+\contentsline {section}{\numberline {6.2}Reciprocating Pumps}{78}% 
+\contentsline {subsection}{\numberline {6.2.1}Single-acting piston pumps}{78}% 
+\contentsline {subsection}{\numberline {6.2.2}Multiple piston pumps}{80}% 
+\contentsline {subsection}{\numberline {6.2.3}Axial piston pumps}{82}% 
+\contentsline {subsection}{\numberline {6.2.4}Radial piston pumps}{82}% 
+\contentsline {subsection}{\numberline {6.2.5}Diaphragm pumps}{83}% 
+\contentsline {section}{\numberline {6.3}Rotary pumps}{85}% 
+\contentsline {subsection}{\numberline {6.3.1}Gear pumps}{85}% 
+\contentsline {subsubsection}{External gear pumps}{85}% 
+\contentsline {subsubsection}{Internal gear pumps}{86}% 
+\contentsline {subsection}{\numberline {6.3.2}Screw pump}{86}% 
+\contentsline {subsection}{\numberline {6.3.3}Vane pump}{87}% 
+\contentsline {subsection}{\numberline {6.3.4}Progressing cavity pump (eccentric screw pump)}{88}% 
+\contentsline {subsection}{\numberline {6.3.5}Peristaltic pump}{88}% 
+\contentsline {subsection}{\numberline {6.3.6}Pulsation dampener}{90}% 
+\contentsline {section}{\numberline {6.4}Pressure relief valves (PRVs)}{93}% 
+\contentsline {subsection}{\numberline {6.4.1}Direct spring loaded hydraulic PRVs}{93}% 
+\contentsline {subsection}{\numberline {6.4.2}Hydraulic aggregate}{97}% 
+\contentsline {subsection}{\numberline {6.4.3}Pilot operated hydraulic PRVs}{99}% 
+\contentsline {section}{\numberline {6.5}Sizing examples of simple hydraulic systems}{101}% 
+\contentsline {subsection}{\numberline {6.5.1}A hydraulic system with hydraulic motor}{102}% 
+\contentsline {subsection}{\numberline {6.5.2}A hydraulic system with cylinder}{104}% 
+\contentsline {subsection}{\numberline {6.5.3}Control techniques of hydraulic systems}{106}% 
+\contentsline {subsubsection}{Throttle valve in parallel connection}{106}% 
+\contentsline {subsubsection}{Throttle valve in series connection}{108}% 
+\contentsline {section}{\numberline {6.6}Problems}{110}% 
+\contentsline {chapter}{\numberline {7}Hydro- and wind power}{112}% 
+\contentsline {section}{\numberline {7.1}Wind turbines}{112}% 
+\contentsline {subsection}{\numberline {7.1.1}Classification of wind turbines}{113}% 
+\contentsline {subsection}{\numberline {7.1.2}Power and efficiency of horizontal axis wind turbines (HAWTs)}{113}% 
+\contentsline {subsection}{\numberline {7.1.3}Design aspects and further remarks}{116}% 
+\contentsline {section}{\numberline {7.2}Hydropower plants}{118}% 
+\contentsline {subsection}{\numberline {7.2.1}Introduction to hydropower plants}{119}% 
+\contentsline {subsection}{\numberline {7.2.2}Turbine types and their range of application}{122}% 
+\contentsline {subsection}{\numberline {7.2.3}Characteristic curves of water turbines}{125}% 
+\contentsline {subsection}{\numberline {7.2.4}Final remarks}{128}% 
+\contentsline {section}{\numberline {7.3}Problems}{129}% 
+\contentsline {chapter}{\numberline {8}Compressors}{131}% 
+\contentsline {section}{\numberline {8.1}Piston compressors}{131}% 
+\contentsline {subsection}{\numberline {8.1.1}Introduction}{131}% 
+\contentsline {subsection}{\numberline {8.1.2}Flow rate}{131}% 
+\contentsline {subsection}{\numberline {8.1.3}Control of flow rate}{133}% 
+\contentsline {subsection}{\numberline {8.1.4}Multistage compressors}{133}% 
+\contentsline {subsection}{\numberline {8.1.5}Problems}{134}% 

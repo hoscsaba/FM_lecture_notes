@@ -1,0 +1,76 @@
+%\documentclass[10pt,a4paper]{report}
+\documentclass[10pt,a4paper]{report}
+
+\usepackage{amsmath}
+\usepackage{floatflt}
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage{subfig}
+%\usepackage{wasysym}
+%\usepackage{multicol}
+%\usepackage[latin2]{inputenc}   
+%\usepackage[T1]{fontenc}  
+\usepackage[finalnew]{trackchanges} %finalnew, finalold, footnotes, margins, inlines
+\usepackage{fancybox}
+%\usepackage{subfigure}
+\usepackage{wrapfig}
+     
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{-0.1in}
+\setlength{\evensidemargin}{0.in}
+\setlength{\textwidth}{6.5in}
+\setlength{\headsep}{1.2cm}
+\setlength{\parskip}{0.2cm}
+\setlength{\parindent}{0.cm}
+
+\newcommand{\uvec}[1]{\ensuremath{\underline{#1}}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+
+% Szurke keretezett kidolgozott feladat
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+\pagestyle{myheadings}    % Go for customised headings
+\markboth{}{Fluid Machinery}
+\newcounter{prob}
+\setcounter{prob}{1}
+
+\title{Fluid Machinery\\  Lecture notes }
+\author{Csaba H\H{o}s\\ {\tt hos.csaba@gpk.bme.hu}\\
+%
+\vspace{1cm}\\
+%
+Budapest University of Technology and Economics\\
+Dept. of Hydrodynamic Systems\\
+%
+\vspace{1cm}\\
+%
+with major contributaions by\\
+Ferenc Heged\H{u}s, Csaba Bazs\'o, Rox\'ana Varga, Rich\'ard W\'eber}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{chap1_thermodynamics}
+
+\input{chap2_turbomachines}
+
+\input{chap3_hydraulic_systems}
+
+\input{chap4_fans}
+
+\input{Control/Control}
+
+\input{PositiveDisplacementPumps/PositiveDisplacementPumps}
+
+\input{HydroAndWindPower/HydroAndWindPower}
+
+\input{chap8_compressors}
+
+\bibliographystyle{plain}
+\bibliography{fm_bib}
+
+\end{document}

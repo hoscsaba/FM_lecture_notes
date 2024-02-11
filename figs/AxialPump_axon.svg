@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="AxialPump_axon.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_axon.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3922">
+      <stop
+         id="stop3924"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49803922;"
+         offset="0.5"
+         id="stop3928" />
+      <stop
+         id="stop3926"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3281">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop3283" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0;"
+         offset="1"
+         id="stop3285" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3265">
+      <stop
+         style="stop-color:#808080;stop-opacity:1;"
+         offset="0"
+         id="stop3267" />
+      <stop
+         style="stop-color:#808080;stop-opacity:0;"
+         offset="1"
+         id="stop3269" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3241">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop3243" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:0;"
+         offset="1"
+         id="stop3245" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3233">
+      <stop
+         style="stop-color:#808080;stop-opacity:1;"
+         offset="0"
+         id="stop3235" />
+      <stop
+         style="stop-color:#808080;stop-opacity:0;"
+         offset="1"
+         id="stop3237" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3225">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop3227" />
+      <stop
+         style="stop-color:#666666;stop-opacity:0;"
+         offset="1"
+         id="stop3229" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3217">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop3219" />
+      <stop
+         style="stop-color:#666666;stop-opacity:0;"
+         offset="1"
+         id="stop3221" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="6.1230318e-14 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2390"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3217"
+       id="linearGradient3223"
+       x1="811.89789"
+       y1="896.46344"
+       x2="1151.3159"
+       y2="896.46344"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3225"
+       id="linearGradient3231"
+       x1="597.66431"
+       y1="406.26562"
+       x2="597.66431"
+       y2="633.30273"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="linearGradient3239"
+       x1="977.37811"
+       y1="212.43103"
+       x2="998.8219"
+       y2="215.28816"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3241"
+       id="linearGradient3247"
+       x1="1237.6895"
+       y1="470.86118"
+       x2="1179.4365"
+       y2="874.68292"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3265"
+       id="radialGradient3271"
+       cx="1006.5574"
+       cy="564.37195"
+       fx="1006.5574"
+       fy="564.37195"
+       r="200.36526"
+       gradientTransform="matrix(-4.2833461,3.0604134,-0.8768381,-1.2272201,5856.8005,-1845.2181)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3281"
+       id="radialGradient3287"
+       cx="819.73883"
+       cy="617.58948"
+       fx="819.73883"
+       fy="617.58948"
+       r="143.81828"
+       gradientTransform="matrix(2.6707263,2.4844095,-1.4457951,1.5542218,-493.3589,-2365.0695)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497474"
+     inkscape:cx="1507.9476"
+     inkscape:cy="237.52909"
+     inkscape:document-units="cm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     units="cm"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="1. réteg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       y="812.8866"
+       x="894.77301"
+       height="61.428574"
+       width="111.42857"
+       id="rect3569"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3545"
+       width="75.256363"
+       height="54.800777"
+       x="831.06226"
+       y="666.25244"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <g
+       id="g3301"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725">
+      <path
+         id="path2415"
+         d="M 1036.7631,315.09375 C 1024.5116,315.17438 1012.183,317.39868 1000.0444,322.03125 L 978.95063,332.25 L 960.66938,447.28125 C 944.8151,449.42787 941.99133,408.52845 942.48188,349.875 L 800.48188,418.59375 C 865.59621,404.99003 941.50745,451.33186 979.16938,532 C 1013.608,605.76408 1005.5008,685.60394 963.91938,730.21875 L 1035.6381,693.5625 L 1009.1381,686.6875 C 1070.0396,612.0851 1134.7907,537.24048 1168.2319,464.46875 L 1197.6694,463.78125 C 1174.9143,383.53584 1106.8268,314.63262 1036.7631,315.09375 z"
+         style="opacity:1;fill:url(#radialGradient3271);fill-opacity:1;stroke:none;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2400"
+         d="M 800.48188,418.59375 L 780.85688,428.09375 C 622.58725,517.52429 788.62479,812.93751 936.41938,744.28125 L 963.91938,730.21875 C 1056.9547,612.71389 949.50114,390.37202 800.48188,418.59375 z"
+         style="opacity:1;fill:url(#radialGradient3287);fill-opacity:1;stroke:#b3b3b3;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccccccsc"
+         id="path2423"
+         d="M 1035.6381,693.5625 L 963.91938,730.21875 L 936.41938,744.28125 C 894.34393,763.82691 850.79815,753.84653 813.66938,727.53125 L 819.23188,1071.5625 C 920.4324,1117.0056 1035.252,1097.023 1149.5444,1079.625 L 1101.4194,710.625 L 1035.6381,693.5625 z M 963.91938,730.21875 C 964.80105,729.27277 965.66165,728.28976 966.51313,727.3125 C 965.65878,728.29332 964.80415,729.26944 963.91938,730.21875 z"
+         style="opacity:1;fill:url(#linearGradient3223);fill-opacity:1;stroke:#666666;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path2425"
+         d="M 449.51313,321 C 431.64918,415.85486 494.60551,511.26368 543.45063,571.53125 L 716.91938,552.53125 C 714.90314,515.60993 724.21528,480.27955 748.91938,453.25 L 449.51313,321 z"
+         style="opacity:1;fill:url(#linearGradient3231);fill-opacity:1;stroke:#666666;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path2427"
+         d="M 960.65507,447.28081 L 1026.315,34.128417 C 967.34535,-15.362854 911.20196,-43.657299 857.61951,-52.744702 C 900.25186,89.109203 946.00023,189.20757 943.84154,280.56384 C 941.64551,373.50032 939.07111,450.20321 960.65507,447.28081 z"
+         style="opacity:1;fill:url(#linearGradient3239);fill-opacity:1;stroke:#666666;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccccccccss"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#666666;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 963.91938,730.21875 L 1035.6381,693.5625 L 1009.1381,686.6875 C 1070.0396,612.0851 1134.7907,537.24048 1168.2319,464.46875 L 1197.6694,463.78125 C 1174.9143,383.53584 1106.8268,314.63262 1036.7631,315.09375 C 1024.5116,315.17438 1012.183,317.39868 1000.0444,322.03125 L 978.95063,332.25 L 960.66938,447.28125 C 944.8151,449.42787 941.99133,408.52845 942.48188,349.875 L 800.48188,418.59375 M 831.48335,416.50155 C 888.29833,420.2461 947.36888,463.88648 979.16938,532 C 1008.6141,595.06771 1006.9574,662.57688 979.86901,708.71412"
+         id="path3289" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#666666;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 800.48188,418.59375 L 780.85688,428.09375 C 622.58725,517.52429 788.62479,812.93751 936.41938,744.28125 L 963.91938,730.21875"
+         id="path3296"
+         sodipodi:nodetypes="cccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2421"
+         d="M 1168.2414,464.4534 L 1466.5025,455.18871 C 1447.8195,563.10668 1427.8881,675.23856 1380.3735,782.14638 L 1009.1424,686.68696 C 1070.0438,612.08455 1134.8003,537.22513 1168.2414,464.4534 z"
+         style="opacity:1;fill:url(#linearGradient3247);fill-opacity:1;stroke:#4d4d4d;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1008.4824,687.42473 L 868.93337,754.16579"
+       id="path3298"
+       inkscape:transform-center-x="70.962575"
+       inkscape:transform-center-y="34.541001"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#0000ff;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1008.6239,687.31705 L 1000.6663,780.39921"
+       id="path3311"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       inkscape:transform-center-y="-34.540972"
+       inkscape:transform-center-x="-70.962575"
+       id="path3317"
+       d="M 861.15318,847.13428 L 1000.7023,780.39322"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:14.1720001, 14.1720001;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       id="path3319"
+       d="M 861.01172,847.24196 L 868.96934,754.15981"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3.54330707;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:10.62992138, 10.62992138;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1008.6752,687.23887 L 861.02261,847.21752"
+       id="path3321"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       inkscape:transform-center-y="33.584647"
+       inkscape:transform-center-x="69.079991"
+       id="path3332"
+       d="M 1379.9645,782.43479 L 1244.1174,847.32799"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3.54330707;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:10.6299214, 10.6299214;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1208.6325,1143.1597 L 1244.1379,847.46859"
+       id="path3338"
+       inkscape:transform-center-x="35.679874"
+       inkscape:transform-center-y="295.02518"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3340"
+       d="M 1380.1521,782.25407 L 1208.6961,1143.1226"
+       style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:14.17200011, 14.17200011;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1208.6325,1143.1597 L 1344.4796,1078.2665"
+       id="path3347"
+       inkscape:transform-center-x="-69.080095"
+       inkscape:transform-center-y="-33.584637"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:transform-center-y="-295.02517"
+       inkscape:transform-center-x="-35.679977"
+       id="path3349"
+       d="M 1379.9645,782.43479 L 1344.4591,1078.1259"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3.54299998;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:3.32393694;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3215"
+       sodipodi:sides="3"
+       sodipodi:cx="238.396"
+       sodipodi:cy="432.12851"
+       sodipodi:r1="185.96686"
+       sodipodi:r2="92.983429"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       transform="matrix(-2.6817065e-2,-5.6397538e-2,0.1642961,-7.8219141e-2,857.13156,776.0953)"
+       inkscape:transform-center-x="22.35012"
+       inkscape:transform-center-y="14.347341"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       inkscape:transform-center-y="-22.773964"
+       inkscape:transform-center-x="-3.4317018"
+       transform="matrix(6.2275587e-2,4.7449271e-3,-1.3719404e-2,0.1814258,995.67836,651.65624)"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="2.6179939"
+       sodipodi:arg1="1.5707963"
+       sodipodi:r2="92.983429"
+       sodipodi:r1="185.96686"
+       sodipodi:cy="432.12851"
+       sodipodi:cx="238.396"
+       sodipodi:sides="3"
+       id="path3217"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:3.32393694;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:3.32393694;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3219"
+       sodipodi:sides="3"
+       sodipodi:cx="238.396"
+       sodipodi:cy="432.12851"
+       sodipodi:r1="185.96686"
+       sodipodi:r2="92.983429"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       transform="matrix(-4.6069151e-2,-4.2164937e-2,0.1227892,-0.1342787,883.67057,845.1864)"
+       inkscape:transform-center-x="18.726762"
+       inkscape:transform-center-y="20.076302"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       inkscape:transform-center-y="13.9501"
+       inkscape:transform-center-x="21.757247"
+       transform="matrix(-2.6105655e-2,-5.4836056e-2,0.1599376,-7.6053483e-2,1268.7419,851.22444)"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="2.6179939"
+       sodipodi:arg1="1.5707963"
+       sodipodi:r2="92.983429"
+       sodipodi:r1="185.96686"
+       sodipodi:cy="432.12851"
+       sodipodi:cx="238.396"
+       sodipodi:sides="3"
+       id="path3221"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:3.41655231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:3.41655231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3223"
+       sodipodi:sides="3"
+       sodipodi:cx="238.396"
+       sodipodi:cy="432.12851"
+       sodipodi:r1="185.96686"
+       sodipodi:r2="92.983429"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       transform="matrix(6.0350963e-2,7.3600019e-3,-2.1368602e-2,0.1756144,1360.3798,820.55966)"
+       inkscape:transform-center-x="-5.4475312"
+       inkscape:transform-center-y="-22.274995"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       inkscape:transform-center-y="21.884878"
+       inkscape:transform-center-x="13.638737"
+       transform="matrix(-5.4908822e-2,-2.607209e-2,7.5969985e-2,-0.1598118,1324.0776,932.41082)"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="2.6179939"
+       sodipodi:arg1="1.5707963"
+       sodipodi:r2="92.983429"
+       sodipodi:r1="185.96686"
+       sodipodi:cy="432.12851"
+       sodipodi:cx="238.396"
+       sodipodi:sides="3"
+       id="path3225"
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:3.41655231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <g
+       transform="translate(-325.99428,798.41703)"
+       id="g3283"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3285"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.35433072;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"><flowRegion
+           id="flowRegion3287"><rect
+             id="rect3289"
+             width="562.85718"
+             height="314.28571"
+             x="1705.7144"
+             y="46.647884"
+             style="font-size:40px;stroke:none" /></flowRegion><flowPara
+           id="flowPara3291"
+           style="font-size:60px"><flowSpan
+             id="flowSpan3293"
+             style="font-size:80px">u</flowSpan><flowSpan
+             style="font-size:40px"
+             id="flowSpan3295">1&quot;</flowSpan></flowPara></flowRoot>      <path
+         style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 1708.049,108.07645 L 1746.5937,108.07645"
+         id="path3297" />
+    </g>
+    <rect
+       y="744.50507"
+       x="1014.1429"
+       height="60.714287"
+       width="76.796234"
+       id="rect3950"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.12598419;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0.80000008"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.12598419;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0.80000008"
+       id="rect3884"
+       width="75.786079"
+       height="60.714287"
+       x="829.28571"
+       y="660.93359"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.54330707000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 999.28572,785.93361 L 985.71429,958.07647"
+       id="path2658"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <g
+       id="g2616"
+       transform="translate(156.57364,119.198)"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <rect
+         inkscape:export-ydpi="100.02725"
+         inkscape:export-xdpi="100.02725"
+         inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_axon.png"
+         y="840.2301"
+         x="1084.3988"
+         height="56.063469"
+         width="102.53049"
+         id="rect3603"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="100.02725"
+         inkscape:export-xdpi="100.02725"
+         inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_axon.png"
+         style="fill:#008000"
+         transform="translate(-613.69491,783.07277)"
+         id="g3587">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3589"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.35433072;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"><flowRegion
+             id="flowRegion3591"><rect
+               id="rect3593"
+               width="562.85718"
+               height="314.28571"
+               x="1705.7144"
+               y="46.647884"
+               style="font-size:40px;fill:#008000;stroke:none" /></flowRegion><flowPara
+             id="flowPara3595"
+             style="font-size:60px;fill:#008000"><flowSpan
+               id="flowSpan3597"
+               style="font-size:80px;fill:#008000">w</flowSpan><flowSpan
+               style="font-size:40px;fill:#008000"
+               id="flowSpan3599">2&quot;</flowSpan></flowPara></flowRoot>        <path
+           style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 1716.049,108.07645 L 1754.5937,108.07645"
+           id="path3601" />
+      </g>
+      <rect
+         inkscape:export-ydpi="100.02725"
+         inkscape:export-xdpi="100.02725"
+         inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_axon.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect3605"
+         width="102.53049"
+         height="56.063469"
+         x="1084.3988"
+         y="840.2301" />
+      <g
+         inkscape:export-ydpi="100.02725"
+         inkscape:export-xdpi="100.02725"
+         inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_axon.png"
+         id="g3607"
+         transform="translate(-616.72537,781.05246)"
+         style="fill:#008000">
+        <flowRoot
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.35433072;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           id="flowRoot3609"
+           xml:space="preserve"><flowRegion
+             id="flowRegion3611"><rect
+               style="font-size:40px;fill:#008000;stroke:none"
+               y="46.647884"
+               x="1705.7144"
+               height="314.28571"
+               width="562.85718"
+               id="rect3613" /></flowRegion><flowPara
+             style="font-size:60px;fill:#008000"
+             id="flowPara3615"><flowSpan
+               style="font-size:80px;fill:#008000"
+               id="flowSpan3617">w</flowSpan><flowSpan
+               id="flowSpan3619"
+               style="font-size:40px;fill:#008000">1&quot;</flowSpan></flowPara></flowRoot>        <path
+           id="path3621"
+           d="M 1716.049,108.07645 L 1754.5937,108.07645"
+           style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       transform="translate(-469.69231,715.03361)"
+       id="g3645"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <g
+         id="g3647">
+        <flowRoot
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.35433072;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           id="flowRoot3649"
+           xml:space="preserve"><flowRegion
+             id="flowRegion3651"><rect
+               style="font-size:40px;fill:#ff0000;stroke:none"
+               y="46.647884"
+               x="1705.7144"
+               height="314.28571"
+               width="562.85718"
+               id="rect3653" /></flowRegion><flowPara
+             style="font-size:60px;fill:#ff0000"
+             id="flowPara3655"><flowSpan
+               style="font-size:80px;fill:#ff0000"
+               id="flowSpan3657">c</flowSpan><flowSpan
+               id="flowSpan3659"
+               style="font-size:40px;fill:#ff0000">1&quot;</flowSpan></flowPara></flowRoot>        <path
+           id="path3661"
+           d="M 1704.049,108.07645 L 1742.5937,108.07645"
+           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:3.54299997999999980;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 781.37246,641.20908 L 524.90255,763.43753"
+       id="path3689"
+       inkscape:transform-center-x="130.41829"
+       inkscape:transform-center-y="63.257772"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:#ff00ff;stroke-width:2.54465222000000010;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3691"
+       sodipodi:sides="3"
+       sodipodi:cx="238.396"
+       sodipodi:cy="432.12851"
+       sodipodi:r1="185.96686"
+       sodipodi:r2="92.983429"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 238.396,618.09537 L 77.34397,339.14508 L 399.44802,339.14508 L 238.396,618.09537 z"
+       transform="matrix(-3.4992189e-2,-7.3747791e-2,0.2143814,-0.1022826,669.08739,715.18892)"
+       inkscape:transform-center-x="29.163508"
+       inkscape:transform-center-y="18.761202"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3693"
+       style="font-size:80px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       transform="translate(236.3757,36.365492)"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725"><flowRegion
+         id="flowRegion3695"><rect
+           id="rect3697"
+           width="328.57144"
+           height="228.57143"
+           x="348.57144"
+           y="606.64789"
+           style="font-size:80px;stroke:none" /></flowRegion><flowPara
+         id="flowPara3699">ω</flowPara></flowRoot>    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:3.54330707000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 589.42402,700.57655 L 632.86058,700.57655"
+       id="path3701"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 856.42857,851.6479 L 827.14286,885.21933"
+       id="path2660"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 845.71429,863.79075 C 879.30915,931.16609 927.60205,952.34757 987.85714,935.93361"
+       id="path2662"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <flowRoot
+       inkscape:export-ydpi="100.02725"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       transform="translate(904.94713,517.79406)"
+       style="font-size:80px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       id="flowRoot2664"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2666"><rect
+           style="font-size:80px;fill:#000000;stroke:none"
+           y="606.64789"
+           x="348.57144"
+           height="228.57143"
+           width="328.57144"
+           id="rect2668" /></flowRegion><flowPara
+         id="flowPara2670">β<flowSpan
+   style="font-size:40px"
+   id="flowSpan2672">1&quot;</flowSpan></flowPara></flowRoot>    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1344.2857,1085.2193 L 1331.4286,1195.2193"
+       id="path2674"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1204.2857,1149.505 L 1194.2857,1169.505"
+       id="path2676"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.54330707000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1198.5714,1159.505 C 1231.0969,1200.1301 1273.7019,1212.3291 1331.4286,1183.7908"
+       id="path2678"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2680"
+       style="font-size:80px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       transform="translate(520.66142,334.93692)"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-ydpi="100.02725"><flowRegion
+         id="flowRegion2682"><rect
+           id="rect2684"
+           width="328.57144"
+           height="228.57143"
+           x="348.57144"
+           y="606.64789"
+           style="font-size:80px;fill:#000000;stroke:none" /></flowRegion><flowPara
+         id="flowPara2686">β<flowSpan
+   id="flowSpan2688"
+   style="font-size:40px">1'</flowSpan></flowPara></flowRoot>    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       id="g3954"
+       transform="translate(-868.70257,603.91683)">
+      <g
+         id="g3956">
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3958"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"><flowRegion
+             id="flowRegion3960"><rect
+               id="rect3962"
+               width="562.85718"
+               height="314.28571"
+               x="1705.7144"
+               y="46.647884"
+               style="font-size:40px;fill:#ff0000;stroke:none" /></flowRegion><flowPara
+             id="flowPara3964"
+             style="font-size:60px;fill:#ff0000"><flowSpan
+               id="flowSpan3966"
+               style="font-size:80px;fill:#ff0000">c</flowSpan><flowSpan
+               style="font-size:40px;fill:#ff0000"
+               id="flowSpan3968">1'</flowSpan></flowPara></flowRoot>        <path
+           style="fill:none;stroke:#ff0000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           d="m 1704.049,108.07645 38.5447,0"
+           id="path3970"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="100.02725"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       id="g3972"
+       transform="translate(-685.60859,689.32055)">
+      <flowRoot
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         id="flowRoot3974"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3976"><rect
+             style="font-size:40px;stroke:none"
+             y="46.647884"
+             x="1705.7144"
+             height="314.28571"
+             width="562.85718"
+             id="rect3978" /></flowRegion><flowPara
+           style="font-size:60px"
+           id="flowPara3980"><flowSpan
+             style="font-size:80px"
+             id="flowSpan3982">u</flowSpan><flowSpan
+             id="flowSpan3984"
+             style="font-size:40px">1'</flowSpan></flowPara></flowRoot>      <path
+         id="path3986"
+         d="m 1708.049,108.07645 38.5447,0"
+         style="fill:none;stroke:#0000ff;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       inkscape:export-ydpi="100.02725"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4008"
+       width="91.418808"
+       height="60.10408"
+       x="890.44952"
+       y="815.98645" />
+    <g
+       inkscape:export-ydpi="100.02725"
+       inkscape:export-xdpi="100.02725"
+       inkscape:export-filename="D:\lecture_notes_2013_03_30\figs\AxialPump_axon.png"
+       id="g4010"
+       transform="translate(-810.67467,760.84941)"
+       style="fill:#008000">
+      <flowRoot
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         id="flowRoot4012"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4014"><rect
+             style="font-size:40px;fill:#008000;stroke:none"
+             y="46.647884"
+             x="1705.7144"
+             height="314.28571"
+             width="562.85718"
+             id="rect4016" /></flowRegion><flowPara
+           style="font-size:60px;fill:#008000"
+           id="flowPara4018"><flowSpan
+             style="font-size:80px;fill:#008000"
+             id="flowSpan4020">w</flowSpan><flowSpan
+             id="flowSpan4022"
+             style="font-size:40px;fill:#008000">1'</flowSpan></flowPara></flowRoot>      <path
+         inkscape:connector-curvature="0"
+         id="path4024"
+         d="m 1716.049,108.07645 38.5447,0"
+         style="fill:none;stroke:#008000;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Plusz"
+     style="display:inline" />
+</svg>

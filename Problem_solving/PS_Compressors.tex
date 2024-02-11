@@ -1,0 +1,94 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 13.1
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+We compress air ($R=287~\frac{\mathrm{J}}{\mathrm{kg\cdot K}}$) with temperature $t=20^\circ \mathrm{C}$ from $p_s=1~\mathrm{bar}$ to $p_n = 5~\mathrm{bar}$ using a piston compressor. The heat transfer between the air and the wall is not negligible (the compression is not adiabatic), and because of this the compression can be characterized with a polytropic coefficient $n=1.3$. The stroke volume is $V_{st} = 50~\mathrm{cm^3}$, the volumetric efficiency is $\eta_v = 98\%$, and the speed of the compressor is $n=740~\frac{1}{\mathrm{min}}$. The clearance volume is $6\%$ is the stroke volume. Find the
+\begin{itemize}
+\item suction side volumetric flow rate,
+\item power of the compression, 
+\item and the pressure side volumetric flow rate!
+\end{itemize}
+
+Solution:
+
+The swept volume $V_s$ is 
+\begin{equation}
+V_s = V_{st} \Bigg[1-\frac{V_0}{V_{st}} \Bigg( \Big(\frac{p_p}{p_s}\Big)^{1/n} - 1 \Bigg) \Bigg] = 50\cdot \Bigg[1-0.06\cdot \Bigg( \Big(\frac{5}{1}\Big)^{1/1.3} - 1 \Bigg) \Bigg] = 42.65~\mathrm{cm^3}.
+\end{equation}
+
+From this, the volumetric flow rate at the suction side is
+\begin{equation}
+Q_s = \eta_v n V_s = 0.98\cdot 740 \cdot 0.04265 = 30.93~\frac{\mathrm{dm^3}}{\mathrm{min}} = 5.155\cdot 10^{-4}~\frac{\mathrm{m^3}}{\mathrm{s}}.
+\end{equation}
+
+The power is the following:
+\begin{multline}
+P_u = \dot{m} \oint \frac{\mathrm{d}p}{\rho(p)} = \dot{m} \frac{p_s^{1/n_{2-3}}}{\rho_s} \oint \frac{dp}{p_s^{1/n_{2-3}}} = \frac{\dot{m}}{\rho_s} p_s \frac{n}{n-1} \Bigg[ \Big(\frac{p_p}{p_s}^{\frac{n-1}{n}} -1 \Bigg] = \\
+Q_s p_s \frac{n}{n-1} \Bigg[ \Big(\frac{p_p}{p_s}^{\frac{n-1}{n}} -1 \Bigg] = Q_s \cdot 10^5 \cdot \frac{1.3}{0.3} \Big[ 5^{\frac{0.3}{1.3}}-1\Big] = 194903\cdot Q_s
+\end{multline}
+
+During the compression the density of the gas increases, therefore the pressure side volumetric flow rate is lower than it is at the suction side:
+
+\begin{equation}
+Q_p = Q_s \frac{\rho_s}{\rho_p} = Q_s \Big(\frac{p_s}{p_p}\Big)^{1/n} = 30.93\cdot \Big( \frac{1}{5} \Big)^{1/1.3} = 8.968~\frac{\mathrm{dm^3}}{\mathrm{min}}
+\end{equation}
+
+
+The volumetric flow rate is $\dot{m} = Q_s \rho_s = 0.037~\frac{\mathrm{kg}}{\mathrm{min}}$. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 13.2
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}
+\setcounter{prob}{\value{prob}-1}
+
+Using the data of problem {\bf \thesection.\theprob}, how does the suction side volumetric flow rate and the mass flow rate change, if we increase the clearance volume to be 40\% of the previous stroke volume!
+
+\stepcounter{prob}\stepcounter{prob}
+
+Approximating air as an ideal gas, we get
+
+\begin{equation}
+\rho_s = \frac{p_s}{RT_s} = \frac{100000}{287\cdot 293} = 1.189~\frac{\mathrm{kg}}{\mathrm{m^3}} = 0.001189~\frac{\mathrm{kg}}{\mathrm{dm^3}}
+\end{equation}
+
+The new clearance volume is $V_0' = 0.4\cdot V_{st}$, and substituting this to the formula of the swept volume yields
+
+\begin{equation}
+V_s' = V_{st} \Bigg[1-\frac{V_0'}{V_{st}} \Bigg( \Big(\frac{p_p}{p_s}\Big)^{1/n} - 1 \Bigg) \Bigg] = 50\cdot \Bigg[1-0.4\cdot \Bigg( \Big(\frac{5}{1}\Big)^{1/1.3} - 1 \Bigg) \Bigg] = 1.024~\mathrm{cm^3}.
+\end{equation}
+
+The new volumetric flow rate is
+
+\begin{equation}
+Q_s' = \eta_v n V_s' = 0.98\cdot 740 \cdot 0.001024 = 0.742~\frac{\mathrm{dm^3}}{\mathrm{min}},
+\end{equation}
+
+and using the suction side density, we can find the mass flow rate
+
+\begin{equation}
+\dot{m}' = \rho_s Q_s' = 0.001189\cdot 0.742 = 8.8\cdot 10^{-4}~\frac{\mathrm{kg}}{\mathrm{min}}.
+\end{equation}
+
+This is only 2.3\% of the original volumetric flow rate ($\dot{m} = 0.037~\frac{\mathrm{kg}}{\mathrm{min}}$), so the compressor is basically useless. It is important to note that changing the clearance volume is a widely used control technique.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 13.3
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}
+\setcounter{prob}{\value{prob}-2}
+
+Using the data of problem {\bf \thesection.\theprob}, find the power of the compression, if the compression is carried out in two steps, during which at the intermediate pressure $p=2.236~\mathrm{bar}$. Between the two compression steps, the air is cooled down such that the ration of the first and second piston volumes is $\frac{V_{piston,1}}{V_{piston,2}} = \frac{1}{2.236}$. For simplicity, assume that the clearance volume is in both cases $V_0 = 0$.!
+
+(Solution: $P_u = 106.88~\mathrm{W}$)
+
+\stepcounter{prob}\stepcounter{prob}\stepcounter{prob}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 13.4
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+Find the number of stages in a piston compressor, which compressed nitrogen from $t_s = 20^\circ\mathrm{C}$ and pressure $p_s = 1~\mathrm{bar}$ to $p_n = 100~\mathrm{bar}$ absolute pressure! The criterion of the compression is that the temperature of the gas cannot exceed $t_{limit} = 140^\circ \mathrm{C}$! Because nitrogen gas molecules consist of two atoms, it is very similar to air, therefore the specific heat ratio can be assumed to be $\kappa = 1.4$. The compression can be characterized by a polytropic coefficient $n=1.33$.
+
+(Solution: 4)

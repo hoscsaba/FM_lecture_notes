@@ -1,0 +1,5128 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.23)  24 FEB 2021 17:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**fluid_machinery_lecture_notes.tex
+(./fluid_machinery_lecture_notes.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(c:/texlive/2020/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(c:/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip16
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks16
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (./floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count266
+\figbox=\box49
+\tabbox=\box50
+\pagebox=\box51
+\ffigcount=\count267
+\ftabcount=\count268
+\fftest=\count269
+\hangcount=\count270
+\nosuccesstryfig=\count271
+\nosuccesstrytab=\count272
+\figgutter=\dimen148
+\tabgutter=\dimen149
+\htdone=\dimen150
+\pageht=\dimen151
+\startpageht=\dimen152
+\tabbredd=\dimen153
+\floatfltwidth=\dimen154
+\fltitemwidth=\dimen155
+\outputpretest=\toks20
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+(c:/texlive/2020/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
+Package caption Info: floatflt package is loaded.
+)
+\c@KVtest=\count275
+\sf@farskip=\skip52
+\sf@captopadj=\dimen165
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count276
+\c@subfigure@save=\count277
+\c@lofdepth=\count278
+\c@subtable=\count279
+\c@subtable@save=\count280
+\c@lotdepth=\count281
+\sf@top=\skip55
+\sf@bottom=\skip56
+)
+(./trackchanges.sty
+Package: trackchanges 2009/04/22 v0.7.0 TrackChanges file 
+ (c:/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen166
+\calc@Bdimen=\dimen167
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count284
+\calc@Cskip=\skip59
+)
+(c:/texlive/2020/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks22
+\SOUL@lasttoken=\toks23
+\SOUL@cmds=\toks24
+\SOUL@buffer=\toks25
+\SOUL@token=\toks26
+\SOUL@spaceskip=\skip60
+\SOUL@ttwidth=\dimen168
+\SOUL@uldp=\dimen169
+\SOUL@ulht=\dimen170
+)
+(c:/texlive/2020/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+
+(c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+\c@userid=\count285
+\c@changenumber=\count286
+\c@storefootnote=\count287
+\c@numeditors=\count288
+\c@maxeditors=\count289
+)
+(c:/texlive/2020/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box52
+\shadowsize=\dimen171
+\@Sbox=\box53
+\do@VerbBox=\toks27
+\the@fancyput=\toks28
+\this@fancyput=\toks29
+\EndVerbatimTokens=\toks30
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+) (c:/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen172
+\WF@size=\dimen173
+\c@WF@wrappedlines=\count290
+\WF@box=\box54
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen174
+\pgfutil@tempdimb=\dimen175
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box55
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen176
+\pgf@y=\dimen177
+\pgf@xa=\dimen178
+\pgf@ya=\dimen179
+\pgf@xb=\dimen180
+\pgf@yb=\dimen181
+\pgf@xc=\dimen182
+\pgf@yc=\dimen183
+\pgf@xd=\dimen184
+\pgf@yd=\dimen185
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count295
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count296
+\pgfsyssoftpath@bigbuffer@items=\count297
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count298
+\pgfmath@box=\box56
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count299
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count300
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen261
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen265
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count301
+\pgf@shadingcount=\count302
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box60
+))
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box61
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
+)
+(c:/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (c:/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks42
+\verbatim@line=\toks43
+\verbatim@in@stream=\read4
+)
+(c:/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count303
+)
+\tcb@titlebox=\box62
+\tcb@upperbox=\box63
+\tcb@lowerbox=\box64
+\tcb@phantombox=\box65
+\c@tcbbreakpart=\count304
+\c@tcblayer=\count305
+\c@tcolorbox@number=\count306
+\tcb@temp=\box66
+\tcb@temp=\box67
+\tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@out=\write5
+\tcb@record@out=\write6
+)
+\c@prob=\count307
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box70
+)
+(./fluid_machinery_lecture_notes.aux)
+\openout1 = `fluid_machinery_lecture_notes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+
+(c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count309
+\scratchdimen=\dimen269
+\scratchbox=\box71
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen270
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks45
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./fluid_machinery_lecture_notes.toc)
+\tf@toc=\write7
+\openout7 = `fluid_machinery_lecture_notes.toc'.
+
+ (./chap1_thermodynamics.tex [1
+
+]
+Chapter 1.
+[2
+
+] [3] [4] [5] [6] (./Problem_solving/PS_Thermodynamics.tex [7] [8] [9]
+Overfull \vbox (447.57173pt too high) has occurred while \output is active []
+
+
+[10]) [11]) (./chap2_turbomachines.tex
+Chapter 2.
+<figs/euler_turbine_equation_fig.png, id=63, 403.2666pt x 377.2494pt>
+File: figs/euler_turbine_equation_fig.png Graphic file (type png)
+<use figs/euler_turbine_equation_fig.png>
+Package pdftex.def Info: figs/euler_turbine_equation_fig.png  used on input lin
+e 14.
+(pdftex.def)             Requested size: 201.6328pt x 188.62424pt.
+[12
+
+
+ <./figs/euler_turbine_equation_fig.png>] [13]
+<figs/Centrifugal_Pump.png, id=73, 628.3475pt x 644.4075pt>
+File: figs/Centrifugal_Pump.png Graphic file (type png)
+<use figs/Centrifugal_Pump.png>
+Package pdftex.def Info: figs/Centrifugal_Pump.png  used on input line 116.
+(pdftex.def)             Requested size: 244.2746pt x 250.51161pt.
+<figs/Impeller3D_and_VelocityTriangles_v2.png, id=74, 1707.24783pt x 2133.53609
+pt>
+File: figs/Impeller3D_and_VelocityTriangles_v2.png Graphic file (type png)
+<use figs/Impeller3D_and_VelocityTriangles_v2.png>
+Package pdftex.def Info: figs/Impeller3D_and_VelocityTriangles_v2.png  used on 
+input line 133.
+(pdftex.def)             Requested size: 170.71652pt x 213.33354pt.
+<figs/Impeller2D_and_VelocityTriangles.png, id=75, 213.34103pt x 213.34103pt>
+File: figs/Impeller2D_and_VelocityTriangles.png Graphic file (type png)
+<use figs/Impeller2D_and_VelocityTriangles.png>
+Package pdftex.def Info: figs/Impeller2D_and_VelocityTriangles.png  used on inp
+ut line 135.
+(pdftex.def)             Requested size: 213.39566pt x 213.4056pt.
+ [14 <./figs/Centrifugal_Pump.png>]
+<figs/RadialPump_BladeShapes.png, id=79, 341.3553pt x 142.3719pt>
+File: figs/RadialPump_BladeShapes.png Graphic file (type png)
+<use figs/RadialPump_BladeShapes.png>
+Package pdftex.def Info: figs/RadialPump_BladeShapes.png  used on input line 16
+1.
+(pdftex.def)             Requested size: 375.80542pt x 156.74425pt.
+ (./Problem_solving/PS_RadialVelocityTriangles.tex) [15 <./figs/Impeller3D_and_
+VelocityTriangles_v2.png> <./figs/Impeller2D_and_VelocityTriangles.png>]
+<figs/axial_pump1.jpg, id=85, 351.3125pt x 351.3125pt>
+File: figs/axial_pump1.jpg Graphic file (type jpg)
+<use figs/axial_pump1.jpg>
+Package pdftex.def Info: figs/axial_pump1.jpg  used on input line 174.
+(pdftex.def)             Requested size: 140.92792pt x 140.9299pt.
+<figs/axialfanplate.jpg, id=86, 234.8775pt x 215.80624pt>
+File: figs/axialfanplate.jpg Graphic file (type jpg)
+<use figs/axialfanplate.jpg>
+Package pdftex.def Info: figs/axialfanplate.jpg  used on input line 176.
+(pdftex.def)             Requested size: 140.92792pt x 129.48474pt.
+<figs/AxialPump_axon.png, id=87, 822.4326pt x 1008.8892pt>
+File: figs/AxialPump_axon.png Graphic file (type png)
+<use figs/AxialPump_axon.png>
+Package pdftex.def Info: figs/AxialPump_axon.png  used on input line 191.
+(pdftex.def)             Requested size: 140.92792pt x 172.879pt.
+<figs/AxialPump_side.png, id=88, 902.6523pt x 1183.7826pt>
+File: figs/AxialPump_side.png Graphic file (type png)
+<use figs/AxialPump_side.png>
+Package pdftex.def Info: figs/AxialPump_side.png  used on input line 193.
+(pdftex.def)             Requested size: 140.92792pt x 184.82106pt.
+
+(./Problem_solving/PS_AxialVelocityTriangles.tex [16 <./figs/RadialPump_BladeSh
+apes.png> <./figs/axial_pump1.jpg> <./figs/axialfanplate.jpg>]
+Overfull \hbox (9.46655pt too wide) detected at line 37
+\OML/cmm/m/it/10 ^^L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 arctan[] \OT1/cmr/m/n
+/10 = \OML/cmm/m/it/10 arctan[][] \OT1/cmr/m/n/10 = 13\OML/cmm/m/it/10 :\OT1/cm
+r/m/n/10 73[]\OML/cmm/m/it/10 C^^L[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 arctan[
+] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 arctan[] \OT1/cmr/m/n/10 = 16\OML/cmm/m/it
+/10 :\OT1/cmr/m/n/10 7[]\OML/cmm/m/it/10 C:
+ []
+
+)
+
+LaTeX Warning: Reference `fig:real_perf_curve' on page 17 undefined on input li
+ne 220.
+
+
+LaTeX Warning: Reference `fig:real_perf_curve' on page 17 undefined on input li
+ne 222.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.224 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.224 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/HeadLosses.png, id=93, 398.4486pt x 227.6505pt>
+File: figs/HeadLosses.png Graphic file (type png)
+<use figs/HeadLosses.png>
+Package pdftex.def Info: figs/HeadLosses.png  used on input line 226.
+(pdftex.def)             Requested size: 398.44762pt x 227.64993pt.
+
+LaTeX Warning: Reference `fig:PumpLosses' on page 17 undefined on input line 23
+6.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.238 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.238 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/PumpLosses.png, id=94, 227.6505pt x 284.5029pt>
+File: figs/PumpLosses.png Graphic file (type png)
+<use figs/PumpLosses.png>
+Package pdftex.def Info: figs/PumpLosses.png  used on input line 240.
+(pdftex.def)             Requested size: 227.64993pt x 284.5022pt.
+(./Problem_solving/PS_TurbomachineryLosses.tex)
+
+LaTeX Warning: Reference `fig:nq' on page 17 undefined on input line 305.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.307 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.307 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/nq_eng.png, id=95, 455.301pt x 227.6505pt>
+File: figs/nq_eng.png Graphic file (type png)
+<use figs/nq_eng.png>
+Package pdftex.def Info: figs/nq_eng.png  used on input line 309.
+(pdftex.def)             Requested size: 325.72852pt x 162.8696pt.
+(./Problem_solving/PS_DimensionlessNumbers.tex
+
+LaTeX Warning: Reference `fig:PS_PerfCurves' on page 17 undefined on input line
+ 33.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \begin{figure}[!h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.35 \begin{figure}[!h]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.35 \begin{figure}[!h]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Problem_solving/figs/PS_PerfCurves.png, id=96, 284.9847pt x 284.9847pt>
+File: Problem_solving/figs/PS_PerfCurves.png Graphic file (type png)
+<use Problem_solving/figs/PS_PerfCurves.png>
+Package pdftex.def Info: Problem_solving/figs/PS_PerfCurves.png  used on input 
+line 38.
+(pdftex.def)             Requested size: 284.984pt x 284.984pt.
+
+Overfull \hbox (131.11191pt too wide) detected at line 72
+\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 72 \O
+MS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 3\OM
+L/cmm/m/it/10 :\OT1/cmr/m/n/10 485 \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 ^^^[]\
+OT1/cmr/m/n/10 ) = 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 72 \OMS/cmsy/m/n/10 ^^A \
+OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 :\OT1/
+cmr/m/n/10 485 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr
+/m/n/10 12) = 1\OML/cmm/m/it/10 incaseofcentrifugalpumpsandcentrifugalfansthisi
+sacommonvalue:
+ []
+
+
+Overfull \hbox (56.5718pt too wide) detected at line 80
+\OML/cmm/m/it/10 H[]pt \OT1/cmr/m/n/10 = \OML/cmm/m/it/10  [][] \OT1/cmr/m/n/10
+ = 1 \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 frac[][] \OT1/cmr/m/n/10 = 11\OML/cm
+m/m/it/10 :\OT1/cmr/m/n/10 74\OML/cmm/m/it/10 m[]Q[]pt \OT1/cmr/m/n/10 = \OML/c
+mm/m/it/10 ^^^[][] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 12 \OMS
+/cmsy/m/n/10 ^^A [] ^^A \OT1/cmr/m/n/10 15\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 18 
+= 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0572\OML/cmm/m/it/10 m[]=s
+ []
+
+)
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 \begin{figure}[!h]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.364 \begin{figure}[!h]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.364 \begin{figure}[!h]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/AxialForces.png, id=97, 369.7815pt x 213.4374pt>
+File: figs/AxialForces.png Graphic file (type png)
+<use figs/AxialForces.png>
+Package pdftex.def Info: figs/AxialForces.png  used on input line 367.
+(pdftex.def)             Requested size: 369.78058pt x 213.43686pt.
+(./Problem_solving/PS_Forces.tex)
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 \begin{figure}[!h]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.408 \begin{figure}[!h]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.408 \begin{figure}[!h]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/cavitation.png, id=98, 569.12625pt x 356.33125pt>
+File: figs/cavitation.png Graphic file (type png)
+<use figs/cavitation.png>
+Package pdftex.def Info: figs/cavitation.png  used on input line 411.
+(pdftex.def)             Requested size: 369.88582pt x 231.59625pt.
+
+LaTeX Warning: Reference `fig:cavitation' on page 17 undefined on input line 41
+6.
+
+
+LaTeX Warning: Reference `fig:cavitation_damage' on page 17 undefined on input 
+line 429.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 \begin{figure}[!h]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.431 \begin{figure}[!h]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.431 \begin{figure}[!h]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/cavitation_damage.png, id=99, 722.7pt x 348.8232pt>
+File: figs/cavitation_damage.png Graphic file (type png)
+<use figs/cavitation_damage.png>
+Package pdftex.def Info: figs/cavitation_damage.png  used on input line 434.
+(pdftex.def)             Requested size: 369.88582pt x 178.53085pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.450 \begin{figure}[!h]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.450 \begin{figure}[!h]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.450 \begin{figure}[!h]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/NPSH.pdf, id=100, 170.71654pt x 170.71654pt>
+File: figs/NPSH.pdf Graphic file (type pdf)
+<use figs/NPSH.pdf>
+Package pdftex.def Info: figs/NPSH.pdf  used on input line 453.
+(pdftex.def)             Requested size: 170.71652pt x 170.72913pt.
+
+LaTeX Warning: Reference `sec:frictionallosses' on page 17 undefined on input l
+ine 465.
+
+(./Problem_solving/PS_Cavitation.tex
+<Problem_solving/figs/PS_NPSH_figure2.png, id=101, 113.7048pt x 113.7048pt>
+File: Problem_solving/figs/PS_NPSH_figure2.png Graphic file (type png)
+<use Problem_solving/figs/PS_NPSH_figure2.png>
+Package pdftex.def Info: Problem_solving/figs/PS_NPSH_figure2.png  used on inpu
+t line 11.
+(pdftex.def)             Requested size: 113.70451pt x 113.70451pt.
+
+Overfull \hbox (43.63225pt too wide) in paragraph at lines 8--33
+[][] 
+ []
+
+
+LaTeX Warning: Reference `fig:NPSH_figure1' on page 17 undefined on input line 
+69.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{figure}[ht]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.71 \begin{figure}[ht]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.71 \begin{figure}[ht]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Problem_solving/figs/PS_NPSH_figure1.png, id=102, 197.98969pt x 153.57375pt>
+File: Problem_solving/figs/PS_NPSH_figure1.png Graphic file (type png)
+<use Problem_solving/figs/PS_NPSH_figure1.png>
+Package pdftex.def Info: Problem_solving/figs/PS_NPSH_figure1.png  used on inpu
+t line 73.
+(pdftex.def)             Requested size: 150.64687pt x 116.85316pt.
+)) (./chap3_hydraulic_systems.tex
+Chapter 3.
+
+LaTeX Warning: Reference `fig:moody' on page 17 undefined on input line 23.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \begin{figure}[ht]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.25 \begin{figure}[ht]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.25 \begin{figure}[ht]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/moody.png, id=103, 1204.5pt x 745.78625pt>
+File: figs/moody.png Graphic file (type png)
+<use figs/moody.png>
+Package pdftex.def Info: figs/moody.png  used on input line 27.
+(pdftex.def)             Requested size: 407.1591pt x 252.09598pt.
+
+LaTeX Warning: Reference `fig:minor_loss_coeffs' on page 17 undefined on input 
+line 37.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{figure}[ht]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.39 \begin{figure}[ht]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.39 \begin{figure}[ht]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/abaque-perte-charge.jpg, id=104, 1370.11874pt x 1306.8825pt>
+File: figs/abaque-perte-charge.jpg Graphic file (type jpg)
+<use figs/abaque-perte-charge.jpg>
+Package pdftex.def Info: figs/abaque-perte-charge.jpg  used on input line 41.
+(pdftex.def)             Requested size: 285.01012pt x 271.8411pt.
+
+LaTeX Warning: Reference `fig:SimplePumpingSystem' on page 17 undefined on inpu
+t line 53.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \begin{figure}[ht]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.55 \begin{figure}[ht]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.55 \begin{figure}[ht]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/Hydraulic_system_sample.png, id=105, 227.6505pt x 227.6505pt>
+File: figs/Hydraulic_system_sample.png Graphic file (type png)
+<use figs/Hydraulic_system_sample.png>
+Package pdftex.def Info: figs/Hydraulic_system_sample.png  used on input line 5
+7.
+(pdftex.def)             Requested size: 183.22035pt x 183.22527pt.
+<figs/performance_curve_simple.png, id=106, 421.575pt x 316.18124pt>
+File: figs/performance_curve_simple.png Graphic file (type png)
+<use figs/performance_curve_simple.png>
+Package pdftex.def Info: figs/performance_curve_simple.png  used on input line 
+58.
+(pdftex.def)             Requested size: 183.22035pt x 137.41711pt.
+
+LaTeX Warning: Reference `fig:SimplePumpingSystem' on page 17 undefined on inpu
+t line 77.
+
+(./Problem_solving/PS_HydraulicSystems.tex
+<Problem_solving/figs/PS_HydraulicSystems1.png, id=107, 426.8748pt x 170.7981pt
+>
+File: Problem_solving/figs/PS_HydraulicSystems1.png Graphic file (type png)
+<use Problem_solving/figs/PS_HydraulicSystems1.png>
+Package pdftex.def Info: Problem_solving/figs/PS_HydraulicSystems1.png  used on
+ input line 29.
+(pdftex.def)             Requested size: 426.87375pt x 170.79767pt.
+
+Overfull \hbox (19.71465pt too wide) in paragraph at lines 29--30
+ [] 
+ []
+
+
+Overfull \hbox (17.67976pt too wide) detected at line 46
+[]
+ []
+
+<Problem_solving/figs/PS_HydraulicSystems_Submergible.png, id=108, 392.21532pt 
+x 179.16937pt>
+File: Problem_solving/figs/PS_HydraulicSystems_Submergible.png Graphic file (ty
+pe png)
+<use Problem_solving/figs/PS_HydraulicSystems_Submergible.png>
+Package pdftex.def Info: Problem_solving/figs/PS_HydraulicSystems_Submergible.p
+ng  used on input line 69.
+(pdftex.def)             Requested size: 392.21436pt x 179.16893pt.
+)) (./chap4_fans.tex
+Chapter 4.
+(./Problem_solving/PS_Fans.tex
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \begin{figure}[!ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.93 \begin{figure}[!ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.93 \begin{figure}[!ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Problem_solving/figs/snow-cannon.png, id=109, 483.15337pt x 240.35866pt>
+File: Problem_solving/figs/snow-cannon.png Graphic file (type png)
+<use Problem_solving/figs/snow-cannon.png>
+Package pdftex.def Info: Problem_solving/figs/snow-cannon.png  used on input li
+ne 95.
+(pdftex.def)             Requested size: 203.57954pt x 101.27635pt.
+<Problem_solving/figs/car-engine-cooler.JPG, id=110, 584.93532pt x 548.0475pt>
+File: Problem_solving/figs/car-engine-cooler.JPG Graphic file (type jpg)
+<use Problem_solving/figs/car-engine-cooler.JPG>
+Package pdftex.def Info: Problem_solving/figs/car-engine-cooler.JPG  used on in
+put line 105.
+(pdftex.def)             Requested size: 162.86115pt x 152.59091pt.
+)) (./Control/Control.tex
+Chapter 5.
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/series_connection.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/series_connection.pdf, id=111, 292.09125pt x 171.64125pt>
+File: figs/series_connection.pdf Graphic file (type pdf)
+<use figs/series_connection.pdf>
+Package pdftex.def Info: figs/series_connection.pdf  used on input line 40.
+(pdftex.def)             Requested size: 244.29794pt x 143.56216pt.
+
+Underfull \hbox (badness 7151) in paragraph at lines 47--48
+\OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 H[]^^ZgQ[]=^^Q[]\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 )$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+\OT1/cmr/m/n/10 hence we have $\OML/cmm/m/it/10 ^^Q \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+\OML/cmm/m/it/10 ^^Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 )\OM
+L/cmm/m/it/10 H[]=H[]$\OT1/cmr/m/n/10 . That is,
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/parallel_connection.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<figs/parallel_connection.pdf, id=112, 329.23pt x 206.7725pt>
+File: figs/parallel_connection.pdf Graphic file (type pdf)
+<use figs/parallel_connection.pdf>
+Package pdftex.def Info: figs/parallel_connection.pdf  used on input line 56.
+(pdftex.def)             Requested size: 244.29794pt x 153.43518pt.
+
+Underfull \hbox (badness 7558) in paragraph at lines 63--64
+\OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 H[]^^ZgQ[]=^^Q[]\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 )$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\OT1/cmr/m/n/10 hence we have $\OML/cmm/m/it/10 ^^Q \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\OML/cmm/m/it/10 ^^Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 )\OM
+L/cmm/m/it/10 Q[]=Q[]$\OT1/cmr/m/n/10 . That is,
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 63--64
+\OT1/cmr/m/n/10 spe-cific en-ergy con-sump-tion is
+ []
+
+(./Problem_solving/PS_Control.tex
+<Problem_solving/figs/PS_OperatingPoint_Affinity.png, id=113, 227.6505pt x 170.
+7981pt>
+File: Problem_solving/figs/PS_OperatingPoint_Affinity.png Graphic file (type pn
+g)
+<use Problem_solving/figs/PS_OperatingPoint_Affinity.png>
+Package pdftex.def Info: Problem_solving/figs/PS_OperatingPoint_Affinity.png  u
+sed on input line 11.
+(pdftex.def)             Requested size: 227.64993pt x 170.79767pt.
+
+Overfull \hbox (43.63225pt too wide) in paragraph at lines 8--26
+[][] 
+ []
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \begin{figure}[!ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.50 \begin{figure}[!ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.50 \begin{figure}[!ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Problem_solving/figs/PS_Control1.png, id=114, 444.4605pt x 676.4472pt>
+File: Problem_solving/figs/PS_Control1.png Graphic file (type png)
+<use Problem_solving/figs/PS_Control1.png>
+Package pdftex.def Info: Problem_solving/figs/PS_Control1.png  used on input li
+ne 52.
+(pdftex.def)             Requested size: 285.01012pt x 433.79176pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \begin{figure}[!ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.94 \begin{figure}[!ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.94 \begin{figure}[!ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Problem_solving/figs/PS_Control_Pumps.png, id=115, 133.24782pt x 140.77594pt>
+File: Problem_solving/figs/PS_Control_Pumps.png Graphic file (type png)
+<use Problem_solving/figs/PS_Control_Pumps.png>
+Package pdftex.def Info: Problem_solving/figs/PS_Control_Pumps.png  used on inp
+ut line 96.
+(pdftex.def)             Requested size: 133.24748pt x 140.77557pt.
+)
+
+LaTeX Warning: Reference `sec:head_discharge_curves_and_operating_point' on pag
+e 17 undefined on input line 81.
+
+
+LaTeX Warning: Reference `fig:SimplePumpingSystem' on page 17 undefined on inpu
+t line 81.
+
+
+LaTeX Warning: Reference `fig:pump_stations_examples' on page 17 undefined on i
+nput line 81.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \begin{figure}[ht!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.83 \begin{figure}[ht!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.83 \begin{figure}[ht!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Control/Figures/Pump_Station_Parallel_Connection.jpg, id=116, 803.0pt x 536.00
+25pt>
+File: Control/Figures/Pump_Station_Parallel_Connection.jpg Graphic file (type j
+pg)
+<use Control/Figures/Pump_Station_Parallel_Connection.jpg>
+Package pdftex.def Info: Control/Figures/Pump_Station_Parallel_Connection.jpg  
+used on input line 85.
+(pdftex.def)             Requested size: 191.80498pt x 128.0374pt.
+<Control/Figures/Pump_Station_Serial_Connection.jpg, id=117, 867.24pt x 578.16p
+t>
+File: Control/Figures/Pump_Station_Serial_Connection.jpg Graphic file (type jpg
+)
+<use Control/Figures/Pump_Station_Serial_Connection.jpg>
+Package pdftex.def Info: Control/Figures/Pump_Station_Serial_Connection.jpg  us
+ed on input line 86.
+(pdftex.def)             Requested size: 192.05052pt x 128.0374pt.
+
+LaTeX Warning: Reference `fig:block_diagram_serial_connection' on page 17 undef
+ined on input line 97.
+
+
+LaTeX Warning: Reference `sec:head_discharge_curves_and_operating_point' on pag
+e 17 undefined on input line 103.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.111 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.111 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Control/Figures/Block_Diagram_Serial_Connection.pdf, id=118, 230.11934pt x 45.
+21065pt>
+File: Control/Figures/Block_Diagram_Serial_Connection.pdf Graphic file (type pd
+f)
+<use Control/Figures/Block_Diagram_Serial_Connection.pdf>
+Package pdftex.def Info: Control/Figures/Block_Diagram_Serial_Connection.pdf  u
+sed on input line 113.
+(pdftex.def)             Requested size: 181.04085pt x 35.56593pt.
+
+LaTeX Warning: Reference `sec:real_performance_curves_turbomachines' on page 17
+ undefined on input line 126.
+
+
+LaTeX Warning: Reference `sec:head_discharge_curves_and_operating_point' on pag
+e 17 undefined on input line 126.
+
+
+LaTeX Warning: Reference `fig:example_serial_connection' on page 17 undefined o
+n input line 126.
+
+
+LaTeX Warning: Reference `pump1_characteristic_curve_serial' on page 17 undefin
+ed on input line 126.
+
+
+LaTeX Warning: Reference `system_characteristic_curve_serial' on page 17 undefi
+ned on input line 126.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.128 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.128 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<Control/Figures/TheorySerialConnection.png, id=119, 526.96875pt x 395.22656pt>
+
+File: Control/Figures/TheorySerialConnection.png Graphic file (type png)
+<use Control/Figures/TheorySerialConnection.png>
+Package pdftex.def Info: Control/Figures/TheorySerialConnection.png  used on in
+put line 130.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+<Control/Figures/TheorySerialConnection_SamePumps.png, id=120, 526.96875pt x 39
+5.22656pt>
+File: Control/Figures/TheorySerialConnection_SamePumps.png Graphic file (type p
+ng)
+<use Control/Figures/TheorySerialConnection_SamePumps.png>
+Package pdftex.def Info: Control/Figures/TheorySerialConnection_SamePumps.png  
+used on input line 131.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+
+LaTeX Warning: Reference `principle_of_serial_connection' on page 17 undefined 
+on input line 136.
+
+
+LaTeX Warning: Reference `pump1_characteristic_curve_serial' on page 17 undefin
+ed on input line 136.
+
+
+LaTeX Warning: Reference `system_characteristic_curve_serial' on page 17 undefi
+ned on input line 136.
+
+
+LaTeX Warning: Reference `fig:example_serial_connection' on page 17 undefined o
+n input line 146.
+
+
+LaTeX Warning: Reference `system_characteristic_curve_serial' on page 17 undefi
+ned on input line 157.
+
+
+LaTeX Warning: Reference `fig:example_serial_connection' on page 17 undefined o
+n input line 163.
+
+
+LaTeX Warning: Reference `fig:example_serial_connection' on page 17 undefined o
+n input line 170.
+
+
+LaTeX Warning: Reference `fig:example_serial_connection' on page 17 undefined o
+n input line 172.
+
+
+LaTeX Warning: Reference `fig:example_serial_connection' on page 17 undefined o
+n input line 172.
+
+(./Problem_solving/PS_Control_Series_Parallel.tex
+
+LaTeX Warning: Reference `fig_example1' on page 17 undefined on input line 35.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \begin{figure}[!htb]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.37 \begin{figure}[!htb]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.37 \begin{figure}[!htb]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/problem_5_par_1.png, id=121, 505.18738pt x 356.83313pt>
+File: figs/problem_5_par_1.png Graphic file (type png)
+<use figs/problem_5_par_1.png>
+Package pdftex.def Info: figs/problem_5_par_1.png  used on input line 39.
+(pdftex.def)             Requested size: 325.72852pt x 230.08754pt.
+)
+
+LaTeX Warning: Reference `fig:water_hammer' on page 17 undefined on input line 
+198.
+
+
+LaTeX Warning: Reference `fig:water_hammer' on page 17 undefined on input line 
+198.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.202 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.202 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figs/water_hammer_CV.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<figs/water_hammer_CV.pdf, id=122, 1196.47pt x 878.28125pt>
+File: figs/water_hammer_CV.pdf Graphic file (type pdf)
+<use figs/water_hammer_CV.pdf>
+Package pdftex.def Info: figs/water_hammer_CV.pdf  used on input line 205.
+(pdftex.def)             Requested size: 325.72852pt x 239.10912pt.
+
+LaTeX Warning: Reference `WaterEquationOfState' on page 17 undefined on input l
+ine 236.
+
+
+LaTeX Warning: Reference `WaterEquationOfState' on page 17 undefined on input l
+ine 242.
+
+
+LaTeX Warning: Reference `fig:water_hammer' on page 17 undefined on input line 
+267.
+
+
+LaTeX Warning: Reference `fig:allievi_principle' on page 17 undefined on input 
+line 267.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.269 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.269 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.269 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/WaterHammer_AllieviPrinciple.pdf, id=123, 197.63695pt x 97.7867pt>
+File: figs/WaterHammer_AllieviPrinciple.pdf Graphic file (type pdf)
+<use figs/WaterHammer_AllieviPrinciple.pdf>
+Package pdftex.def Info: figs/WaterHammer_AllieviPrinciple.pdf  used on input l
+ine 272.
+(pdftex.def)             Requested size: 244.29794pt x 120.87971pt.
+
+LaTeX Warning: Reference `fig:allievi_principle' on page 17 undefined on input 
+line 277.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance' on page 17 undefined on
+ input line 283.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance_simplified' on page 17 u
+ndefined on input line 289.
+
+
+LaTeX Warning: Reference `fig:allievi_principle' on page 17 undefined on input 
+line 295.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance_simplified' on page 17 u
+ndefined on input line 295.
+
+
+LaTeX Warning: Reference `simplified_algebraic_equation_of_momentum' on page 17
+ undefined on input line 314.
+
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 332.
+
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 336.
+
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 336.
+
+
+LaTeX Warning: Reference `sec:introduction_to_transient_phenomenon' on page 17 
+undefined on input line 336.
+
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 336.
+
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 342.
+
+
+LaTeX Warning: Reference `newtons_law_of_water_hammer' on page 17 undefined on 
+input line 355.
+
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 359.
+
+
+LaTeX Warning: Reference `newtons_law_of_water_hammer' on page 17 undefined on 
+input line 359.
+
+
+LaTeX Warning: Reference `fig:water_hammer' on page 17 undefined on input line 
+359.
+
+
+LaTeX Warning: Reference `fig:water_hammer' on page 17 undefined on input line 
+359.
+
+
+LaTeX Warning: Reference `sec:pressure_amplitude_fast_closure' on page 17 undef
+ined on input line 359.
+
+
+LaTeX Warning: Reference `sec:pressure_amplitude_slow_closure' on page 17 undef
+ined on input line 359.
+
+
+LaTeX Warning: Reference `fig:water_hammer' on page 17 undefined on input line 
+359.
+
+
+LaTeX Warning: Reference `fig:WaterHammerExamples' on page 17 undefined on inpu
+t line 359.
+
+
+LaTeX Warning: Reference `fig:WaterHammerExamples' on page 17 undefined on inpu
+t line 359.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.361 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.361 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/Water-hammer-blown-expansion-joints.jpg, id=124, 301.125pt x 248.93pt>
+File: figs/Water-hammer-blown-expansion-joints.jpg Graphic file (type jpg)
+<use figs/Water-hammer-blown-expansion-joints.jpg>
+Package pdftex.def Info: figs/Water-hammer-blown-expansion-joints.jpg  used on 
+input line 363.
+(pdftex.def)             Requested size: 189.3054pt x 156.49014pt.
+<figs/water_hammer2.jpg, id=125, 376.40625pt x 283.0575pt>
+File: figs/water_hammer2.jpg Graphic file (type jpg)
+<use figs/water_hammer2.jpg>
+Package pdftex.def Info: figs/water_hammer2.jpg  used on input line 364.
+(pdftex.def)             Requested size: 208.10384pt x 156.49014pt.
+
+LaTeX Warning: Reference `allievi_principle' on page 17 undefined on input line
+ 376.
+
+
+LaTeX Warning: Reference `newtons_law_of_water_hammer' on page 17 undefined on 
+input line 376.
+
+(./Problem_solving/PS_WaterHammer.tex))
+(./PositiveDisplacementPumps/PositiveDisplacementPumps.tex
+Chapter 6.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{figure}[h]
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.19 \begin{figure}[h]
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.19 \begin{figure}[h]
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//pump1.jpg, id=126, 250.9375pt x 201.75375pt>
+File: ./figs//pump1.jpg Graphic file (type jpg)
+<use ./figs//pump1.jpg>
+Package pdftex.def Info: ./figs//pump1.jpg  used on input line 21.
+(pdftex.def)             Requested size: 162.86115pt x 130.94751pt.
+<./figs//rec_pump1.jpg, id=127, 262.9825pt x 193.72375pt>
+File: ./figs//rec_pump1.jpg Graphic file (type jpg)
+<use ./figs//rec_pump1.jpg>
+Package pdftex.def Info: ./figs//rec_pump1.jpg  used on input line 22.
+(pdftex.def)             Requested size: 183.22035pt x 134.97311pt.
+
+LaTeX Warning: Reference `fig:vel_triang' on page 17 undefined on input line 45
+.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \begin{figure}[h]
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.47 \begin{figure}[h]
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.47 \begin{figure}[h]
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//Impeller3D_and_VelocityTriangles.png, id=128, 2087.45087pt x 2087.4508
+7pt>
+File: ./figs//Impeller3D_and_VelocityTriangles.png Graphic file (type png)
+<use ./figs//Impeller3D_and_VelocityTriangles.png>
+Package pdftex.def Info: ./figs//Impeller3D_and_VelocityTriangles.png  used on 
+input line 49.
+(pdftex.def)             Requested size: 162.86115pt x 162.85873pt.
+
+LaTeX Warning: Reference `fig:turbopump_perf_curve' on page 17 undefined on inp
+ut line 54.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \begin{figure}[th]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.56 \begin{figure}[th]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.56 \begin{figure}[th]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//lecture1_fig01_QH.pdf, id=129, 227.4076pt x 217.42079pt>
+File: ./figs//lecture1_fig01_QH.pdf Graphic file (type pdf)
+<use ./figs//lecture1_fig01_QH.pdf>
+Package pdftex.def Info: ./figs//lecture1_fig01_QH.pdf  used on input line 58.
+(pdftex.def)             Requested size: 181.92632pt x 173.93684pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{figure}[h!]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.71 \begin{figure}[h!]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.71 \begin{figure}[h!]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//nq.pdf, id=130, 455.2441pt x 227.62204pt>
+File: ./figs//nq.pdf Graphic file (type pdf)
+<use ./figs//nq.pdf>
+Package pdftex.def Info: ./figs//nq.pdf  used on input line 73.
+(pdftex.def)             Requested size: 364.19577pt x 182.09787pt.
+
+LaTeX Warning: Reference `fig:hydraulic_cylinder' on page 17 undefined on input
+ line 100.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \begin{figure}[tbh]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.102 \begin{figure}[tbh]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.102 \begin{figure}[tbh]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//lecture1_fig02_dugattyu.pdf, id=131, 673.51625pt x 192.23042pt>
+File: ./figs//lecture1_fig02_dugattyu.pdf Graphic file (type pdf)
+<use ./figs//lecture1_fig02_dugattyu.pdf>
+Package pdftex.def Info: ./figs//lecture1_fig02_dugattyu.pdf  used on input lin
+e 104.
+(pdftex.def)             Requested size: 284.52756pt x 81.20845pt.
+
+LaTeX Warning: Reference `fig:nq' on page 17 undefined on input line 121.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.148 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.148 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//plunger_piston_pump.jpg, id=132, 217.81375pt x 233.87375pt>
+File: ./figs//plunger_piston_pump.jpg Graphic file (type jpg)
+<use ./figs//plunger_piston_pump.jpg>
+Package pdftex.def Info: ./figs//plunger_piston_pump.jpg  used on input line 15
+0.
+(pdftex.def)             Requested size: 122.14897pt x 131.15396pt.
+<./figs//axial_piston_pump.jpg, id=133, 268.00125pt x 189.70876pt>
+File: ./figs//axial_piston_pump.jpg Graphic file (type jpg)
+<use ./figs//axial_piston_pump.jpg>
+Package pdftex.def Info: ./figs//axial_piston_pump.jpg  used on input line 151.
+
+(pdftex.def)             Requested size: 183.22035pt x 129.69496pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.156 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.156 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//gear_pump.jpg, id=134, 276.03125pt x 183.68625pt>
+File: ./figs//gear_pump.jpg Graphic file (type jpg)
+<use ./figs//gear_pump.jpg>
+Package pdftex.def Info: ./figs//gear_pump.jpg  used on input line 158.
+(pdftex.def)             Requested size: 122.14897pt x 81.28465pt.
+<./figs//vane_pump.jpg, id=135, 257.96375pt x 196.735pt>
+File: ./figs//vane_pump.jpg Graphic file (type jpg)
+<use ./figs//vane_pump.jpg>
+Package pdftex.def Info: ./figs//vane_pump.jpg  used on input line 159.
+(pdftex.def)             Requested size: 122.14897pt x 93.15588pt.
+<./figs//double-screw_pump.jpg, id=136, 240.9pt x 173.64874pt>
+File: ./figs//double-screw_pump.jpg Graphic file (type jpg)
+<use ./figs//double-screw_pump.jpg>
+Package pdftex.def Info: ./figs//double-screw_pump.jpg  used on input line 160.
+
+(pdftex.def)             Requested size: 122.14897pt x 88.0483pt.
+<./figs//progressive_cavity_pump.jpg, id=137, 501.875pt x 218.8175pt>
+File: ./figs//progressive_cavity_pump.jpg Graphic file (type jpg)
+<use ./figs//progressive_cavity_pump.jpg>
+Package pdftex.def Info: ./figs//progressive_cavity_pump.jpg  used on input lin
+e 161.
+(pdftex.def)             Requested size: 244.29794pt x 106.51366pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.206 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.206 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//motor_pump_perf_curve_QH.pdf, id=138, 270.92857pt x 222.97528pt>
+File: ./figs//motor_pump_perf_curve_QH.pdf Graphic file (type pdf)
+<use ./figs//motor_pump_perf_curve_QH.pdf>
+Package pdftex.def Info: ./figs//motor_pump_perf_curve_QH.pdf  used on input li
+ne 208.
+(pdftex.def)             Requested size: 203.57954pt x 167.54745pt.
+
+LaTeX Warning: Reference `fig:pump_and_motor_perf_curve' on page 17 undefined o
+n input line 221.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 \begin{figure}[tbh]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.241 \begin{figure}[tbh]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.241 \begin{figure}[tbh]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//lecture2_fig10_dugattyus_szivattyu.pdf, id=139, 331.67857pt x 279.9325
+7pt>
+File: ./figs//lecture2_fig10_dugattyus_szivattyu.pdf Graphic file (type pdf)
+<use ./figs//lecture2_fig10_dugattyus_szivattyu.pdf>
+Package pdftex.def Info: ./figs//lecture2_fig10_dugattyus_szivattyu.pdf  used o
+n input line 243.
+(pdftex.def)             Requested size: 232.1734pt x 195.95146pt.
+
+LaTeX Warning: Reference `fig:single_acting_piston_pump' on page 17 undefined o
+n input line 248.
+
+
+LaTeX Warning: Reference `fig:single_acting_piston_pump_curves' on page 17 unde
+fined on input line 272.
+
+
+LaTeX Warning: Reference `eq:Qth' on page 17 undefined on input line 293.
+
+
+LaTeX Warning: Reference `eq:single_piston_pump_flowrate' on page 17 undefined 
+on input line 293.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 \begin{figure}[th]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.299 \begin{figure}[th]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.299 \begin{figure}[th]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//lecture2_fig11_dugattyus_szivattyu_diagram.pdf, id=140, 242.56566pt x 
+253.79074pt>
+File: ./figs//lecture2_fig11_dugattyus_szivattyu_diagram.pdf Graphic file (type
+ pdf)
+<use ./figs//lecture2_fig11_dugattyus_szivattyu_diagram.pdf>
+Package pdftex.def Info: ./figs//lecture2_fig11_dugattyus_szivattyu_diagram.pdf
+  used on input line 301.
+(pdftex.def)             Requested size: 203.57954pt x 213.00075pt.
+
+LaTeX Warning: Reference `fig:double_acting_piston_pump' on page 17 undefined o
+n input line 312.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{figure}[th]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.314 \begin{figure}[th]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.314 \begin{figure}[th]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//lecture2_fig12_duplex_dugattyus_szivattyu.pdf, id=141, 320.49852pt x 2
+00.27454pt>
+File: ./figs//lecture2_fig12_duplex_dugattyus_szivattyu.pdf Graphic file (type 
+pdf)
+<use ./figs//lecture2_fig12_duplex_dugattyus_szivattyu.pdf>
+Package pdftex.def Info: ./figs//lecture2_fig12_duplex_dugattyus_szivattyu.pdf 
+ used on input line 316.
+(pdftex.def)             Requested size: 288.44598pt x 180.24539pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.340 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.340 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//piston_pump_pulsation_factor.pdf, id=142, 284.06125pt x 569.12625pt>
+File: ./figs//piston_pump_pulsation_factor.pdf Graphic file (type pdf)
+<use ./figs//piston_pump_pulsation_factor.pdf>
+Package pdftex.def Info: ./figs//piston_pump_pulsation_factor.pdf  used on inpu
+t line 342.
+(pdftex.def)             Requested size: 341.43306pt x 684.13782pt.
+
+LaTeX Warning: Reference `tab:piston_puls' on page 17 undefined on input line 3
+47.
+
+
+LaTeX Warning: Reference `fig:pulsation_factor' on page 17 undefined on input l
+ine 347.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 \begin{table}[h]
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.349 \begin{table}[h]
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.349 \begin{table}[h]
+                      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.375 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.375 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.375 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/axial_piston_pump.jpg, id=143, 268.00125pt x 189.70876pt>
+File: figs/axial_piston_pump.jpg Graphic file (type jpg)
+<use figs/axial_piston_pump.jpg>
+Package pdftex.def Info: figs/axial_piston_pump.jpg  used on input line 377.
+(pdftex.def)             Requested size: 200.97998pt x 142.26378pt.
+<figs/axial_piston_pump_cutaway.jpg, id=144, 248.93pt x 203.76125pt>
+File: figs/axial_piston_pump_cutaway.jpg Graphic file (type jpg)
+<use figs/axial_piston_pump_cutaway.jpg>
+Package pdftex.def Info: figs/axial_piston_pump_cutaway.jpg  used on input line
+ 378.
+(pdftex.def)             Requested size: 173.80919pt x 142.26378pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.409 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.409 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.409 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/radial_piston_pump1.png, id=145, 530.98375pt x 378.41376pt>
+File: figs/radial_piston_pump1.png Graphic file (type png)
+<use figs/radial_piston_pump1.png>
+Package pdftex.def Info: figs/radial_piston_pump1.png  used on input line 411.
+(pdftex.def)             Requested size: 199.62074pt x 142.26378pt.
+<figs/radial_piston_pump_cutaway.jpg, id=146, 231.264pt x 231.264pt>
+File: figs/radial_piston_pump_cutaway.jpg Graphic file (type jpg)
+<use figs/radial_piston_pump_cutaway.jpg>
+Package pdftex.def Info: figs/radial_piston_pump_cutaway.jpg  used on input lin
+e 412.
+(pdftex.def)             Requested size: 142.27061pt x 142.26378pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.435 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.435 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/diaphragmpump61_1.jpg, id=147, 527.9725pt x 296.10625pt>
+File: figs/diaphragmpump61_1.jpg Graphic file (type jpg)
+<use figs/diaphragmpump61_1.jpg>
+Package pdftex.def Info: figs/diaphragmpump61_1.jpg  used on input line 437.
+(pdftex.def)             Requested size: 407.1591pt x 228.3504pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.454 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.454 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.454 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/gear_pump.jpg, id=148, 276.03125pt x 183.68625pt>
+File: figs/gear_pump.jpg Graphic file (type jpg)
+<use figs/gear_pump.jpg>
+Package pdftex.def Info: figs/gear_pump.jpg  used on input line 456.
+(pdftex.def)             Requested size: 171.0323pt x 113.81102pt.
+<figs/genpur.png, id=149, 190.7125pt x 200.75pt>
+File: figs/genpur.png Graphic file (type png)
+<use figs/genpur.png>
+Package pdftex.def Info: figs/genpur.png  used on input line 458.
+(pdftex.def)             Requested size: 135.15945pt x 142.26378pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.533 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.533 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.533 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/simple_screw_pump.jpg, id=150, 240.9pt x 210.7875pt>
+File: figs/simple_screw_pump.jpg Graphic file (type jpg)
+<use figs/simple_screw_pump.jpg>
+Package pdftex.def Info: figs/simple_screw_pump.jpg  used on input line 535.
+(pdftex.def)             Requested size: 130.07303pt x 113.81102pt.
+<figs/double-screw_pump.jpg, id=151, 240.9pt x 173.64874pt>
+File: figs/double-screw_pump.jpg Graphic file (type jpg)
+<use figs/double-screw_pump.jpg>
+Package pdftex.def Info: figs/double-screw_pump.jpg  used on input line 537.
+(pdftex.def)             Requested size: 197.3665pt x 142.26378pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.585 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.585 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.585 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/vane_pump.jpg, id=152, 257.96375pt x 196.735pt>
+File: figs/vane_pump.jpg Graphic file (type jpg)
+<use figs/vane_pump.jpg>
+Package pdftex.def Info: figs/vane_pump.jpg  used on input line 587.
+(pdftex.def)             Requested size: 223.84407pt x 170.71652pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.597 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.597 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.597 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/cutawaylabel.jpg, id=153, 501.875pt x 218.8175pt>
+File: figs/cutawaylabel.jpg Graphic file (type jpg)
+<use figs/cutawaylabel.jpg>
+Package pdftex.def Info: figs/cutawaylabel.jpg  used on input line 599.
+(pdftex.def)             Requested size: 285.01012pt x 124.26984pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 \begin{figure}[h!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.633 \begin{figure}[h!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.633 \begin{figure}[h!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/per_pumphead.jpg, id=154, 59.88086pt x 46.87225pt>
+File: figs/per_pumphead.jpg Graphic file (type jpg)
+<use figs/per_pumphead.jpg>
+Package pdftex.def Info: figs/per_pumphead.jpg  used on input line 635.
+(pdftex.def)             Requested size: 162.86115pt x 127.49297pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.659 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.659 \begin{figure}[h]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.659 \begin{figure}[h]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//pulsation_dampeners.jpg, id=155, 582.175pt x 281.05pt>
+File: ./figs//pulsation_dampeners.jpg Graphic file (type jpg)
+<use ./figs//pulsation_dampeners.jpg>
+Package pdftex.def Info: ./figs//pulsation_dampeners.jpg  used on input line 66
+1.
+(pdftex.def)             Requested size: 325.72852pt x 157.24968pt.
+
+LaTeX Warning: Reference `eq:flowratepiston' on page 17 undefined on input line
+ 673.
+
+
+LaTeX Warning: Reference `fig:pres_damp_volume' on page 17 undefined on input l
+ine 731.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.744 \begin{figure}[ht]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.744 \begin{figure}[ht]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.744 \begin{figure}[ht]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<./figs//piston_pumps.pdf, id=156, 449.68pt x 337.42743pt>
+File: ./figs//piston_pumps.pdf Graphic file (type pdf)
+<use ./figs//piston_pumps.pdf>
+Package pdftex.def Info: ./figs//piston_pumps.pdf  used on input line 746.
+(pdftex.def)             Requested size: 325.72852pt x 244.42525pt.
+
+LaTeX Warning: Reference `sec:basic_characteristics_of_positive_displacement_ma
+chines' on page 17 undefined on input line 797.
+
+
+LaTeX Warning: Reference `fig:pump_and_motor_perf_curve' on page 17 undefined o
+n input line 797.
+
+
+LaTeX Warning: Reference `sec:direct_spring_loaded_hydraulic_PRV' on page 17 un
+defined on input line 797.
+
+
+LaTeX Warning: Reference `sec:pilot_operated_PRV' on page 17 undefined on input
+ line 797.
+
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 801.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.803 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.803 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.803 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Direct_Spring_Loaded_PRV.pdf, id=157, 304.20
+833pt x 319.34315pt>
+File: PositiveDisplacementPumps/Figures/Direct_Spring_Loaded_PRV.pdf Graphic fi
+le (type pdf)
+<use PositiveDisplacementPumps/Figures/Direct_Spring_Loaded_PRV.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Direct_Spring_Loaded
+_PRV.pdf  used on input line 805.
+(pdftex.def)             Requested size: 325.28151pt x 341.43306pt.
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 810.
+
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 834.
+
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 834.
+
+
+LaTeX Warning: Reference `force_balance_of_the_spool' on page 17 undefined on i
+nput line 834.
+
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 834.
+
+
+LaTeX Warning: Reference `force_balance_of_the_spool' on page 17 undefined on i
+nput line 845.
+
+
+LaTeX Warning: Reference `flow_cross_section_of_pressure_relief_valve' on page 
+17 undefined on input line 871.
+
+
+Overfull \hbox (24.34871pt too wide) detected at line 886
+\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 (^^A\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ) = \
+OML/cmm/m/it/10 C[]D^^Y[] [] [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 C[] [] [] \O
+T1/cmr/m/n/10 = \OML/cmm/m/it/10 C[] [] ;
+ []
+
+
+LaTeX Warning: Reference `volume_flow_rate_middle_range_PRV' on page 17 undefin
+ed on input line 888.
+
+
+LaTeX Warning: Reference `force_balance_of_the_spool' on page 17 undefined on i
+nput line 888.
+
+
+LaTeX Warning: Reference `definition_of_set_pressure' on page 17 undefined on i
+nput line 888.
+
+
+LaTeX Warning: Reference `general_volume_flow_rate_PRV' on page 17 undefined on
+ input line 888.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 896.
+
+
+LaTeX Warning: Reference `general_volume_flow_rate_PRV' on page 17 undefined on
+ input line 896.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 896.
+
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 896.
+
+
+LaTeX Warning: Reference `general_volume_flow_rate_PRV' on page 17 undefined on
+ input line 896.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 896.
+
+
+LaTeX Warning: Reference `general_volume_flow_rate_PRV' on page 17 undefined on
+ input line 896.
+
+
+LaTeX Warning: Reference `general_volume_flow_rate_PRV' on page 17 undefined on
+ input line 896.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.898 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.898 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.898 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Characteristic_Curves_Of_Pressure_Relief_Val
+ves_Dp_Q.png, id=158, 526.96875pt x 395.22656pt>
+File: PositiveDisplacementPumps/Figures/Characteristic_Curves_Of_Pressure_Relie
+f_Valves_Dp_Q.png Graphic file (type png)
+<use PositiveDisplacementPumps/Figures/Characteristic_Curves_Of_Pressure_Relief
+_Valves_Dp_Q.png>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Characteristic_Curve
+s_Of_Pressure_Relief_Valves_Dp_Q.png  used on input line 900.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+<PositiveDisplacementPumps/Figures/Characteristic_Curves_Of_Pressure_Relief_Val
+ves_Q_Dp.png, id=159, 526.96875pt x 395.22656pt>
+File: PositiveDisplacementPumps/Figures/Characteristic_Curves_Of_Pressure_Relie
+f_Valves_Q_Dp.png Graphic file (type png)
+<use PositiveDisplacementPumps/Figures/Characteristic_Curves_Of_Pressure_Relief
+_Valves_Q_Dp.png>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Characteristic_Curve
+s_Of_Pressure_Relief_Valves_Q_Dp.png  used on input line 901.
+(pdftex.def)             Requested size: 227.62204pt x 170.71602pt.
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 906.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 906.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 906.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.908 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.908 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.908 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Dynamic_Error_Pressure_Relief_Valve.pdf, id=
+160, 426.10397pt x 165.02126pt>
+File: PositiveDisplacementPumps/Figures/Dynamic_Error_Pressure_Relief_Valve.pdf
+ Graphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Dynamic_Error_Pressure_Relief_Valve.pdf>
+
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Dynamic_Error_Pressu
+re_Relief_Valve.pdf  used on input line 910.
+(pdftex.def)             Requested size: 341.43306pt x 132.2312pt.
+
+LaTeX Warning: Reference `fig:dynamic_error_of_direct_spring_loaded_PRV' on pag
+e 17 undefined on input line 915.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.917 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.917 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.917 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Standard_Symbol_Of_Pressure_Relief_Valves.pd
+f, id=161, 98.21693pt x 106.67354pt>
+File: PositiveDisplacementPumps/Figures/Standard_Symbol_Of_Pressure_Relief_Valv
+es.pdf Graphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Standard_Symbol_Of_Pressure_Relief_Valve
+s.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Standard_Symbol_Of_P
+ressure_Relief_Valves.pdf  used on input line 919.
+(pdftex.def)             Requested size: 85.35826pt x 92.71243pt.
+
+LaTeX Warning: Reference `fig:standard_symbol_of_PRV' on page 17 undefined on i
+nput line 924.
+
+
+LaTeX Warning: Reference `sec:sizing_of_hydraulic_systems' on page 17 undefined
+ on input line 926.
+
+
+LaTeX Warning: Reference `fig:dynamic_error_of_direct_spring_loaded_PRV' on pag
+e 17 undefined on input line 926.
+
+
+LaTeX Warning: Reference `sec:pressure_relief_valve' on page 17 undefined on in
+put line 934.
+
+
+LaTeX Warning: Reference `fig:hydraulic_aggregate' on page 17 undefined on inpu
+t line 934.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.936 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.936 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Block_Diagram_Hydraulic_Aggregate.pdf, id=16
+2, 181.59552pt x 114.69962pt>
+File: PositiveDisplacementPumps/Figures/Block_Diagram_Hydraulic_Aggregate.pdf G
+raphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Block_Diagram_Hydraulic_Aggregate.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Block_Diagram_Hydrau
+lic_Aggregate.pdf  used on input line 938.
+(pdftex.def)             Requested size: 157.66817pt x 99.58464pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.951 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.951 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.951 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Characteristic_Curve_Hydraulic_Aggregate.pdf
+, id=163, 393.74599pt x 274.36346pt>
+File: PositiveDisplacementPumps/Figures/Characteristic_Curve_Hydraulic_Aggregat
+e.pdf Graphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Characteristic_Curve_Hydraulic_Aggregate
+.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Characteristic_Curve
+_Hydraulic_Aggregate.pdf  used on input line 953.
+(pdftex.def)             Requested size: 398.14894pt x 277.41437pt.
+
+LaTeX Warning: Reference `system_flow_rate_hydraulic_aggregate' on page 17 unde
+fined on input line 958.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_hydraulic_aggregate' on page
+ 17 undefined on input line 960.
+
+
+LaTeX Warning: Reference `system_flow_rate_hydraulic_aggregate' on page 17 unde
+fined on input line 960.
+
+
+LaTeX Warning: Reference `sec:direct_spring_loaded_hydraulic_PRV' on page 17 un
+defined on input line 960.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_hydraulic_aggregate' on page
+ 17 undefined on input line 962.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 964.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_hydraulic_aggregate' on page
+ 17 undefined on input line 964.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 966.
+
+
+LaTeX Warning: Reference `fig:pump_and_motor_perf_curve' on page 17 undefined o
+n input line 966.
+
+
+LaTeX Warning: Reference `sec:basic_characteristics_of_positive_displacement_ma
+chines' on page 17 undefined on input line 966.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 970.
+
+
+LaTeX Warning: Reference `general_volume_flow_rate_PRV' on page 17 undefined on
+ input line 970.
+
+
+LaTeX Warning: Reference `fig:characteristic_curve_of_PRV' on page 17 undefined
+ on input line 985.
+
+
+LaTeX Warning: Reference `set_presusre_adjustment' on page 17 undefined on inpu
+t line 997.
+
+
+LaTeX Warning: Reference `set_presusre_adjustment' on page 17 undefined on inpu
+t line 1009.
+
+
+LaTeX Warning: Reference `static_error_dependency' on page 17 undefined on inpu
+t line 1009.
+
+
+LaTeX Warning: Reference `fig:direct_spring_loaded_PRV' on page 17 undefined on
+ input line 1013.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1017 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1017 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1017 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Pilot_Operated_PRV.pdf, id=164, 444.13646pt 
+x 473.46889pt>
+File: PositiveDisplacementPumps/Figures/Pilot_Operated_PRV.pdf Graphic file (ty
+pe pdf)
+<use PositiveDisplacementPumps/Figures/Pilot_Operated_PRV.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Pilot_Operated_PRV.p
+df  used on input line 1019.
+(pdftex.def)             Requested size: 320.29982pt x 341.43306pt.
+
+LaTeX Warning: Reference `Fig:Examples_of_hydraulic_systems' on page 17 undefin
+ed on input line 1027.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1029 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1029 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1029 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Example_Of_Hydraulic_System_1.jpg, id=165, 9
+83.675pt x 554.07pt>
+File: PositiveDisplacementPumps/Figures/Example_Of_Hydraulic_System_1.jpg Graph
+ic file (type jpg)
+<use PositiveDisplacementPumps/Figures/Example_Of_Hydraulic_System_1.jpg>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Example_Of_Hydraulic
+_System_1.jpg  used on input line 1031.
+(pdftex.def)             Requested size: 227.30617pt x 128.0374pt.
+<PositiveDisplacementPumps/Figures/Example_Of_Hydraulic_System_2.jpg, id=166, 1
+927.2pt x 1276.77pt>
+File: PositiveDisplacementPumps/Figures/Example_Of_Hydraulic_System_2.jpg Graph
+ic file (type jpg)
+<use PositiveDisplacementPumps/Figures/Example_Of_Hydraulic_System_2.jpg>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Example_Of_Hydraulic
+_System_2.jpg  used on input line 1032.
+(pdftex.def)             Requested size: 193.2606pt x 128.0374pt.
+
+LaTeX Warning: Reference `fig:hydraulic_aggregate_with_motor' on page 17 undefi
+ned on input line 1047.
+
+
+LaTeX Warning: Reference `sec:pressure_relief_valve' on page 17 undefined on in
+put line 1047.
+
+
+LaTeX Warning: Reference `fig:hydraulic_aggregate_with_motor' on page 17 undefi
+ned on input line 1047.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1049 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1049 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1049 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Sizing_Of_System_With_Motor.pdf, id=167, 339
+.52563pt x 132.77107pt>
+File: PositiveDisplacementPumps/Figures/Sizing_Of_System_With_Motor.pdf Graphic
+ file (type pdf)
+<use PositiveDisplacementPumps/Figures/Sizing_Of_System_With_Motor.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Sizing_Of_System_Wit
+h_Motor.pdf  used on input line 1051.
+(pdftex.def)             Requested size: 363.81209pt x 142.26378pt.
+
+LaTeX Warning: Reference `power_balance_of_positive_displacement_machines' on p
+age 17 undefined on input line 1056.
+
+
+LaTeX Warning: Reference `sec:basic_characteristics_of_positive_displacement_ma
+chines' on page 17 undefined on input line 1056.
+
+
+LaTeX Warning: Reference `sec:control_techniques_of_hydraulic_systems' on page 
+17 undefined on input line 1100.
+
+
+LaTeX Warning: Reference `fig:hydraulic_aggregate_with_cylinder' on page 17 und
+efined on input line 1112.
+
+
+LaTeX Warning: Reference `fig:hydraulic_aggregate_with_motor' on page 17 undefi
+ned on input line 1112.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1116 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1116 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1116 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Sizing_Of_System_With_Cylinder.pdf, id=168, 
+376.87529pt x 132.77107pt>
+File: PositiveDisplacementPumps/Figures/Sizing_Of_System_With_Cylinder.pdf Grap
+hic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Sizing_Of_System_With_Cylinder.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Sizing_Of_System_Wit
+h_Cylinder.pdf  used on input line 1118.
+(pdftex.def)             Requested size: 403.83337pt x 142.26378pt.
+
+LaTeX Warning: Reference `sec:control_techniques_of_hydraulic_systems' on page 
+17 undefined on input line 1153.
+
+
+LaTeX Warning: Reference `sec:hydraulic_system_with_hydraulic_motor' on page 17
+ undefined on input line 1165.
+
+
+LaTeX Warning: Reference `sec:hydraulic_system_with_cylinder' on page 17 undefi
+ned on input line 1165.
+
+
+LaTeX Warning: Reference `fig:control_of_hydraulic_system_parallel_throttle' on
+ page 17 undefined on input line 1171.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1173 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1173 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1173 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Control_Of_Hydraulic_System_Parallel_Throttl
+e.pdf, id=169, 358.52269pt x 132.77107pt>
+File: PositiveDisplacementPumps/Figures/Control_Of_Hydraulic_System_Parallel_Th
+rottle.pdf Graphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Control_Of_Hydraulic_System_Parallel_Thr
+ottle.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Control_Of_Hydraulic
+_System_Parallel_Throttle.pdf  used on input line 1175.
+(pdftex.def)             Requested size: 384.16801pt x 142.26378pt.
+
+LaTeX Warning: Reference `fig:energy_efficiency_parallel_throttle' on page 17 u
+ndefined on input line 1180.
+
+
+LaTeX Warning: Reference `sec:hydraulic_system_with_hydraulic_motor' on page 17
+ undefined on input line 1180.
+
+
+LaTeX Warning: Reference `sec:pressure_relief_valve' on page 17 undefined on in
+put line 1180.
+
+
+LaTeX Warning: Reference `fig:control_of_hydraulic_system_parallel_throttle' on
+ page 17 undefined on input line 1180.
+
+
+LaTeX Warning: Reference `fig:energy_efficiency_parallel_throttle' on page 17 u
+ndefined on input line 1192.
+
+
+LaTeX Warning: Reference `sec:hydraulic_system_with_hydraulic_motor' on page 17
+ undefined on input line 1192.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1194 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1194 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1194 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Energy_Efficiency_Parallel_Throttle.pdf, id=
+170, 367.42528pt x 188.81381pt>
+File: PositiveDisplacementPumps/Figures/Energy_Efficiency_Parallel_Throttle.pdf
+ Graphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Energy_Efficiency_Parallel_Throttle.pdf>
+
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Energy_Efficiency_Pa
+rallel_Throttle.pdf  used on input line 1196.
+(pdftex.def)             Requested size: 387.57394pt x 199.16928pt.
+
+LaTeX Warning: Reference `fig:control_of_hydraulic_system_parallel_throttle' on
+ page 17 undefined on input line 1201.
+
+
+LaTeX Warning: Reference `fig:control_of_hydraulic_system_serial_throttle' on p
+age 17 undefined on input line 1223.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1237 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1237 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1237 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Control_Of_Hydraulic_System_Serial_Throttle.
+pdf, id=171, 358.52269pt x 132.77107pt>
+File: PositiveDisplacementPumps/Figures/Control_Of_Hydraulic_System_Serial_Thro
+ttle.pdf Graphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Control_Of_Hydraulic_System_Serial_Throt
+tle.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Control_Of_Hydraulic
+_System_Serial_Throttle.pdf  used on input line 1239.
+(pdftex.def)             Requested size: 384.16801pt x 142.26378pt.
+
+LaTeX Warning: Reference `fig:energy_efficiency_serial_throttle' on page 17 und
+efined on input line 1244.
+
+
+LaTeX Warning: Reference `sec:hydraulic_system_with_hydraulic_motor' on page 17
+ undefined on input line 1244.
+
+
+LaTeX Warning: Reference `fig:energy_efficiency_parallel_throttle' on page 17 u
+ndefined on input line 1244.
+
+
+LaTeX Warning: Reference `pressure_distrubution_in_serial_throttle' on page 17 
+undefined on input line 1256.
+
+
+LaTeX Warning: Reference `fig:energy_efficiency_serial_throttle' on page 17 und
+efined on input line 1262.
+
+
+LaTeX Warning: Reference `sec:hydraulic_system_with_hydraulic_motor' on page 17
+ undefined on input line 1262.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1264 \begin{figure}[ht!]
+                          
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.1264 \begin{figure}[ht!]
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.1264 \begin{figure}[ht!]
+                          
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<PositiveDisplacementPumps/Figures/Energy_Efficiency_Serial_Throttle.pdf, id=17
+2, 373.33098pt x 192.34714pt>
+File: PositiveDisplacementPumps/Figures/Energy_Efficiency_Serial_Throttle.pdf G
+raphic file (type pdf)
+<use PositiveDisplacementPumps/Figures/Energy_Efficiency_Serial_Throttle.pdf>
+Package pdftex.def Info: PositiveDisplacementPumps/Figures/Energy_Efficiency_Se
+rial_Throttle.pdf  used on input line 1266.
+(pdftex.def)             Requested size: 386.57455pt x 199.16928pt.
+
+LaTeX Warning: Reference `fig:energy_efficiency_serial_throttle' on page 17 und
+efined on input line 1271.
+
+
+LaTeX Warning: Reference `fig:energy_efficiency_parallel_throttle' on page 17 u
+ndefined on input line 1283.
+
+
+LaTeX Warning: Reference `fig:energy_efficiency_serial_throttle' on page 17 und
+efined on input line 1283.
+
+
+LaTeX Warning: Reference `fig:energy_efficiency_parallel_throttle' on page 17 u
+ndefined on input line 1304.
+
+
+LaTeX Warning: Reference `sec:control_techniques_of_hydraulic_systems' on page 
+17 undefined on input line 1304.
+
+(./Problem_solving/PS_PositiveDisplacementPumps.tex
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 27.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 27.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 27.
+
+<Problem_solving/figs/cylinder-problem.png, id=173, 364.59808pt x 490.46158pt>
+File: Problem_solving/figs/cylinder-problem.png Graphic file (type png)
+<use Problem_solving/figs/cylinder-problem.png>
+Package pdftex.def Info: Problem_solving/figs/cylinder-problem.png  used on inp
+ut line 39.
+(pdftex.def)             Requested size: 162.86115pt x 219.08167pt.
+
+Overfull \hbox (7.42245pt too wide) detected at line 55
+ []$[]\OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10
+ + ^^A\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 mg \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 A[]p[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Ap[] \OT1/cmr/m/n
+/10 + \OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 p \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 mg:  $ 
+ []
+
+
+Overfull \hbox (10.89684pt too wide) detected at line 60
+[]
+ []
+
+)) (./HydroAndWindPower/HydroAndWindPower.tex
+Chapter 7.
+
+LaTeX Warning: Reference `chpt:fans' on page 17 undefined on input line 12.
+
+
+LaTeX Warning: Reference `Fig:Examples_HAWT_VAWT' on page 17 undefined on input
+ line 18.
+
+
+LaTeX Warning: Reference `Fig:Examples_HAWT_VAWT' on page 17 undefined on input
+ line 20.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{figure}[ht!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.22 \begin{figure}[ht!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.22 \begin{figure}[ht!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Example_HAWT.jpg, id=174, 225.84375pt x 225.84375pt>
+
+File: HydroAndWindPower/Figures/Example_HAWT.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Example_HAWT.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Example_HAWT.jpg  used on in
+put line 24.
+(pdftex.def)             Requested size: 170.72636pt x 170.71652pt.
+<HydroAndWindPower/Figures/Example_VAWT.jpg, id=175, 194.7275pt x 259.97125pt>
+File: HydroAndWindPower/Figures/Example_VAWT.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Example_VAWT.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Example_VAWT.jpg  used on in
+put line 25.
+(pdftex.def)             Requested size: 127.87279pt x 170.71652pt.
+
+LaTeX Warning: Reference `Fig:SteamTube_HAWT' on page 17 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Reference `Fig:SteamTube_HAWT' on page 17 undefined on input lin
+e 32.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{figure}[ht!]
+                        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.34 \begin{figure}[ht!]
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.34 \begin{figure}[ht!]
+                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/SteamTube_HAWT.pdf, id=176, 171.89952pt x 95.58224pt
+>
+File: HydroAndWindPower/Figures/SteamTube_HAWT.pdf Graphic file (type pdf)
+<use HydroAndWindPower/Figures/SteamTube_HAWT.pdf>
+Package pdftex.def Info: HydroAndWindPower/Figures/SteamTube_HAWT.pdf  used on 
+input line 36.
+(pdftex.def)             Requested size: 307.0346pt x 170.71652pt.
+
+LaTeX Warning: Reference `bernoulli_1' on page 17 undefined on input line 55.
+
+
+LaTeX Warning: Reference `bernoulli_2' on page 17 undefined on input line 55.
+
+
+LaTeX Warning: Reference `Fig:SteamTube_HAWT' on page 17 undefined on input lin
+e 61.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance_wind_turbines' on page 1
+7 undefined on input line 67.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance_simplified1_wind_turbine
+s' on page 17 undefined on input line 73.
+
+
+LaTeX Warning: Reference `Fig:SteamTube_HAWT' on page 17 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Reference `Fig:SteamTube_HAWT' on page 17 undefined on input lin
+e 73.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance_simplified1_wind_turbine
+s' on page 17 undefined on input line 73.
+
+
+LaTeX Warning: Reference `Fig:SteamTube_HAWT' on page 17 undefined on input lin
+e 79.
+
+
+LaTeX Warning: Reference `sec:pressure_amplitude_fast_closure' on page 17 undef
+ined on input line 85.
+
+
+LaTeX Warning: Reference `macroscopic_momentum_balance_simplified3_wind_turbine
+s' on page 17 undefined on input line 91.
+
+
+LaTeX Warning: Reference `wind_turbine_force_from_bernoulli' on page 17 undefin
+ed on input line 97.
+
+
+LaTeX Warning: Reference `wind_turbine_force_from_macroscopic_momentum_balance'
+ on page 17 undefined on input line 97.
+
+
+LaTeX Warning: Reference `velocity_at_the_actuator_disc' on page 17 undefined o
+n input line 111.
+
+
+LaTeX Warning: Reference `wind_turbine_force_from_macroscopic_momentum_balance'
+ on page 17 undefined on input line 111.
+
+
+LaTeX Warning: Reference `useful_power_wind_power' on page 17 undefined on inpu
+t line 111.
+
+
+LaTeX Warning: Reference `efficiency_wind_power' on page 17 undefined on input 
+line 137.
+
+
+LaTeX Warning: Reference `efficiency_wind_power' on page 17 undefined on input 
+line 143.
+
+
+LaTeX Warning: Reference `peak_efficiency_wind_power' on page 17 undefined on i
+nput line 149.
+
+
+LaTeX Warning: Reference `peak_efficiency_wind_power' on page 17 undefined on i
+nput line 149.
+
+
+LaTeX Warning: Reference `velocity_coefficient' on page 17 undefined on input l
+ine 149.
+
+
+LaTeX Warning: Reference `design_aspects_and_further_remarks' on page 17 undefi
+ned on input line 163.
+
+
+LaTeX Warning: Reference `tip_speed_ratio_wind_power' on page 17 undefined on i
+nput line 173.
+
+
+LaTeX Warning: Reference `Fig:DesignPoint_HAWT_VAWT' on page 17 undefined on in
+put line 173.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.175 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.175 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/DesignPoint_HAWT_VAWT.png, id=177, 446.8695pt x 249.
+3315pt>
+File: HydroAndWindPower/Figures/DesignPoint_HAWT_VAWT.png Graphic file (type pn
+g)
+<use HydroAndWindPower/Figures/DesignPoint_HAWT_VAWT.png>
+Package pdftex.def Info: HydroAndWindPower/Figures/DesignPoint_HAWT_VAWT.png  u
+sed on input line 177.
+(pdftex.def)             Requested size: 407.96106pt x 227.62204pt.
+
+Overfull \hbox (0.80196pt too wide) in paragraph at lines 177--178
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `power_and_efficiency_of_HAWTs' on page 17 undefined o
+n input line 182.
+
+
+LaTeX Warning: Reference `Fig:Whitelee_wind_farm' on page 17 undefined on input
+ line 182.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.186 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.186 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Whitelee_wind_farm_from_the_air.jpg, id=178, 1027.84
+pt x 770.88pt>
+File: HydroAndWindPower/Figures/Whitelee_wind_farm_from_the_air.jpg Graphic fil
+e (type jpg)
+<use HydroAndWindPower/Figures/Whitelee_wind_farm_from_the_air.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Whitelee_wind_farm_from_the_
+air.jpg  used on input line 188.
+(pdftex.def)             Requested size: 303.49248pt x 227.62204pt.
+
+LaTeX Warning: Reference `introduction_to_hydropower' on page 17 undefined on i
+nput line 198.
+
+
+LaTeX Warning: Reference `Fig:traditional_hydropower_plants' on page 17 undefin
+ed on input line 215.
+
+
+LaTeX Warning: Reference `Fig:traditional_hydropower_plants' on page 17 undefin
+ed on input line 215.
+
+
+LaTeX Warning: Reference `Fig:traditional_hydropower_plants' on page 17 undefin
+ed on input line 215.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.217 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.217 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Schematics_Of_Traditional_Hydropower_Plants.png, id=
+179, 1204.5pt x 817.0525pt>
+File: HydroAndWindPower/Figures/Schematics_Of_Traditional_Hydropower_Plants.png
+ Graphic file (type png)
+<use HydroAndWindPower/Figures/Schematics_Of_Traditional_Hydropower_Plants.png>
+
+Package pdftex.def Info: HydroAndWindPower/Figures/Schematics_Of_Traditional_Hy
+dropower_Plants.png  used on input line 219.
+(pdftex.def)             Requested size: 170.71652pt x 115.79536pt.
+<HydroAndWindPower/Figures/Hoover_Dam.jpg, id=180, 2280.52pt x 1710.39pt>
+File: HydroAndWindPower/Figures/Hoover_Dam.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Hoover_Dam.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Hoover_Dam.jpg  used on inpu
+t line 220.
+(pdftex.def)             Requested size: 170.71652pt x 128.01273pt.
+<HydroAndWindPower/Figures/Three_Gorges_Dam.jpg, id=181, 1143.0705pt x 709.852p
+t>
+File: HydroAndWindPower/Figures/Three_Gorges_Dam.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Three_Gorges_Dam.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Three_Gorges_Dam.jpg  used o
+n input line 221.
+(pdftex.def)             Requested size: 170.71652pt x 106.00745pt.
+<HydroAndWindPower/Figures/Itaipu_Dam.jpg, id=182, 1204.5pt x 763.85374pt>
+File: HydroAndWindPower/Figures/Itaipu_Dam.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Itaipu_Dam.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Itaipu_Dam.jpg  used on inpu
+t line 222.
+(pdftex.def)             Requested size: 170.71652pt x 108.25586pt.
+
+LaTeX Warning: Reference `Fig:pumped_storage_hydropower' on page 17 undefined o
+n input line 227.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 227.
+
+
+LaTeX Warning: Reference `Fig:pumped_storage_hydropower' on page 17 undefined o
+n input line 227.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.229 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.229 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Schematics_Of_Pumped_Storage_Hydroelectricity.png, i
+d=183, 301.125pt x 172.645pt>
+File: HydroAndWindPower/Figures/Schematics_Of_Pumped_Storage_Hydroelectricity.p
+ng Graphic file (type png)
+<use HydroAndWindPower/Figures/Schematics_Of_Pumped_Storage_Hydroelectricity.pn
+g>
+Package pdftex.def Info: HydroAndWindPower/Figures/Schematics_Of_Pumped_Storage
+_Hydroelectricity.png  used on input line 231.
+(pdftex.def)             Requested size: 170.71652pt x 97.88179pt.
+<HydroAndWindPower/Figures/Kinzua_Dam.jpg, id=184, 361.35pt x 241.1409pt>
+File: HydroAndWindPower/Figures/Kinzua_Dam.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Kinzua_Dam.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Kinzua_Dam.jpg  used on inpu
+t line 232.
+(pdftex.def)             Requested size: 170.71652pt x 113.92496pt.
+
+LaTeX Warning: Reference `Fig:low_head_hydropower' on page 17 undefined on inpu
+t line 237.
+
+
+LaTeX Warning: Reference `Fig:low_head_hydropower' on page 17 undefined on inpu
+t line 237.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.239 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.239 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Shematics_Of_Low_Head_Hydropower.jpg, id=185, 1606.0
+pt x 947.54pt>
+File: HydroAndWindPower/Figures/Shematics_Of_Low_Head_Hydropower.jpg Graphic fi
+le (type jpg)
+<use HydroAndWindPower/Figures/Shematics_Of_Low_Head_Hydropower.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Shematics_Of_Low_Head_Hydrop
+ower.jpg  used on input line 241.
+(pdftex.def)             Requested size: 192.88322pt x 113.81102pt.
+<HydroAndWindPower/Figures/Tiszalok_Low_Head_Hydropower.jpg, id=186, 803.0pt x 
+559.08875pt>
+File: HydroAndWindPower/Figures/Tiszalok_Low_Head_Hydropower.jpg Graphic file (
+type jpg)
+<use HydroAndWindPower/Figures/Tiszalok_Low_Head_Hydropower.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Tiszalok_Low_Head_Hydropower
+.jpg  used on input line 242.
+(pdftex.def)             Requested size: 163.45204pt x 113.81102pt.
+
+LaTeX Warning: Reference `Fig:tidal_hydropower' on page 17 undefined on input l
+ine 247.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.249 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.249 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Schematics_Of_Tidal_Hydropower.jpg, id=187, 370.3837
+4pt x 277.78781pt>
+File: HydroAndWindPower/Figures/Schematics_Of_Tidal_Hydropower.jpg Graphic file
+ (type jpg)
+<use HydroAndWindPower/Figures/Schematics_Of_Tidal_Hydropower.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Schematics_Of_Tidal_Hydropow
+er.jpg  used on input line 251.
+(pdftex.def)             Requested size: 151.75093pt x 113.81102pt.
+<HydroAndWindPower/Figures/Tidal_Hydropower_In_Northen_Ireland.jpg, id=188, 702
+.625pt x 395.4775pt>
+File: HydroAndWindPower/Figures/Tidal_Hydropower_In_Northen_Ireland.jpg Graphic
+ file (type jpg)
+<use HydroAndWindPower/Figures/Tidal_Hydropower_In_Northen_Ireland.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Tidal_Hydropower_In_Northen_
+Ireland.jpg  used on input line 252.
+(pdftex.def)             Requested size: 202.20145pt x 113.81102pt.
+
+LaTeX Warning: Reference `Fig:traditional_hydropower_plants' on page 17 undefin
+ed on input line 259.
+
+
+LaTeX Warning: Reference `Fig:pelton_turbine' on page 17 undefined on input lin
+e 265.
+
+
+LaTeX Warning: Reference `Fig:pelton_turbine' on page 17 undefined on input lin
+e 265.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.267 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.267 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Pelton_Turbine_1.jpg, id=189, 1325.95375pt x 1606.0p
+t>
+File: HydroAndWindPower/Figures/Pelton_Turbine_1.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Pelton_Turbine_1.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Pelton_Turbine_1.jpg  used o
+n input line 269.
+(pdftex.def)             Requested size: 117.44907pt x 142.26378pt.
+<HydroAndWindPower/Figures/Pelton_Turbine_2.jpg, id=190, 1284.8pt x 722.7pt>
+File: HydroAndWindPower/Figures/Pelton_Turbine_2.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Pelton_Turbine_2.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Pelton_Turbine_2.jpg  used o
+n input line 270.
+(pdftex.def)             Requested size: 252.91693pt x 142.26378pt.
+
+LaTeX Warning: Reference `Fig:francis_turbine' on page 17 undefined on input li
+ne 275.
+
+
+LaTeX Warning: Reference `Fig:francis_turbine' on page 17 undefined on input li
+ne 275.
+
+
+LaTeX Warning: Reference `Fig:francis_turbine' on page 17 undefined on input li
+ne 275.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.277 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.277 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Francis_Turbine_1.jpg, id=191, 602.25pt x 493.845pt>
+
+File: HydroAndWindPower/Figures/Francis_Turbine_1.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Francis_Turbine_1.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Francis_Turbine_1.jpg  used 
+on input line 279.
+(pdftex.def)             Requested size: 138.79027pt x 113.81102pt.
+<HydroAndWindPower/Figures/Francis_Turbine_2.jpg, id=192, 599.23875pt x 394.473
+75pt>
+File: HydroAndWindPower/Figures/Francis_Turbine_2.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Francis_Turbine_2.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Francis_Turbine_2.jpg  used 
+on input line 280.
+(pdftex.def)             Requested size: 172.88785pt x 113.81102pt.
+<HydroAndWindPower/Figures/Francis_Turbine_3.jpg, id=193, 642.4pt x 480.79625pt
+>
+File: HydroAndWindPower/Figures/Francis_Turbine_3.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Francis_Turbine_3.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Francis_Turbine_3.jpg  used 
+on input line 281.
+(pdftex.def)             Requested size: 152.06186pt x 113.81102pt.
+
+LaTeX Warning: Reference `Fig:kaplan_turbine' on page 17 undefined on input lin
+e 286.
+
+
+LaTeX Warning: Reference `Fig:kaplan_turbine' on page 17 undefined on input lin
+e 286.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.288 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.288 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.288 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Kaplan_Turbine_1.jpg, id=194, 551.1792pt x 412.4208p
+t>
+File: HydroAndWindPower/Figures/Kaplan_Turbine_1.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Kaplan_Turbine_1.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Kaplan_Turbine_1.jpg  used o
+n input line 290.
+(pdftex.def)             Requested size: 190.13179pt x 142.26378pt.
+<HydroAndWindPower/Figures/Kaplan_Turbine_3.jpg, id=195, 565.11125pt x 438.6387
+5pt>
+File: HydroAndWindPower/Figures/Kaplan_Turbine_3.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Kaplan_Turbine_3.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Kaplan_Turbine_3.jpg  used o
+n input line 291.
+(pdftex.def)             Requested size: 183.27957pt x 142.26378pt.
+
+LaTeX Warning: Reference `Fig:crossflow_turbine' on page 17 undefined on input 
+line 296.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.298 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.298 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/CrossFlow_Turbine_1.jpg, id=196, 154.176pt x 102.623
+4pt>
+File: HydroAndWindPower/Figures/CrossFlow_Turbine_1.jpg Graphic file (type jpg)
+
+<use HydroAndWindPower/Figures/CrossFlow_Turbine_1.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/CrossFlow_Turbine_1.jpg  use
+d on input line 300.
+(pdftex.def)             Requested size: 170.9915pt x 113.81102pt.
+<HydroAndWindPower/Figures/CrossFlow_Turbine_2.jpg, id=197, 415.5525pt x 334.24
+875pt>
+File: HydroAndWindPower/Figures/CrossFlow_Turbine_2.jpg Graphic file (type jpg)
+
+<use HydroAndWindPower/Figures/CrossFlow_Turbine_2.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/CrossFlow_Turbine_2.jpg  use
+d on input line 301.
+(pdftex.def)             Requested size: 141.49522pt x 113.81102pt.
+<HydroAndWindPower/Figures/CrossFlow_Turbine_3.jpg, id=198, 391.4625pt x 358.33
+875pt>
+File: HydroAndWindPower/Figures/CrossFlow_Turbine_3.jpg Graphic file (type jpg)
+
+<use HydroAndWindPower/Figures/CrossFlow_Turbine_3.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/CrossFlow_Turbine_3.jpg  use
+d on input line 302.
+(pdftex.def)             Requested size: 124.32678pt x 113.81102pt.
+
+LaTeX Warning: Reference `Fig:water_turbines_application_chart' on page 17 unde
+fined on input line 307.
+
+
+LaTeX Warning: Reference `Fig:water_turbines_application_chart' on page 17 unde
+fined on input line 307.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.309 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.309 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Water_Turbine_Chart.png, id=199, 545.03625pt x 408.5
+2625pt>
+File: HydroAndWindPower/Figures/Water_Turbine_Chart.png Graphic file (type png)
+
+<use HydroAndWindPower/Figures/Water_Turbine_Chart.png>
+Package pdftex.def Info: HydroAndWindPower/Figures/Water_Turbine_Chart.png  use
+d on input line 311.
+(pdftex.def)             Requested size: 284.52756pt x 213.26393pt.
+
+LaTeX Warning: Reference `Fig:water_turbines_application_chart' on page 17 unde
+fined on input line 316.
+
+
+LaTeX Warning: Reference `sec:dimensionless_numbers' on page 17 undefined on in
+put line 316.
+
+
+LaTeX Warning: Reference `fig:nq' on page 17 undefined on input line 316.
+
+
+LaTeX Warning: Reference `Fig:water_turbines_application_chart_specific_speed' 
+on page 17 undefined on input line 329.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.331 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.331 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Water_Turbine_Chart_Specific_Speed.png, id=200, 922.
+44624pt x 459.7175pt>
+File: HydroAndWindPower/Figures/Water_Turbine_Chart_Specific_Speed.png Graphic 
+file (type png)
+<use HydroAndWindPower/Figures/Water_Turbine_Chart_Specific_Speed.png>
+Package pdftex.def Info: HydroAndWindPower/Figures/Water_Turbine_Chart_Specific
+_Speed.png  used on input line 333.
+(pdftex.def)             Requested size: 341.43306pt x 170.15593pt.
+
+LaTeX Warning: Reference `Fig:francis_turbine' on page 17 undefined on input li
+ne 346.
+
+
+LaTeX Warning: Reference `Fig:kaplan_turbine' on page 17 undefined on input lin
+e 346.
+
+
+LaTeX Warning: Reference `euler_equation_water_turbines' on page 17 undefined o
+n input line 346.
+
+
+LaTeX Warning: Reference `Fig:velocity_triangles_water_turbines' on page 17 und
+efined on input line 346.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.348 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.348 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Velocity_Triangle_Pelton_Turbine.jpg, id=201, 270.42
+967pt x 223.02678pt>
+File: HydroAndWindPower/Figures/Velocity_Triangle_Pelton_Turbine.jpg Graphic fi
+le (type jpg)
+<use HydroAndWindPower/Figures/Velocity_Triangle_Pelton_Turbine.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Velocity_Triangle_Pelton_Tur
+bine.jpg  used on input line 350.
+(pdftex.def)             Requested size: 137.99983pt x 113.81102pt.
+<HydroAndWindPower/Figures/Velocity_Triangle_Francis_Turbine.png, id=202, 383.4
+325pt x 427.5975pt>
+File: HydroAndWindPower/Figures/Velocity_Triangle_Francis_Turbine.png Graphic f
+ile (type png)
+<use HydroAndWindPower/Figures/Velocity_Triangle_Francis_Turbine.png>
+Package pdftex.def Info: HydroAndWindPower/Figures/Velocity_Triangle_Francis_Tu
+rbine.png  used on input line 351.
+(pdftex.def)             Requested size: 140.32321pt x 156.49014pt.
+<HydroAndWindPower/Figures/Velocity_Triangle_Kaplan_Turbine.jpg, id=203, 335.12
+814pt x 174.5992pt>
+File: HydroAndWindPower/Figures/Velocity_Triangle_Kaplan_Turbine.jpg Graphic fi
+le (type jpg)
+<use HydroAndWindPower/Figures/Velocity_Triangle_Kaplan_Turbine.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Velocity_Triangle_Kaplan_Tur
+bine.jpg  used on input line 352.
+(pdftex.def)             Requested size: 273.0682pt x 142.26378pt.
+
+LaTeX Warning: Reference `derivation_of_unit_flow_rate' on page 17 undefined on
+ input line 363.
+
+
+LaTeX Warning: Reference `derivation_of_unit_flow_rate' on page 17 undefined on
+ input line 363.
+
+
+LaTeX Warning: Reference `derivation_of_unit_flow_rate' on page 17 undefined on
+ input line 384.
+
+
+LaTeX Warning: Reference `Fig:typical_characteristic_curves_of_water_turbines' 
+on page 17 undefined on input line 391.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.393 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.393 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Characteristic_Curves_All_Types.png, id=204, 469.755
+pt x 400.49625pt>
+File: HydroAndWindPower/Figures/Characteristic_Curves_All_Types.png Graphic fil
+e (type png)
+<use HydroAndWindPower/Figures/Characteristic_Curves_All_Types.png>
+Package pdftex.def Info: HydroAndWindPower/Figures/Characteristic_Curves_All_Ty
+pes.png  used on input line 395.
+(pdftex.def)             Requested size: 398.33858pt x 339.61064pt.
+
+LaTeX Warning: Reference `Fig:hill_chart_and_best_efficiency' on page 17 undefi
+ned on input line 400.
+
+
+LaTeX Warning: Reference `Fig:hill_chart_and_best_efficiency' on page 17 undefi
+ned on input line 400.
+
+
+LaTeX Warning: Reference `Fig:water_turbines_application_chart_specific_speed' 
+on page 17 undefined on input line 400.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.402 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.402 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Efficiency_Hill.jpg, id=205, 642.4pt x 389.455pt>
+File: HydroAndWindPower/Figures/Efficiency_Hill.jpg Graphic file (type jpg)
+<use HydroAndWindPower/Figures/Efficiency_Hill.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Efficiency_Hill.jpg  used on
+ input line 404.
+(pdftex.def)             Requested size: 284.52756pt x 172.49576pt.
+<HydroAndWindPower/Figures/Efficiency_Of_Turbines.jpg, id=206, 168.63pt x 82.38
+78pt>
+File: HydroAndWindPower/Figures/Efficiency_Of_Turbines.jpg Graphic file (type j
+pg)
+<use HydroAndWindPower/Figures/Efficiency_Of_Turbines.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/Efficiency_Of_Turbines.jpg  
+used on input line 405.
+(pdftex.def)             Requested size: 312.9803pt x 152.9166pt.
+
+LaTeX Warning: Reference `Fig:global_hydropower_potential' on page 17 undefined
+ on input line 414.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 \begin{figure}[ht!]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.416 \begin{figure}[ht!]
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.416 \begin{figure}[ht!]
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<HydroAndWindPower/Figures/Global_Hydropower_Potential.png, id=207, 469.755pt x
+ 295.1025pt>
+File: HydroAndWindPower/Figures/Global_Hydropower_Potential.png Graphic file (t
+ype png)
+<use HydroAndWindPower/Figures/Global_Hydropower_Potential.png>
+Package pdftex.def Info: HydroAndWindPower/Figures/Global_Hydropower_Potential.
+png  used on input line 418.
+(pdftex.def)             Requested size: 208.34862pt x 130.88284pt.
+<HydroAndWindPower/Figures/The_Future_Of_Hydropower.jpg, id=208, 961.5925pt x 5
+24.96124pt>
+File: HydroAndWindPower/Figures/The_Future_Of_Hydropower.jpg Graphic file (type
+ jpg)
+<use HydroAndWindPower/Figures/The_Future_Of_Hydropower.jpg>
+Package pdftex.def Info: HydroAndWindPower/Figures/The_Future_Of_Hydropower.jpg
+  used on input line 419.
+(pdftex.def)             Requested size: 239.73726pt x 130.88284pt.
+(./Problem_solving/PS_HydroAndWind.tex)) (./chap8_Compressors.tex
+Chapter 8.
+
+LaTeX Warning: Reference `pistoncomp_pvTS' on page 17 undefined on input line 9
+.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \begin{figure}[!h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.13 \begin{figure}[!h]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.13 \begin{figure}[!h]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/pistoncomp_pV_Ts_en.png, id=209, 812.02248pt x 361.35pt>
+File: figs/pistoncomp_pV_Ts_en.png Graphic file (type png)
+<use figs/pistoncomp_pV_Ts_en.png>
+Package pdftex.def Info: figs/pistoncomp_pV_Ts_en.png  used on input line 15.
+(pdftex.def)             Requested size: 325.72852pt x 144.95097pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{figure}[!h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.20 \begin{figure}[!h]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.20 \begin{figure}[!h]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/pistoncomp_pV_2_en.png, id=210, 682.9109pt x 516.44629pt>
+File: figs/pistoncomp_pV_2_en.png Graphic file (type png)
+<use figs/pistoncomp_pV_2_en.png>
+Package pdftex.def Info: figs/pistoncomp_pV_2_en.png  used on input line 22.
+(pdftex.def)             Requested size: 162.86115pt x 123.1616pt.
+
+LaTeX Warning: Reference `pistoncomp_pv2' on page 17 undefined on input line 34
+.
+
+
+LaTeX Warning: Reference `pistoncomp_pv2' on page 17 undefined on input line 51
+.
+
+
+LaTeX Warning: Reference `eq_clearanceexpansion' on page 17 undefined on input 
+line 56.
+
+
+LaTeX Warning: Reference `eq_pistonvolflow1' on page 17 undefined on input line
+ 62.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \begin{figure}[!h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption@ORI@xfloat ... \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.73 \begin{figure}[!h]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.73 \begin{figure}[!h]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figs/workcycle_real.png, id=211, 614.701pt x 526.19057pt>
+File: figs/workcycle_real.png Graphic file (type png)
+<use figs/workcycle_real.png>
+Package pdftex.def Info: figs/workcycle_real.png  used on input line 75.
+(pdftex.def)             Requested size: 285.01012pt x 243.96953pt.
+
+LaTeX Warning: Reference `pistoncomp_Qs' on page 17 undefined on input line 84.
+
+
+
+LaTeX Warning: Reference `pistoncomp_Qs' on page 17 undefined on input line 88.
+
+
+(./Problem_solving/PS_Compressors.tex))
+
+! LaTeX Error: \begin{tcb@savebox} on input line 42 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./fluid_machinery_lecture_notes.aux)
+
+LaTeX Warning: There were undefined references.
+
+! You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.71 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 42 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> fluid_machinery_lecture_notes.tex
+                                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 15309 strings out of 479023
+ 318734 string characters out of 5863350
+ 1217947 words of memory out of 5000000
+ 32334 multiletter control sequences out of 15000+600000
+ 412858 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 86i,20n,89p,2531b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

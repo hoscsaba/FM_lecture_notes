@@ -1,0 +1,42 @@
+\section{Problems}
+
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+The cross-section of a plant water channel is given. The measured average water depth is $\overline{h}=2.9\,\mathrm{m}$, the width of the channel is $\overline{B}=25\,\mathrm{m}$. The velocity of the water flow is measured at several locations of the cross-section using a cup-type anemometer. The calculated average velocity is $\overline{v}=0.4\,\mathrm{m/s}$. The height difference between the upstream and downstream water depth at the dam is $h_{upstream}-h_{downstream}=4.5\,\mathrm{m}$. The efficiency of the turbine is $\eta_{turbine}=90\,\%$ the efficiency of the generator is $\eta_{generator}=96\,\%$. The input power and useful power of the power plant are to be calculated. What is the value of the hydraulic radius? What type of turbine is suitable for this power plant?
+
+\noindent Solution:
+
+\begin{itemize}
+\item $A=\overline{h}\overline{B}=72.5\,\mathrm{m^2}$
+\item $\overline{Q}=A\overline{v}=29\,\mathrm{m^3/s}$
+\item $\overline{H}=h_{upstream}-h_{downstream}=4.5\,\mathrm{m}$
+\item $\overline{P}_{input}=\overline{Q}\rho g\overline{H}=1.28\,\mathrm{MW}$
+\item $\overline{P}_{useful}=\eta_{turbine}\eta_{generator}\overline{P}_{input}=1.106\,\mathrm{MW}$
+\item $R_h=\frac{Area}{Perimeter}=\frac{\overline{B}\overline{h}}{2\overline{h}+\overline{B}}=2.35\,\mathrm{m}$
+\end{itemize}
+
+\noindent Turbine type: Kaplan turbine.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+The instantaneous efficiency of an existing wind turbine is to be calculated. The measured average wind speed at the level of the rotor is $\overline{v}_1=12\,\mathrm{m/s}$. The average speed of the air behind the rotor is $\overline{v}_3=8\,\mathrm{m/s}$. The diameter of the rotor is $D_2=55\,\mathrm{m}$, the density of the air is $\rho_{air}=1.2\,\mathrm{kg/m^3}$. Find the calculated efficiency related to the theoretical maximum of the efficiency?
+
+\noindent Solution:
+
+\begin{itemize}
+\item $\Delta \overline{v}=\overline{v}_1-\overline{v}_3=4\,\mathrm{m/s}$
+\item $A_2=\frac{D_2^2\pi}{4}=2376\,\mathrm{m^2}$
+\item $\overline{P}_{input}=\rho_{air}A_2\overline{v}_1\frac{\overline{v}_1^2}{2}=2.463\,\mathrm{MW}$
+\item $\overline{P}_{useful}=\rho_{air}A_2\overline{v}_1^3\left(1-\frac{\Delta \overline{v}}{2v_1}\right)^2\frac{\Delta \overline{v}}{v_1}=1.140\,\mathrm{MW}$
+\item $\eta=C_P=\frac{\overline{P}_{useful}}{\overline{P}_{input}}=0.463<\frac{16}{27}=0.593$
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+How large is the power of a wind turbine of $30 m$ rotor diameter if the wind speed is $8 m/s$? The Betz limit of the power coefficient $Cp$ is $0.593$.

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg3860"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="AxialPump_front.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs3862">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4458">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop4460" />
+      <stop
+         style="stop-color:#666666;stop-opacity:0;"
+         offset="1"
+         id="stop4462" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4450">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop4452" />
+      <stop
+         style="stop-color:#666666;stop-opacity:0;"
+         offset="1"
+         id="stop4454" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4442">
+      <stop
+         style="stop-color:#808080;stop-opacity:1;"
+         offset="0"
+         id="stop4444" />
+      <stop
+         style="stop-color:#808080;stop-opacity:0;"
+         offset="1"
+         id="stop4446" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4434">
+      <stop
+         style="stop-color:#999999;stop-opacity:1;"
+         offset="0"
+         id="stop4436" />
+      <stop
+         style="stop-color:#999999;stop-opacity:0;"
+         offset="1"
+         id="stop4438" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4426">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop4428" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:0;"
+         offset="1"
+         id="stop4430" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3868" />
+    <inkscape:perspective
+       id="perspective3877"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4426"
+       id="linearGradient4432"
+       x1="1465.7623"
+       y1="743.04867"
+       x2="2115.9561"
+       y2="743.04865"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4434"
+       id="linearGradient4440"
+       x1="2040.5146"
+       y1="107.36616"
+       x2="2201.9458"
+       y2="531.63025"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4442"
+       id="linearGradient4448"
+       x1="1694.0707"
+       y1="-173.19043"
+       x2="1800.8022"
+       y2="-167.67049"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4450"
+       id="linearGradient4456"
+       x1="1165.4235"
+       y1="161.92247"
+       x2="1227.8516"
+       y2="557.90228"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4458"
+       id="radialGradient4464"
+       cx="-51.180264"
+       cy="351.41238"
+       fx="-51.180264"
+       fy="351.41238"
+       r="216.13529"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.7464487,3.6412123e-2,-3.640421e-2,1.7460692,50.996334,-260.31439)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="818.46984"
+     inkscape:cy="1041.258"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="22" />
+  <metadata
+     id="metadata3865">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="1. réteg"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:url(#radialGradient4464);fill-opacity:1;stroke:#4d4d4d;stroke-width:6.55627632000000030;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3887"
+       sodipodi:cx="15.714286"
+       sodipodi:cy="276.64789"
+       sodipodi:rx="212.85715"
+       sodipodi:ry="212.85715"
+       d="M 228.57143,276.64789 A 212.85715,212.85715 0 1 1 -197.14286,276.64789 A 212.85715,212.85715 0 1 1 228.57143,276.64789 z"
+       transform="matrix(1.0268456,0,0,1.0268456,1609.8628,0.5732112)"
+       inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_front.png"
+       inkscape:export-xdpi="100.02762"
+       inkscape:export-ydpi="100.02762" />
+    <path
+       style="opacity:1;fill:url(#linearGradient4440);fill-opacity:1;stroke:#4d4d4d;stroke-width:6.73228358999999980;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 2324.3472,64.4375 L 1827.4097,199.71875 C 1838.4436,225.83407 1844.5659,254.53841 1844.5659,284.65625 C 1844.5659,325.67608 1833.2484,364.0651 1813.5659,396.875 L 2341.5347,441.21875 C 2358.0625,341.92092 2369.6156,236.7672 2324.3472,64.4375 z"
+       id="path4398"
+       inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_front.png"
+       inkscape:export-xdpi="100.02762"
+       inkscape:export-ydpi="100.02762" />
+    <path
+       style="opacity:1;fill:url(#linearGradient4448);fill-opacity:1;stroke:#4d4d4d;stroke-width:6.73228358999999980;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1629.4409,-441.78125 C 1566.6131,-442.03589 1494.0223,-434.01759 1402.4722,-409.96875 L 1537.1597,84.9375 C 1564.3085,72.834548 1594.3762,66.0625 1626.0034,66.0625 C 1665.8372,66.0625 1703.1749,76.765041 1735.3472,95.40625 L 1779.2534,-427.15625 C 1732.7076,-434.90364 1684.8773,-441.55657 1629.4409,-441.78125 z"
+       id="path4406"
+       inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_front.png"
+       inkscape:export-xdpi="100.02762"
+       inkscape:export-ydpi="100.02762" />
+    <path
+       style="opacity:1;fill:url(#linearGradient4456);fill-opacity:1;stroke:#4d4d4d;stroke-width:6.73228358999999980;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 910.87843,135.15625 C 894.35066,234.45408 882.79752,339.6078 928.06593,511.9375 L 1427.4409,376 C 1414.6163,348.1935 1407.4409,317.26971 1407.4409,284.65625 C 1407.4409,246.39045 1417.2963,210.41891 1434.5972,179.125 L 910.87843,135.15625 z"
+       id="path4410"
+       inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_front.png"
+       inkscape:export-xdpi="100.02762"
+       inkscape:export-ydpi="100.02762" />
+    <path
+       style="opacity:1;fill:url(#linearGradient4432);fill-opacity:1;stroke:#4d4d4d;stroke-width:6.73228358999999980;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1513.4409,472 L 1469.1284,999.46875 C 1568.4263,1015.9965 1673.58,1027.5496 1845.9097,982.28125 L 1710.8472,486.125 C 1684.759,497.13187 1656.0823,503.21875 1626.0034,503.21875 C 1584.8402,503.21875 1546.3263,491.80988 1513.4409,472 z"
+       id="path4412"
+       inkscape:export-filename="C:\Documents and Settings\Bazsó Csaba\Asztal\Fluid Machinery\AxialPump_front.png"
+       inkscape:export-xdpi="100.02762"
+       inkscape:export-ydpi="100.02762" />
+  </g>
+</svg>

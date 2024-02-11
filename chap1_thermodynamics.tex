@@ -1,0 +1,301 @@
+\chapter{Some basic relationships of fluid mechanics and thermodynamics}
+
+\section{Continuity equation}
+
+In the absence of nuclear reactions, matter can neither be created or destroyed. This is the principle of mass conservation and gives the continuity equation. Its general form is
+
+\beq
+\frac{\partial \rho}{\partial t}+\text{div}(\rho \underline{v})=0
+\eeq
+
+where $\text{div}(\underline{v})=\nabla \underline{v}=\partial v_x/\partial x+\partial v_y/\partial y+\partial v_z/\partial z$. If the flow is steady $(\partial\ldots/\partial t=0)$  \remove{and one-dimensional}, we have
+
+\beq
+\text{div}(\rho \underline{v})=0.
+\eeq
+
+Moreover, in many engineering applications the density can be considered to be constant, leading to
+
+\beq
+\text{div}(\underline{v})=0.
+\label{eq:conti_diff}
+\eeq
+
+The above forms are so-called differential forms of the continuity equation. However, one can derive the so-called integral forms. For example, for the steady-state case, if we integrate \eqref{eq:conti_diff} on a \emph{closed} surface $A$, we obtain
+
+\beq
+\int_A \rho\underline{v}d\underline{A}=\int_A \rho v_\bot d A.
+\eeq
+
+Note that the surface is defined by its normal unit vector $d\underline{A}$ and one has to compute the scalar product $\underline{v}d\underline{A}$. One can resolve the velocity to a component parallel to and another perpendicular to the surface as $\underline{v}=\underline{v}_\bot+\underline{v}_{\|}$. Thus $\underline{v}d\underline{A}=\left|\underline{v} \right| \, \left| d\underline{A}\right| \cos \alpha = v_\bot d A $.
+
+In many engineering applications, there is an inflow $A_1$ and an outflow $A_2$, between which we have rigid walls, e.g. pumps, compressors, pipes, etc. Let us denote the average perpendicular velocities and the densities at the inlet $A_1$ and outlet $A_2$ by $v_1$, $\rho_1$ and $v_2$, $\rho_2$ respectively. Than, we have
+
+\beq
+\dot{m} = \rho_1 v_1 A_1=\rho_2 v_2 A_2 = \text{const.}
+\eeq
+%
+The quantity $\dot{m}$ is called \emph{mass flow rate} ($kg/s$) and it simply reflects to the fact that under steady-state conditions the amount of mass entering the machine per unti time has to leave it, also. If the density is constant, we have
+%
+\beq
+Q=\dot{m}/\rho = v_1 A_1= v_2 A_2 = \text{const.},
+\eeq
+%
+where $Q$ ($m^3/s$) is the \emph{volumetric flow rate}.
+\section{Bernoulli's equation}
+
+In the case of steady frictionless flow, the energy of the fluid along a streamline remains constant. Mostly we deal with incompressible fluids, for which the energy content per unit volume is
+
+\beq
+\text{Energy per unit volume}=\frac{mgh+\frac{1}{2}mv^2+pV}{V}=p+\frac{\rho}{2}v^2+\rho gh=\text{constant.}
+\eeq
+
+Considering two points of the streamline (the flow is from 1 to 2), we have
+
+\beq
+p_1+\frac{\rho}{2}v_1^2+\rho gh_1=p_2+\frac{\rho}{2}v_2^2+\rho gh_2.
+\eeq
+
+Note that the above form can only applied if
+\begin{itemize}
+\item the flow is incompressible, i.e. $\rho=\text{const}$,
+\item the flow is ideal, i.e. there are no losses (friction, separation, etc.),
+\item points 1 and 2 refer to two points \emph{on the same streamline} and
+\item the fluid is Newtonian, i.e. the stress versus strain rate curve is linear and passes through the origin. The constant of proportionality is known as the viscosity: $\tau=\mu \dot{\gamma}$. (In common terms, this means the fluid continues to flow, regardless of the forces acting on it. For example, water is Newtonian, because it continues to exemplify fluid properties no matter how fast it is stirred or mixed.)
+\end{itemize}
+
+The Bernoulli equation can be extended to include friction and unsteady effects:
+%
+\begin{equation}
+p_1+\frac{\rho}{2}v_1^2+\rho gh_1=p_2+\frac{\rho}{2}v_2^2+\rho g h_2
+  +\lambda \frac{L}{D}\frac{\rho}{2}v |v|+\rho L \frac{dv}{dt}.
+\end{equation}
+
+\section{Energy equation for compressible flow}
+
+Without derivation, we simply state that the energy equation for frictionless, stationary flow of a compressible ideal gas without heat transfer
+takes the following form
+
+\begin{equation}
+h_t=\frac{v^2}{2}+c_p T=\mathrm{constant},
+\end{equation}
+
+where $c_p\,[\mathrm{J/kgK}]$ is the specific heat capacity taken at constant pressure and $T\,[\mathrm{K}]$ is the absolute (!) temperature. The quantity $h$ is called \emph{enthalpy}, $h_t$ stands for \emph{total enthalpy}, while the term $c_pT$ is referred to as $h$ thermodynamic enthalpy.
+
+\section{Thermodynamics}
+
+\subsection{Specific heat capacities}
+
+Assume that a definite mass of gas $m$ is heated from $T_1$ to $T_2$ at \emph{constant volume} and thus its internal energy is raised from $U_1$ to $U_2$. We have
+%
+\begin{equation}
+m c_V\, \Delta T=\Delta U \quad \text{or} \quad c_V\,\Delta T=\Delta u,
+\end{equation}
+%
+where $u$ is the \emph{internal energy per unit mass} and $c_V$ ($J/(kgK)$) is the \emph{specific heat capacity} measured at constant volume. Note that the pressure also increases, however, it is "included" in the above equation as once the temperature $T_2=T_1+\Delta T$ in known, the increased pressure can be computed by means of the ideal gas law ($\rho=$const. due to the constant volume assumption).
+
+Now we perform the same experiment at \emph{constant pressure}. Technically, imagine a piston that is freely flowing with a constant mass on the moving piston (= constant pressure), thus the volume changes and work is done on the fluid:
+%
+\begin{equation}
+m c_p\, \Delta T=\Delta U + m p \Delta V,
+\end{equation}
+%
+which, after rewriting for unit mass and combining with the previous equation for constant volume process, \add{also using the ideal gas model $R dT = p dV$} gives
+%
+\begin{equation}
+c_p\,\Delta T=\Delta u+p \Delta V=c_V \Delta T + R \Delta T \quad \rightarrow \quad c_p=R+c_V.
+\end{equation}
+
+Thus we see that it is useful to define a new quantity which includes both the change of the internal energy $u$ and the pressure work $p\,dv=p\, d\left( 1/\rho \right)$. Some useful equations:
+%
+\begin{equation}
+R=c_p-c_V, \quad \kappa=\frac{c_p}{c_V}, \quad c_p=R \frac{\kappa}{\kappa-1} \quad \text{and} \quad c_V=R\frac{1}{\kappa-1}.
+\end{equation}
+
+\subsection{Some basic thermodynamic relationships}
+
+One possible form of the energy equation for a steady, open system in \emph{differential form} is
+
+\begin{equation}
+\delta Y + \delta q = d  \underbrace{ \left(h +\frac{c^2}{2}+gz\right)}_{e},
+\label{eq:first_law_of_thermodynamics}
+\end{equation}
+
+\noindent $\delta Y$ is the \emph{elementary shaft work}, $\delta q$ is the \emph{elementary heat transferred} towards the fluid, both of them being \emph{processes}, which is emphasised by the $\delta$ symbol. And $$ e = h +\frac{c^2}{2}+gz $$ is the \emph{energy}.
+Note that the above equation describes an elementary process, however, to compute the overall process (to integrate the above equation), one has to know what kind of process takes place in the machine (adiabatic, isentropic, isotherm, etc.) and the results depends on it (thus, the integral is inexact).
+
+The term \emph{enthalpy} is often used in thermodynamics. It expresses the sum of the internal energy $u$ and the ability to do hydrodynamic work $p$
+
+\begin{equation}
+h=u+\frac{p}{\rho}.
+\end{equation}
+
+\noindent Note that $h=c_p T$ and $u=c_V T$. There are some forms of expressing the change in enthalpy ($v=1/\rho$):
+
+\begin{equation}
+d h=d (u+pv) = \delta q + v dp = Tds+v dp.
+\label{eq:dh}
+\end{equation}
+
+$c_p T$ and $u=c_V T$. There are some forms of expressing the change in enthalpy ($v=1/\rho$):
+%
+\begin{equation}
+d s=\frac{\delta q}{T} + d s_{irrev},
+\end{equation}
+%
+with which, using \eqref{eq:dh} we obtain
+
+\begin{equation}
+%T ds = dh - v dp = \delta q + T d s_{irrev.} \quad \rightarrow \quad
+dh=\delta q + T d s_{irrev} + vdp,
+\end{equation}
+
+\noindent with which \eqref{eq:first_law_of_thermodynamics} turns into
+
+\begin{equation}
+\boxed{\delta Y =\underbrace{vdp+d\left(\frac{c^2}{2}+gz\right)}_{\delta Y_{u(seful)}}
++\underbrace{T d s_{irrev.}}_{\text{losses}}}
+\label{eq:first_law_of_thermodynamics2}
+\end{equation}
+
+Upon integrating \eqref{eq:first_law_of_thermodynamics2}, we need to evaluate $\int \frac{1}{\rho(p)} dp$.
+
+The \emph{input shaft power} is simply the work needed to change the enthalpy of Upon integrating \eqref{eq:first_law_of_thermodynamics2}, we need to evaluate:
+\begin{equation}
+P_{in}=\dot{m} \Delta e = \left.\dot{m} \left( h_2-h_1 + \frac{c_2^2-c_1^2}{2} + g(z_2-z_1)\right)\right|_{z_1\approx z_2, c_1\approx c_2}=\dot{m} c_p \left(T_2-T_1\right)
+\label{eq:shaftwork}
+\end{equation}
+
+When computing the \emph{useful work}, we integrate the $Y_u$ part of \eqref{eq:first_law_of_thermodynamics2} between points 1 and 2 (e.g. between the suction and pressure side of a compressor). We still assume that $z_1\approx z_2$ and $c_1 \approx c_2$.
+\note{ equation addad by Weber Richard}
+\begin{equation}
+Y_u = \int_1^2 v dp = \int_1^2 \frac{1}{\rho} dp
+\end{equation}
+
+In the case of an \emph{isentropic} process, we have $p/\rho=RT$ (ideal gas law) and $p/\rho^\kappa=const.$ ($\kappa$ is the \emph{isentropic exponent}), thus
+
+\begin{equation}
+Y_{isentr.}= \int_1^2 \frac{1}{\rho} dp = \int_1^2 \frac{p_1^{1/\kappa}}{\rho_1} p^{-1/\kappa}dp = \frac{p_1^{1/\kappa}}{\rho}\int_1^2 p^{-1/\kappa} dp = \frac{\kappa}{\kappa-1}\frac{p_1}{\rho_1} \left[\left(\frac{p_2}{p_1}\right)^{\frac{\kappa-1}{\kappa}}-1\right].
+\end{equation}
+%
+Note that the above equation gives
+\begin{equation}
+Y_{isentr.}= \frac{\kappa}{\kappa-1}\underbrace{\frac{p_1}{\rho_1}}_{R T_1} \left[\underbrace{\left(\frac{p_2}{p_1}\right)^{\frac{\kappa-1}{\kappa}}}_{T_2/T_1}-1\right] = \underbrace{\frac{\kappa}{\kappa-1} R }_{c_p}\left(T_2-T_1\right),
+\end{equation}
+%
+which is exactly the input specific work defined by \eqref{eq:shaftwork}.
+
+A typical compression system consists of a compressor and a pressure vessel, which stores the compressed gas. Although the gas heats up during the compression but in the vessel it will cool back to the pressure of the surroundings. In other words, we loose the heat energy and the 'useful' process is \emph{isotherm}. We have $p/\rho=RT$ (ideal gas law) and $T=$const., thus
+%
+\begin{equation}
+Y_{isotherm}=\frac{p_1}{\rho_1}\int_1^2\frac{1}{p}dp = R T_1 \ln\left( \frac{p_2}{p_1}\right)
+\end{equation}
+
+The real processes are usually described by \emph{polytropic} processes but formally we use the same equations as in the isentropic case, with the slight change of using the \emph{polytropic exponent} $n$ instead of $\kappa$. We have $p/\rho=RT$ (ideal gas law) and $p/\rho^n=$const., thus
+%
+\begin{equation}
+\left.\int_1^2\frac{1}{\rho}dp\right|_{polytropic} = \frac{n}{n-1}\frac{p_1}{\rho_1} \left[\left(\frac{p_2}{p_1}\right)^{\frac{n-1}{n}}-1\right]=\frac{n}{n-1} R \left( T_2-T_1\right).
+\label{eq:chap1_polytropic_specific_work}
+\end{equation}
+%
+Polytropic processes are real, non-adiabatic processes. Note that the polytropic exponent $n$ is typically a result of curve fit that allows the accurate computation of the outlet temperature.
+
+\subsection{Input shaft work and useful work}
+
+The \emph{input shaft power} is simply the work needed to change the enthalpy of the fluid:
+\begin{equation}
+P_{in}=\dot{m} \Delta e = \left.\dot{m} \left( h_2-h_1 + \frac{c_2^2-c_1^2}{2} + g(z_2-z_1)\right)\right|_{z_1\approx z_2, c_1\approx c_2}=\dot{m} c_p \left(T_2-T_1\right)
+\label{eq:shaftwork}
+\end{equation}
+
+When computing the \emph{useful work}, we integrate the $Y_u$ part of \eqref{eq:first_law_of_thermodynamics2} between points 1 and 2 (e.g. between the suction and pressure side of a compressor). We still assume that $z_1\approx z_2$ and $c_1 \approx c_2$.
+\note{ equation addad by Weber Richard}
+\begin{equation}
+Y_u = \int_1^2 v dp = \int_1^2 \frac{1}{\rho} dp
+\end{equation}
+
+In the case of an \emph{isentropic} process, we have $p/\rho=RT$ (ideal gas law) and $p/\rho^\kappa=const.$ ($\kappa$ is the \emph{isentropic exponent}), thus
+
+\begin{equation}
+Y_{isentr.}= \int_1^2 \frac{1}{\rho} dp = \int_1^2 \frac{p_1^{1/\kappa}}{\rho_1} p^{-1/\kappa}dp = \frac{p_1^{1/\kappa}}{\rho}\int_1^2 p^{-1/\kappa} dp = \frac{\kappa}{\kappa-1}\frac{p_1}{\rho_1} \left[\left(\frac{p_2}{p_1}\right)^{\frac{\kappa-1}{\kappa}}-1\right].
+\end{equation}
+%
+Note that the above equation gives
+\begin{equation}
+Y_{isentr.}= \frac{\kappa}{\kappa-1}\underbrace{\frac{p_1}{\rho_1}}_{R T_1} \left[\underbrace{\left(\frac{p_2}{p_1}\right)^{\frac{\kappa-1}{\kappa}}}_{T_2/T_1}-1\right] = \underbrace{\frac{\kappa}{\kappa-1} R }_{c_p}\left(T_2-T_1\right),
+\end{equation}
+%
+which is exactly the input specific work defined by \eqref{eq:shaftwork}.
+
+A typical compression system consists of a compressor and a pressure vessel, which stores the compressed gas. Although the gas heats up during the compression but in the vessel it will cool back to the pressure of the surroundings. In other words, we loose the heat energy and the 'useful' process is \emph{isotherm}. We have $p/\rho=RT$ (ideal gas law) and $T=$const., thus
+%
+\begin{equation}
+Y_{isotherm}=\frac{p_1}{\rho_1}\int_1^2\frac{1}{p}dp = R T_1 \ln\left( \frac{p_2}{p_1}\right)
+\end{equation}
+
+The real processes are usually described by \emph{polytropic} processes but formally we use the same equations as in the isentropic case, with the slight change of using the \emph{polytropic exponent} $n$ instead of $\kappa$. We have $p/\rho=RT$ (ideal gas law) and $p/\rho^n=$const., thus
+%
+\begin{equation}
+\left.\int_1^2\frac{1}{\rho}dp\right|_{polytropic} = \frac{n}{n-1}\frac{p_1}{\rho_1} \left[\left(\frac{p_2}{p_1}\right)^{\frac{n-1}{n}}-1\right]=\frac{n}{n-1} R \left( T_2-T_1\right).
+\label{eq:chap1_polytropic_specific_work}
+\end{equation}
+%
+Polytropic processes are real, non-adiabatic processes. Note that the polytropic exponent $n$ is typically a result of curve fit that allows the accurate computation of the outlet temperature.
+
+\begin{equation}
+Y_{incomp.}=\frac{1}{\rho}\int_1^21\,dp =\frac{p_2-p_1}{\rho}.
+\end{equation}
+
+\add{In conclusion we have discussed four different case:}\note{ table addad by Weber Richard}
+\begin{center}
+	\begin{tabular}{lc}
+
+	Isentropic: & $Y = \frac{\kappa}{\kappa-1}\frac{p_1}{\rho_1} \left[\left(\frac{p_2}{p_1}\right)^{\frac{\kappa-1}{\kappa}}-1\right] = \frac{\kappa}{\kappa-1} R \left(T_2-T_1\right),$ \\ [0.8cm]
+	Isotherm: & $Y = R T_1 \ln\left( \frac{p_2}{p_1}\right),$\\[0.8cm]
+	Polytropic: &  $Y = \frac{n}{n-1}\frac{p_1}{\rho_1} \left[\left(\frac{p_2}{p_1}\right)^{\frac{n-1}{n}}-1\right]=\frac{n}{n-1} R \left( T_2-T_1\right),$\\[0.8cm]
+	Incompressible: & $Y_u = \frac{p_2-p_1}{\rho}.$\\[0.8cm]
+
+	\end{tabular}
+\end{center}
+
+
+\subsection{Specific work for hydraulic machines}
+
+In the case of {\bf pumps}, the fluid can be considered as incompressible. However, instead of $Y$ usually the \emph{head} is used:
+
+\begin{equation}
+H=\frac{Y_u}{g}=\frac{p_2-p_1}{\rho g}+\frac{c_2^2-c_1^2}{2g}+z_2-z_1.\quad [m]=\left[ \frac{J}{N}\right]
+\end{equation}
+
+In the case of {\bf ventilators}, the energy change due to the geodetic heigth difference between the suction and pressure side is neglegible ($z_2 \approx z_1$) and usually the \emph{change of total pressure} is used:
+
+\begin{equation}
+\Delta p_t=Y_u \rho=p_2-p_1+\rho\frac{c_2^2-c_1^2}{2}=p_{t,2}-p_{t,1}. \quad [Pa]=\left[ \frac{J}{m^3}\right]
+\end{equation}
+
+In the case of {\bf compressors}, the fluid cannot be considered as incompressible. When neglecting the losses, the specific work is:
+
+\begin{equation}
+Y_{u,isentropic}=c_p\left(T_{2s}-T_1\right) +\frac{c_2^2-c_1^2}{2}=h_{2s,t}-h_{1,t}.
+\end{equation}
+
+\subsection{Efficiency}
+
+The ratio of the useful power and the input power is efficiency. For a given $T_2$ compression final temperature, we have
+
+\begin{equation}
+\eta_{isentropic}=\frac{T_{2s}-T_1}{T_2-T_1},
+\end{equation}
+
+\noindent for a polytropic process, we have
+
+\begin{equation}
+\eta_{polytropic}=\frac{\frac{n}{n-1}R (T_2-T_1)}{c_p(T_2-T_1)}=\frac{n}{n-1}\frac{\kappa-1}{\kappa}.
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Problem_solving/PS_Thermodynamics.tex}
+
+\clearpage
+

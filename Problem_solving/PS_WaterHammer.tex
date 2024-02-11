@@ -1,0 +1,48 @@
+\subsection{Problems}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+The diameter of a pipe is NA150, the volumetric flow rate us $Q=44~\frac{\mathrm{m^3}}{\mathrm{h}}$, the \emph{relative} pressure in the pipe is $5~\mathrm{bar}$, and the sonic velocity is $a=1200~\frac{\mathrm{m}}{\mathrm{s}}$. Find the amplitude of the pressure wave, in case when the pump at the beginning of the pipe suddenly stops! The flow velocity reaches zero faster than the characteristic time of the pipe, therefore Allievi's theory can be used. Is cavitation possible in the pipe? For the same volumetric flow rate, find the diameter of the pipe, at which cavitation is no longer possible!
+
+Solution:
+
+Allievi's theory states that
+\begin{align*}
+\Delta p = \rho a \Delta v.
+\end{align*}
+The velocity of the fluid in then pipe is
+\begin{align*}
+v = \frac{Q}{A} = \frac{4Q}{D^2 \pi} = \frac{4\cdot 44}{0.15^2 \cdot \pi \cdot 3600} = 0.69~\frac{\mathrm{m}}{\mathrm{s}}.
+\end{align*}
+The amplitude of the pressure rate is given by
+\begin{align*}
+\Delta p = 1000 \cdot 1200 \cdot 0.69 = 828 000 ~\mathrm{Pa} = 8.3~\mathrm{bar}.
+\end{align*}
+Knowing the amplitude of the pressure wave and the relative pressure in the pipe, the smallest relative pressure possible in the pipe is $5-8.3 = -3.3~\mathrm{bar}$. This is impossible, the smallest relative pressure possible is $-1~\mathrm{bar}$. Below 0 bar relative pressure, cavitation is possible. To avoid this, the required pipe diameter is
+\begin{align*}
+\Delta p = \rho a \Delta v = \rho a \frac{4Q}{D^2 \pi} \rightarrow D = \sqrt{\rho a \frac{4Q}{\Delta p \pi}} = \sqrt{1000 \cdot 1200 \cdot \frac{4\cdot 44}{5 \cdot 10^5 \pi \cdot 3600}} = 0.193~\mathrm{m}
+\end{align*}
+Therefore, with an NA200 pipe, caviation can be avoided when the pipe is closed faster than the characteristic time of the pipe.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+During the reconstruction of a water pipe, the old asbestos cement (AC) pipe is changed to a steel pipe. The sonic speed is $a_{AC}=920~\frac{\mathrm{m}}{\mathrm{s}}$ and $a_{steel}=1200~\frac{\mathrm{m}}{\mathrm{s}}$ in the asbestos cement and steel pipe, respectively. The velocity of the fluid is $0.7~\frac{\mathrm{m}}{\mathrm{s}}$, and the pressure is $p=7~\mathrm{bar}$. Find the amplitude of the pressure wave for both pipes, assuming the end of the pipe is closed fast (under the characteristic time)!
+
+(Solution: AC: $dp=6.44~\mathrm{bar}$, $p_{max} = 13.44~\mathrm{bar}$. Steel pipe: $dp=8.4~\mathrm{bar}$, $p_{max} = 15.4~\mathrm{bar}$)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1cm}
+\noindent {\bf Problem \thesection.\theprob}\stepcounter{prob}
+
+A NA200 pipe that's length is $8~\mathrm{km}$, conveys water to an open reservoir. The volumetric flow rate is $Q=3600~\frac{\mathrm{l}}{\mathrm{min}}$, and the end of the pipe is above the water level of the reservoir. The friction factor is $\lambda=0.018$. Find the pressure at the beginning of the pipe! Assuming that the velocity decreases linearly in time, find the ratio of the characteristic time of the pipe and the time under which the valve at the pressure side of the pump can be closed! The criteria is that the pressure cannot be lower than the atmospheric pressure! The sonic speed is $a=1200~\frac{\mathrm{m}}{\mathrm{s}}$. Find the characteristic time of the pipe! Plot the velocity of the fluid as a function of time!
+
+(Solution: $p=13.13~\mathrm{bar}$, $\frac{T}{T_{char}} = 1.75$, $T_{char} = 13.33~\mathrm{s}$)
