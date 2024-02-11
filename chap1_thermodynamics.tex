@@ -293,6 +293,45 @@ The ratio of the useful power and the input power is efficiency. For a given $T_
 \eta_{polytropic}=\frac{\frac{n}{n-1}R (T_2-T_1)}{c_p(T_2-T_1)}=\frac{n}{n-1}\frac{\kappa-1}{\kappa}.
 \end{equation}
 
+The reason for using two efficiencies are as follows. Imagine that  a real compression process from $p_1$, $T_1$ to $p_2$, $T_2$ is divided into "small" compression stages. The issue with the isentropic efficiency is that each of these will have different efficiencies [add an exampe here].
+
+Let us cosider an elementary compresion step that increase the pressure by $d\,p$ and the temperature by $d\,T$. The overall compression cycle consists of infinitely many of these steps and assume that each stage shares the same $\eta_p$ polytropic efficiency, that is $\eta_p=d\,T_s/d\,T$ ($d\,T_s$) would be the isentropic compression's end temperature. We have
+
+\begin{equation}
+  dT=\frac{d\,T_s}{\eta_p}=\frac{T'-T}{\eta_p}
+  =\frac{T}{\eta_p}\left(\frac{T'}{T}-1\right)
+  =\frac{T}{\eta_p}\left(\left(1+\frac{dp}{p}\right)^{\frac{\kappa-1}{\kappa}}-1\right). 
+\end{equation}
+
+For small $dp$ values, we expand the above formula into Taylor series, which gives
+
+\begin{equation}
+  \frac{dT}{T} = \frac{1}{\eta_p} \frac{dp}{p} \frac{\kappa-1}{\kappa}, 
+\end{equation}
+
+which, after integrating, gives
+
+\begin{equation}
+  \eta_p=\frac{\kappa-1}{\kappa}\frac{\ln \frac{p_2}{p_1}}{\ln \frac{T_2}{T_1}},
+\end{equation}
+
+from which we have
+
+\begin{equation}
+  \frac{T_2}{T_1}=\left( \frac{p_2}{p_1}\right)^{\frac{1}{\eta_p}\frac{\kappa-1}{\kappa}}.
+\end{equation}
+
+However, the original compression from $p_1$ to $p_2$ was polytropic with exponent $n$, that is
+\begin{equation}
+  \frac{T_2}{T_1}=\left( \frac{p_2}{p_1}\right)^{\frac{n-1}{n}},
+\end{equation}
+
+hence we arrive at
+\begin{equation}
+  \eta_p=\frac{n}{n-1}\frac{\kappa-1}{\kappa}.
+\end{equation}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{Problem_solving/PS_Thermodynamics.tex}
